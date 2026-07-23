@@ -220,3 +220,7 @@ __marimo__/
 
 # Ignore generated output files
 data/processed/
+data/*.db
+data/analysis/
+data/charts/
+logs/

@@ -1,7 +1,11 @@
 from extract import extract_data
-from load import load_data
+from load import load_data, load_to_database
+from logger import get_logger
 from transform import transform_age_data, transform_race_data
 from utils import validate_data
+
+
+logger = get_logger(__name__)
 
 
 AGE_REQUIRED_COLUMNS = [
@@ -22,50 +26,97 @@ RACE_REQUIRED_COLUMNS = [
 
 
 def main():
-    print("Step 1: Extracting datasets...")
-    datasets = extract_data()
+    """
+    Run the complete homelessness ETL pipeline.
+    """
 
-    age_raw = datasets["age"]
-    race_raw = datasets["race"]
+    logger.info("ETL pipeline started.")
 
-    print("Age rows loaded:", len(age_raw))
-    print("Race rows loaded:", len(race_raw))
+    try:
+        logger.info("Step 1: Extracting datasets.")
 
-    print("\nStep 2: Transforming age data...")
-    age_cleaned = transform_age_data(age_raw)
-    print("Age rows after cleaning:", len(age_cleaned))
+        datasets = extract_data()
 
-    print("\nStep 3: Validating age data...")
-    validate_data(
-        age_cleaned,
-        AGE_REQUIRED_COLUMNS,
-        "Age dataset",
-    )
+        age_raw = datasets["age"]
+        race_raw = datasets["race"]
 
-    print("\nStep 4: Transforming race data...")
-    race_cleaned = transform_race_data(race_raw)
-    print("Race rows after cleaning:", len(race_cleaned))
+        logger.info(
+            "Age rows loaded: %s",
+            len(age_raw),
+        )
 
-    print("\nStep 5: Validating race data...")
-    validate_data(
-        race_cleaned,
-        RACE_REQUIRED_COLUMNS,
-        "Race dataset",
-    )
+        logger.info(
+            "Race rows loaded: %s",
+            len(race_raw),
+        )
 
-    print("\nStep 6: Loading processed datasets...")
+        logger.info("Step 2: Transforming age data.")
 
-    load_data(
-        age_cleaned,
-        "homelessness_by_age_cleaned.csv",
-    )
+        age_cleaned = transform_age_data(age_raw)
 
-    load_data(
-        race_cleaned,
-        "homelessness_by_race_cleaned.csv",
-    )
+        logger.info(
+            "Age rows after cleaning: %s",
+            len(age_cleaned),
+        )
 
-    print("\nETL pipeline completed successfully!")
+        logger.info("Step 3: Validating age data.")
+
+        validate_data(
+            age_cleaned,
+            AGE_REQUIRED_COLUMNS,
+            "Age dataset",
+        )
+
+        logger.info("Age dataset validation passed.")
+
+        logger.info("Step 4: Transforming race data.")
+
+        race_cleaned = transform_race_data(race_raw)
+
+        logger.info(
+            "Race rows after cleaning: %s",
+            len(race_cleaned),
+        )
+
+        logger.info("Step 5: Validating race data.")
+
+        validate_data(
+            race_cleaned,
+            RACE_REQUIRED_COLUMNS,
+            "Race dataset",
+        )
+
+        logger.info("Race dataset validation passed.")
+
+        logger.info("Step 6: Loading processed CSV files.")
+
+        load_data(
+            age_cleaned,
+            "homelessness_by_age_cleaned.csv",
+        )
+
+        load_data(
+            race_cleaned,
+            "homelessness_by_race_cleaned.csv",
+        )
+
+        logger.info("Step 7: Loading datasets into SQLite.")
+
+        load_to_database(
+            age_cleaned,
+            "homelessness_by_age",
+        )
+
+        load_to_database(
+            race_cleaned,
+            "homelessness_by_race",
+        )
+
+        logger.info("ETL pipeline completed successfully.")
+
+    except Exception:
+        logger.exception("ETL pipeline failed.")
+        raise
 
 
 if __name__ == "__main__":
