@@ -1,24 +1,34 @@
 from pathlib import Path
 
-
-OUTPUT_FILE = Path(
-    "data/processed/homelessness_by_age_cleaned.csv"
-)
+import pandas as pd
 
 
-def load_data(df):
+PROCESSED_DATA_DIR = Path("data/processed")
+
+
+def load_data(
+    df: pd.DataFrame,
+    output_filename: str,
+):
     """
-    Save cleaned data to CSV.
+    Save a cleaned DataFrame to the processed folder.
     """
 
-    OUTPUT_FILE.parent.mkdir(
+    PROCESSED_DATA_DIR.mkdir(
         parents=True,
-        exist_ok=True
+        exist_ok=True,
+    )
+
+    output_path = (
+        PROCESSED_DATA_DIR /
+        output_filename
     )
 
     df.to_csv(
-        OUTPUT_FILE,
-        index=False
+        output_path,
+        index=False,
     )
 
-    print(f"✅ Saved cleaned data to {OUTPUT_FILE}")
+    print(
+        f"Saved: {output_path}"
+    )
