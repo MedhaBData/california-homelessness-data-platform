@@ -1,6 +1,10 @@
+from time import perf_counter
+
+from data_quality import create_data_quality_report
 from extract import extract_data
 from load import load_data, load_to_database
 from logger import get_logger
+from monitoring import save_pipeline_run
 from transform import transform_age_data, transform_race_data
 from utils import validate_data
 
@@ -30,7 +34,13 @@ def main():
     Run the complete homelessness ETL pipeline.
     """
 
-    logger.info("ETL pipeline started.")
+    start_time = perf_counter()
+    age_row_count = 0
+    race_row_count = 0
+
+    logger.info("==========================================")
+    logger.info("California Homelessness ETL Pipeline Started")
+    logger.info("==========================================")
 
     try:
         logger.info("Step 1: Extracting datasets.")
@@ -41,25 +51,36 @@ def main():
         race_raw = datasets["race"]
 
         logger.info(
-            "Age rows loaded: %s",
+            "Age dataset extracted: %s rows",
             len(age_raw),
         )
 
         logger.info(
-            "Race rows loaded: %s",
+            "Race dataset extracted: %s rows",
             len(race_raw),
         )
 
-        logger.info("Step 2: Transforming age data.")
+        logger.info("Step 2: Transforming age dataset.")
 
         age_cleaned = transform_age_data(age_raw)
+        age_row_count = len(age_cleaned)
 
         logger.info(
-            "Age rows after cleaning: %s",
-            len(age_cleaned),
+            "Age dataset cleaned: %s rows",
+            age_row_count,
         )
 
-        logger.info("Step 3: Validating age data.")
+        logger.info("Transforming race dataset.")
+
+        race_cleaned = transform_race_data(race_raw)
+        race_row_count = len(race_cleaned)
+
+        logger.info(
+            "Race dataset cleaned: %s rows",
+            race_row_count,
+        )
+
+        logger.info("Step 3: Validating datasets.")
 
         validate_data(
             age_cleaned,
@@ -67,28 +88,15 @@ def main():
             "Age dataset",
         )
 
-        logger.info("Age dataset validation passed.")
-
-        logger.info("Step 4: Transforming race data.")
-
-        race_cleaned = transform_race_data(race_raw)
-
-        logger.info(
-            "Race rows after cleaning: %s",
-            len(race_cleaned),
-        )
-
-        logger.info("Step 5: Validating race data.")
-
         validate_data(
             race_cleaned,
             RACE_REQUIRED_COLUMNS,
             "Race dataset",
         )
 
-        logger.info("Race dataset validation passed.")
+        logger.info("Validation completed successfully.")
 
-        logger.info("Step 6: Loading processed CSV files.")
+        logger.info("Step 4: Saving cleaned CSV files.")
 
         load_data(
             age_cleaned,
@@ -100,7 +108,9 @@ def main():
             "homelessness_by_race_cleaned.csv",
         )
 
-        logger.info("Step 7: Loading datasets into SQLite.")
+        logger.info("Processed CSV files saved.")
+
+        logger.info("Step 5: Loading SQLite database.")
 
         load_to_database(
             age_cleaned,
@@ -112,10 +122,49 @@ def main():
             "homelessness_by_race",
         )
 
-        logger.info("ETL pipeline completed successfully.")
+        logger.info("SQLite database updated.")
 
-    except Exception:
-        logger.exception("ETL pipeline failed.")
+        logger.info("Step 6: Creating data quality report.")
+
+        quality_report = create_data_quality_report(
+            age_cleaned,
+            race_cleaned,
+        )
+
+        logger.info(
+            "Generated %s quality metrics.",
+            len(quality_report),
+        )
+
+        duration_seconds = perf_counter() - start_time
+
+        save_pipeline_run(
+            status="PASS",
+            age_rows=age_row_count,
+            race_rows=race_row_count,
+            duration_seconds=duration_seconds,
+        )
+
+        logger.info(
+            "Pipeline run history updated."
+        )
+
+        logger.info("==========================================")
+        logger.info("ETL Pipeline Completed Successfully")
+        logger.info("==========================================")
+
+    except Exception as error:
+        duration_seconds = perf_counter() - start_time
+
+        save_pipeline_run(
+            status="FAIL",
+            age_rows=age_row_count,
+            race_rows=race_row_count,
+            duration_seconds=duration_seconds,
+            error_message=str(error),
+        )
+
+        logger.exception("ETL Pipeline Failed")
         raise
 
 

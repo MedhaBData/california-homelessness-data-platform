@@ -1,0 +1,4 @@
+run_time,status,age_rows,race_rows,duration_seconds,error_message
+2026-07-23 15:32:09,PASS,2963,6449,0.08,
+2026-07-23 15:32:16,PASS,2963,6449,0.05,
+2026-07-23 15:44:32,PASS,2963,6449,0.07,

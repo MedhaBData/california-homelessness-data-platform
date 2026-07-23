@@ -6,6 +6,9 @@ import streamlit as st
 
 
 DATABASE_PATH = Path("data/homelessness.db")
+PIPELINE_HISTORY_PATH = Path(
+    "reports/pipeline_run_history.csv"
+)
 
 
 st.set_page_config(
@@ -16,14 +19,18 @@ st.set_page_config(
 
 
 @st.cache_data
-def run_query(query: str, parameters: tuple = ()) -> pd.DataFrame:
+def run_query(
+    query: str,
+    parameters: tuple = (),
+) -> pd.DataFrame:
     """
     Execute a SQL query against the SQLite database.
     """
 
     if not DATABASE_PATH.exists():
         raise FileNotFoundError(
-            "Database not found. Run 'python src/main.py' first."
+            "Database not found. Run "
+            "'python src/main.py' first."
         )
 
     with sqlite3.connect(DATABASE_PATH) as connection:
@@ -36,19 +43,25 @@ def run_query(query: str, parameters: tuple = ()) -> pd.DataFrame:
     return dataframe
 
 
-def dataframe_to_csv(dataframe: pd.DataFrame) -> bytes:
+def dataframe_to_csv(
+    dataframe: pd.DataFrame,
+) -> bytes:
     """
     Convert a DataFrame to CSV bytes for download.
     """
 
-    return dataframe.to_csv(index=False).encode("utf-8")
+    return dataframe.to_csv(
+        index=False,
+    ).encode("utf-8")
 
 
-st.title("California Homelessness Analytics Dashboard")
+st.title(
+    "California Homelessness Analytics Dashboard"
+)
 
 st.write(
     "Explore homelessness trends by year, age group, "
-    "race and location using data processed through "
+    "race, and location using data processed through "
     "a Python ETL pipeline and stored in SQLite."
 )
 
@@ -85,10 +98,21 @@ races_query = """
 """
 
 
-years = run_query(years_query)["calendar_year"].tolist()
-locations = run_query(locations_query)["location"].tolist()
-age_groups = run_query(age_groups_query)["age_group_public"].tolist()
-races = run_query(races_query)["race"].tolist()
+years = run_query(
+    years_query
+)["calendar_year"].tolist()
+
+locations = run_query(
+    locations_query
+)["location"].tolist()
+
+age_groups = run_query(
+    age_groups_query
+)["age_group_public"].tolist()
+
+races = run_query(
+    races_query
+)["race"].tolist()
 
 
 selected_year = st.sidebar.selectbox(
@@ -113,49 +137,75 @@ selected_race = st.sidebar.selectbox(
 
 
 # -------------------------------------------------
-# Build age-data filter
+# Build age-data filters
 # -------------------------------------------------
 
 age_conditions = []
 age_parameters = []
 
 if selected_year != "All years":
-    age_conditions.append("calendar_year = ?")
-    age_parameters.append(selected_year)
+    age_conditions.append(
+        "calendar_year = ?"
+    )
+    age_parameters.append(
+        selected_year
+    )
 
 if selected_location != "All locations":
-    age_conditions.append("location = ?")
-    age_parameters.append(selected_location)
+    age_conditions.append(
+        "location = ?"
+    )
+    age_parameters.append(
+        selected_location
+    )
 
 if selected_age_group != "All age groups":
-    age_conditions.append("age_group_public = ?")
-    age_parameters.append(selected_age_group)
+    age_conditions.append(
+        "age_group_public = ?"
+    )
+    age_parameters.append(
+        selected_age_group
+    )
 
 age_where_clause = ""
 
 if age_conditions:
-    age_where_clause = "WHERE " + " AND ".join(age_conditions)
+    age_where_clause = (
+        "WHERE "
+        + " AND ".join(age_conditions)
+    )
 
 
 # -------------------------------------------------
-# Build race-data filter
+# Build race-data filters
 # -------------------------------------------------
 
 race_conditions = []
 race_parameters = []
 
 if selected_year != "All years":
-    race_conditions.append("calendar_year = ?")
-    race_parameters.append(selected_year)
+    race_conditions.append(
+        "calendar_year = ?"
+    )
+    race_parameters.append(
+        selected_year
+    )
 
 if selected_race != "All races":
-    race_conditions.append("race = ?")
-    race_parameters.append(selected_race)
+    race_conditions.append(
+        "race = ?"
+    )
+    race_parameters.append(
+        selected_race
+    )
 
 race_where_clause = ""
 
 if race_conditions:
-    race_where_clause = "WHERE " + " AND ".join(race_conditions)
+    race_where_clause = (
+        "WHERE "
+        + " AND ".join(race_conditions)
+    )
 
 
 # -------------------------------------------------
@@ -170,7 +220,10 @@ age_filtered_query = f"""
         experiencing_homelessness_cnt
     FROM homelessness_by_age
     {age_where_clause}
-    ORDER BY calendar_year, location, age_group_public;
+    ORDER BY
+        calendar_year,
+        location,
+        age_group_public;
 """
 
 race_filtered_query = f"""
@@ -182,7 +235,9 @@ race_filtered_query = f"""
         experiencing_homelessness_cnt
     FROM homelessness_by_race
     {race_where_clause}
-    ORDER BY calendar_year, race;
+    ORDER BY
+        calendar_year,
+        race;
 """
 
 
@@ -202,15 +257,29 @@ race_filtered_data = run_query(
 # -------------------------------------------------
 
 total_homelessness = int(
-    age_filtered_data["experiencing_homelessness_cnt"].sum()
+    age_filtered_data[
+        "experiencing_homelessness_cnt"
+    ].sum()
 )
 
-location_count = age_filtered_data["location"].nunique()
-age_group_count = age_filtered_data["age_group_public"].nunique()
-race_group_count = race_filtered_data["race"].nunique()
+location_count = (
+    age_filtered_data["location"].nunique()
+)
+
+age_group_count = (
+    age_filtered_data[
+        "age_group_public"
+    ].nunique()
+)
+
+race_group_count = (
+    race_filtered_data["race"].nunique()
+)
 
 
-metric_1, metric_2, metric_3, metric_4 = st.columns(4)
+metric_1, metric_2, metric_3, metric_4 = (
+    st.columns(4)
+)
 
 with metric_1:
     st.metric(
@@ -241,25 +310,39 @@ st.divider()
 
 
 # -------------------------------------------------
-# Filtered trend chart
+# Trend chart
 # -------------------------------------------------
 
-st.subheader("Homelessness trend over time")
+st.subheader(
+    "Homelessness trend over time"
+)
 
 trend_data = (
     age_filtered_data
     .groupby(
         "calendar_year",
         as_index=False,
-    )["experiencing_homelessness_cnt"]
+    )[
+        "experiencing_homelessness_cnt"
+    ]
     .sum()
 )
 
-trend_chart_data = trend_data.set_index("calendar_year")
+if not trend_data.empty:
+    trend_chart_data = trend_data.set_index(
+        "calendar_year"
+    )
 
-st.line_chart(
-    trend_chart_data["experiencing_homelessness_cnt"]
-)
+    st.line_chart(
+        trend_chart_data[
+            "experiencing_homelessness_cnt"
+        ]
+    )
+else:
+    st.info(
+        "No age data is available for "
+        "the selected filters."
+    )
 
 
 # -------------------------------------------------
@@ -269,14 +352,18 @@ st.line_chart(
 left_column, right_column = st.columns(2)
 
 with left_column:
-    st.subheader("Homelessness by age group")
+    st.subheader(
+        "Homelessness by age group"
+    )
 
     age_group_data = (
         age_filtered_data
         .groupby(
             "age_group_public",
             as_index=False,
-        )["experiencing_homelessness_cnt"]
+        )[
+            "experiencing_homelessness_cnt"
+        ]
         .sum()
         .sort_values(
             "experiencing_homelessness_cnt",
@@ -284,25 +371,37 @@ with left_column:
         )
     )
 
-    age_group_chart_data = age_group_data.set_index(
-        "age_group_public"
-    )
+    if not age_group_data.empty:
+        age_group_chart_data = (
+            age_group_data.set_index(
+                "age_group_public"
+            )
+        )
 
-    st.bar_chart(
-        age_group_chart_data[
-            "experiencing_homelessness_cnt"
-        ]
-    )
+        st.bar_chart(
+            age_group_chart_data[
+                "experiencing_homelessness_cnt"
+            ]
+        )
+    else:
+        st.info(
+            "No age-group data is available."
+        )
+
 
 with right_column:
-    st.subheader("Top 10 locations")
+    st.subheader(
+        "Top 10 locations"
+    )
 
     location_data = (
         age_filtered_data
         .groupby(
             "location",
             as_index=False,
-        )["experiencing_homelessness_cnt"]
+        )[
+            "experiencing_homelessness_cnt"
+        ]
         .sum()
         .sort_values(
             "experiencing_homelessness_cnt",
@@ -311,13 +410,22 @@ with right_column:
         .head(10)
     )
 
-    location_chart_data = location_data.set_index("location")
+    if not location_data.empty:
+        location_chart_data = (
+            location_data.set_index(
+                "location"
+            )
+        )
 
-    st.bar_chart(
-        location_chart_data[
-            "experiencing_homelessness_cnt"
-        ]
-    )
+        st.bar_chart(
+            location_chart_data[
+                "experiencing_homelessness_cnt"
+            ]
+        )
+    else:
+        st.info(
+            "No location data is available."
+        )
 
 
 st.divider()
@@ -327,14 +435,18 @@ st.divider()
 # Race chart
 # -------------------------------------------------
 
-st.subheader("Homelessness by race and ethnicity")
+st.subheader(
+    "Homelessness by race and ethnicity"
+)
 
 race_group_data = (
     race_filtered_data
     .groupby(
         "race",
         as_index=False,
-    )["experiencing_homelessness_cnt"]
+    )[
+        "experiencing_homelessness_cnt"
+    ]
     .sum()
     .sort_values(
         "experiencing_homelessness_cnt",
@@ -342,13 +454,21 @@ race_group_data = (
     )
 )
 
-race_chart_data = race_group_data.set_index("race")
+if not race_group_data.empty:
+    race_chart_data = race_group_data.set_index(
+        "race"
+    )
 
-st.bar_chart(
-    race_chart_data[
-        "experiencing_homelessness_cnt"
-    ]
-)
+    st.bar_chart(
+        race_chart_data[
+            "experiencing_homelessness_cnt"
+        ]
+    )
+else:
+    st.info(
+        "No race data is available for "
+        "the selected filters."
+    )
 
 
 st.divider()
@@ -358,7 +478,9 @@ st.divider()
 # Data tables and downloads
 # -------------------------------------------------
 
-st.subheader("Explore and download filtered data")
+st.subheader(
+    "Explore and download filtered data"
+)
 
 tab_1, tab_2 = st.tabs(
     [
@@ -366,6 +488,7 @@ tab_1, tab_2 = st.tabs(
         "Race dataset",
     ]
 )
+
 
 with tab_1:
     st.dataframe(
@@ -376,10 +499,15 @@ with tab_1:
 
     st.download_button(
         label="Download filtered age data",
-        data=dataframe_to_csv(age_filtered_data),
-        file_name="filtered_homelessness_by_age.csv",
+        data=dataframe_to_csv(
+            age_filtered_data
+        ),
+        file_name=(
+            "filtered_homelessness_by_age.csv"
+        ),
         mime="text/csv",
     )
+
 
 with tab_2:
     st.dataframe(
@@ -390,12 +518,144 @@ with tab_2:
 
     st.download_button(
         label="Download filtered race data",
-        data=dataframe_to_csv(race_filtered_data),
-        file_name="filtered_homelessness_by_race.csv",
+        data=dataframe_to_csv(
+            race_filtered_data
+        ),
+        file_name=(
+            "filtered_homelessness_by_race.csv"
+        ),
         mime="text/csv",
     )
 
 
+st.divider()
+
+
+# -------------------------------------------------
+# Pipeline monitoring
+# -------------------------------------------------
+
+st.subheader("Pipeline Monitoring")
+
+if PIPELINE_HISTORY_PATH.exists():
+    pipeline_history = pd.read_csv(
+        PIPELINE_HISTORY_PATH
+    )
+
+    if not pipeline_history.empty:
+        pipeline_history["run_time"] = (
+            pd.to_datetime(
+                pipeline_history["run_time"],
+                errors="coerce",
+            )
+        )
+
+        pipeline_history = (
+            pipeline_history.sort_values(
+                "run_time"
+            )
+        )
+
+        latest_run = (
+            pipeline_history.iloc[-1]
+        )
+
+        successful_runs = int(
+            (
+                pipeline_history["status"]
+                == "PASS"
+            ).sum()
+        )
+
+        failed_runs = int(
+            (
+                pipeline_history["status"]
+                == "FAIL"
+            ).sum()
+        )
+
+        latest_status = str(
+            latest_run["status"]
+        )
+
+        latest_runtime = float(
+            latest_run["duration_seconds"]
+        )
+
+        latest_run_time = latest_run[
+            "run_time"
+        ]
+
+        monitor_1, monitor_2, monitor_3, monitor_4 = (
+            st.columns(4)
+        )
+
+        with monitor_1:
+            st.metric(
+                "Latest status",
+                latest_status,
+            )
+
+        with monitor_2:
+            st.metric(
+                "Last runtime",
+                f"{latest_runtime:.2f} sec",
+            )
+
+        with monitor_3:
+            st.metric(
+                "Successful runs",
+                successful_runs,
+            )
+
+        with monitor_4:
+            st.metric(
+                "Failed runs",
+                failed_runs,
+            )
+
+        st.write(
+            "Last pipeline run:",
+            latest_run_time.strftime(
+                "%B %d, %Y at %I:%M:%S %p"
+            ),
+        )
+
+        st.dataframe(
+            pipeline_history.sort_values(
+                "run_time",
+                ascending=False,
+            ),
+            use_container_width=True,
+            hide_index=True,
+        )
+
+        st.download_button(
+            label="Download pipeline run history",
+            data=dataframe_to_csv(
+                pipeline_history
+            ),
+            file_name=(
+                "pipeline_run_history.csv"
+            ),
+            mime="text/csv",
+        )
+
+    else:
+        st.info(
+            "The pipeline history file is empty. "
+            "Run 'python src/main.py' again."
+        )
+
+else:
+    st.info(
+        "No pipeline run history was found. "
+        "Run 'python src/main.py' first."
+    )
+
+
 st.caption(
-    "Built with Python, pandas, SQLite, SQL and Streamlit."
+    "Built with Python, pandas, SQLite, SQL, "
+    "Streamlit, automated testing, logging, "
+    "and ETL monitoring."
 )
