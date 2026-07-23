@@ -1,0 +1,3308 @@
+CALENDAR_YEAR,LOCATION_ID,LOCATION,AGE_GROUP_PUBLIC,EXPERIENCING_HOMELESSNESS_CNT
+2017,Statewide,California,18-24,16235
+2017,Statewide,California,25-34,27719
+2017,Statewide,California,35-44,24895
+2017,Statewide,California,45-54,26571
+2017,Statewide,California,55-64,23108
+2017,Statewide,California,65+,7378
+2017,Statewide,California,Invalid,90
+2017,Statewide,California,Under 18,51590
+2017,Statewide,California,Unknown,3257
+2017,CA-500,Santa Clara County CoC,18-24,776
+2017,CA-500,Santa Clara County CoC,25-34,1497
+2017,CA-500,Santa Clara County CoC,35-44,1428
+2017,CA-500,Santa Clara County CoC,45-54,1630
+2017,CA-500,Santa Clara County CoC,55-64,1490
+2017,CA-500,Santa Clara County CoC,65+,490
+2017,CA-500,Santa Clara County CoC,Invalid,*
+2017,CA-500,Santa Clara County CoC,Under 18,2340
+2017,CA-500,Santa Clara County CoC,Unknown,*
+2017,CA-501,San Francisco CoC,18-24,540
+2017,CA-501,San Francisco CoC,25-34,464
+2017,CA-501,San Francisco CoC,35-44,478
+2017,CA-501,San Francisco CoC,45-54,579
+2017,CA-501,San Francisco CoC,55-64,503
+2017,CA-501,San Francisco CoC,65+,182
+2017,CA-501,San Francisco CoC,Invalid,*
+2017,CA-501,San Francisco CoC,Under 18,1499
+2017,CA-501,San Francisco CoC,Unknown,47
+2017,CA-502,Alameda County CoC,18-24,857
+2017,CA-502,Alameda County CoC,25-34,932
+2017,CA-502,Alameda County CoC,35-44,741
+2017,CA-502,Alameda County CoC,45-54,899
+2017,CA-502,Alameda County CoC,55-64,895
+2017,CA-502,Alameda County CoC,65+,300
+2017,CA-502,Alameda County CoC,Invalid,*
+2017,CA-502,Alameda County CoC,Under 18,1823
+2017,CA-502,Alameda County CoC,Unknown,25
+2017,CA-503,Sacramento County CoC,18-24,951
+2017,CA-503,Sacramento County CoC,25-34,1670
+2017,CA-503,Sacramento County CoC,35-44,1504
+2017,CA-503,Sacramento County CoC,45-54,1651
+2017,CA-503,Sacramento County CoC,55-64,1231
+2017,CA-503,Sacramento County CoC,65+,322
+2017,CA-503,Sacramento County CoC,Invalid,*
+2017,CA-503,Sacramento County CoC,Under 18,3850
+2017,CA-503,Sacramento County CoC,Unknown,*
+2017,CA-504,Sonoma County CoC,18-24,269
+2017,CA-504,Sonoma County CoC,25-34,420
+2017,CA-504,Sonoma County CoC,35-44,436
+2017,CA-504,Sonoma County CoC,45-54,468
+2017,CA-504,Sonoma County CoC,55-64,461
+2017,CA-504,Sonoma County CoC,65+,145
+2017,CA-504,Sonoma County CoC,Invalid,*
+2017,CA-504,Sonoma County CoC,Under 18,622
+2017,CA-505,Contra Costa County CoC,18-24,362
+2017,CA-505,Contra Costa County CoC,25-34,764
+2017,CA-505,Contra Costa County CoC,35-44,784
+2017,CA-505,Contra Costa County CoC,45-54,845
+2017,CA-505,Contra Costa County CoC,55-64,747
+2017,CA-505,Contra Costa County CoC,65+,268
+2017,CA-505,Contra Costa County CoC,Under 18,1056
+2017,CA-506,"Monterey, San Benito Counties CoC",18-24,177
+2017,CA-506,"Monterey, San Benito Counties CoC",25-34,347
+2017,CA-506,"Monterey, San Benito Counties CoC",35-44,251
+2017,CA-506,"Monterey, San Benito Counties CoC",45-54,245
+2017,CA-506,"Monterey, San Benito Counties CoC",55-64,241
+2017,CA-506,"Monterey, San Benito Counties CoC",65+,101
+2017,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2017,CA-506,"Monterey, San Benito Counties CoC",Under 18,868
+2017,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2017,CA-507,Marin County CoC,18-24,101
+2017,CA-507,Marin County CoC,25-34,247
+2017,CA-507,Marin County CoC,35-44,266
+2017,CA-507,Marin County CoC,45-54,302
+2017,CA-507,Marin County CoC,55-64,285
+2017,CA-507,Marin County CoC,65+,111
+2017,CA-507,Marin County CoC,Under 18,299
+2017,CA-507,Marin County CoC,Unknown,*
+2017,CA-508,Santa Cruz County CoC,18-24,105
+2017,CA-508,Santa Cruz County CoC,25-34,284
+2017,CA-508,Santa Cruz County CoC,35-44,260
+2017,CA-508,Santa Cruz County CoC,45-54,313
+2017,CA-508,Santa Cruz County CoC,55-64,284
+2017,CA-508,Santa Cruz County CoC,65+,125
+2017,CA-508,Santa Cruz County CoC,Under 18,453
+2017,CA-508,Santa Cruz County CoC,Unknown,13
+2017,CA-509,Mendocino County CoC,18-24,95
+2017,CA-509,Mendocino County CoC,25-34,132
+2017,CA-509,Mendocino County CoC,35-44,133
+2017,CA-509,Mendocino County CoC,45-54,151
+2017,CA-509,Mendocino County CoC,55-64,122
+2017,CA-509,Mendocino County CoC,65+,44
+2017,CA-509,Mendocino County CoC,Under 18,115
+2017,CA-509,Mendocino County CoC,Unknown,*
+2017,CA-510,Stanislaus County CoC,18-24,515
+2017,CA-510,Stanislaus County CoC,25-34,940
+2017,CA-510,Stanislaus County CoC,35-44,802
+2017,CA-510,Stanislaus County CoC,45-54,631
+2017,CA-510,Stanislaus County CoC,55-64,473
+2017,CA-510,Stanislaus County CoC,65+,127
+2017,CA-510,Stanislaus County CoC,Under 18,2426
+2017,CA-510,Stanislaus County CoC,Unknown,*
+2017,CA-511,San Joaquin County CoC,18-24,666
+2017,CA-511,San Joaquin County CoC,25-34,1281
+2017,CA-511,San Joaquin County CoC,35-44,943
+2017,CA-511,San Joaquin County CoC,45-54,721
+2017,CA-511,San Joaquin County CoC,55-64,521
+2017,CA-511,San Joaquin County CoC,65+,177
+2017,CA-511,San Joaquin County CoC,Under 18,3537
+2017,CA-511,San Joaquin County CoC,Unknown,*
+2017,CA-512,San Mateo County CoC,18-24,279
+2017,CA-512,San Mateo County CoC,25-34,614
+2017,CA-512,San Mateo County CoC,35-44,518
+2017,CA-512,San Mateo County CoC,45-54,510
+2017,CA-512,San Mateo County CoC,55-64,487
+2017,CA-512,San Mateo County CoC,65+,153
+2017,CA-512,San Mateo County CoC,Under 18,1235
+2017,CA-512,San Mateo County CoC,Unknown,*
+2017,CA-513,"Kings, Tulare Counties CoC",18-24,277
+2017,CA-513,"Kings, Tulare Counties CoC",25-34,577
+2017,CA-513,"Kings, Tulare Counties CoC",35-44,523
+2017,CA-513,"Kings, Tulare Counties CoC",45-54,417
+2017,CA-513,"Kings, Tulare Counties CoC",55-64,277
+2017,CA-513,"Kings, Tulare Counties CoC",65+,82
+2017,CA-513,"Kings, Tulare Counties CoC",Under 18,799
+2017,CA-514,"Fresno, Madera Counties CoC",18-24,214
+2017,CA-514,"Fresno, Madera Counties CoC",25-34,321
+2017,CA-514,"Fresno, Madera Counties CoC",35-44,318
+2017,CA-514,"Fresno, Madera Counties CoC",45-54,357
+2017,CA-514,"Fresno, Madera Counties CoC",55-64,360
+2017,CA-514,"Fresno, Madera Counties CoC",65+,97
+2017,CA-514,"Fresno, Madera Counties CoC",Under 18,923
+2017,CA-514,"Fresno, Madera Counties CoC",Unknown,17
+2017,CA-515,Placer County CoC,18-24,96
+2017,CA-515,Placer County CoC,25-34,219
+2017,CA-515,Placer County CoC,35-44,227
+2017,CA-515,Placer County CoC,45-54,226
+2017,CA-515,Placer County CoC,55-64,197
+2017,CA-515,Placer County CoC,65+,58
+2017,CA-515,Placer County CoC,Invalid,*
+2017,CA-515,Placer County CoC,Under 18,311
+2017,CA-515,Placer County CoC,Unknown,*
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,29
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,57
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,47
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,22
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,23
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,*
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2017,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,103
+2017,CA-517,Napa County CoC,18-24,76
+2017,CA-517,Napa County CoC,25-34,193
+2017,CA-517,Napa County CoC,35-44,152
+2017,CA-517,Napa County CoC,45-54,175
+2017,CA-517,Napa County CoC,55-64,147
+2017,CA-517,Napa County CoC,65+,27
+2017,CA-517,Napa County CoC,Under 18,174
+2017,CA-518,Solano County CoC,18-24,75
+2017,CA-518,Solano County CoC,25-34,156
+2017,CA-518,Solano County CoC,35-44,140
+2017,CA-518,Solano County CoC,45-54,147
+2017,CA-518,Solano County CoC,55-64,174
+2017,CA-518,Solano County CoC,65+,74
+2017,CA-518,Solano County CoC,Invalid,*
+2017,CA-518,Solano County CoC,Under 18,250
+2017,CA-518,Solano County CoC,Unknown,12
+2017,CA-519,Butte County CoC,18-24,120
+2017,CA-519,Butte County CoC,25-34,271
+2017,CA-519,Butte County CoC,35-44,207
+2017,CA-519,Butte County CoC,45-54,200
+2017,CA-519,Butte County CoC,55-64,186
+2017,CA-519,Butte County CoC,65+,54
+2017,CA-519,Butte County CoC,Under 18,320
+2017,CA-520,Merced County CoC,18-24,40
+2017,CA-520,Merced County CoC,25-34,84
+2017,CA-520,Merced County CoC,35-44,116
+2017,CA-520,Merced County CoC,45-54,132
+2017,CA-520,Merced County CoC,55-64,158
+2017,CA-520,Merced County CoC,65+,37
+2017,CA-520,Merced County CoC,Under 18,35
+2017,CA-521,Yolo County CoC,18-24,40
+2017,CA-521,Yolo County CoC,25-34,109
+2017,CA-521,Yolo County CoC,35-44,91
+2017,CA-521,Yolo County CoC,45-54,89
+2017,CA-521,Yolo County CoC,55-64,65
+2017,CA-521,Yolo County CoC,65+,*
+2017,CA-521,Yolo County CoC,Under 18,129
+2017,CA-522,Humboldt County CoC,18-24,83
+2017,CA-522,Humboldt County CoC,25-34,153
+2017,CA-522,Humboldt County CoC,35-44,132
+2017,CA-522,Humboldt County CoC,45-54,126
+2017,CA-522,Humboldt County CoC,55-64,141
+2017,CA-522,Humboldt County CoC,65+,50
+2017,CA-522,Humboldt County CoC,Invalid,*
+2017,CA-522,Humboldt County CoC,Under 18,325
+2017,CA-522,Humboldt County CoC,Unknown,*
+2017,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,23
+2017,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,31
+2017,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,20
+2017,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,*
+2017,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,*
+2017,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,119
+2017,CA-525,El Dorado County CoC,18-24,18
+2017,CA-525,El Dorado County CoC,25-34,30
+2017,CA-525,El Dorado County CoC,35-44,36
+2017,CA-525,El Dorado County CoC,45-54,47
+2017,CA-525,El Dorado County CoC,55-64,37
+2017,CA-525,El Dorado County CoC,65+,*
+2017,CA-525,El Dorado County CoC,Under 18,120
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,41
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,88
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,78
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,70
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,52
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,17
+2017,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,192
+2017,CA-527,Tehama County CoC,18-24,29
+2017,CA-527,Tehama County CoC,25-34,80
+2017,CA-527,Tehama County CoC,35-44,70
+2017,CA-527,Tehama County CoC,45-54,60
+2017,CA-527,Tehama County CoC,55-64,78
+2017,CA-527,Tehama County CoC,65+,22
+2017,CA-527,Tehama County CoC,Under 18,53
+2017,CA-527,Tehama County CoC,Unknown,*
+2017,CA-529,Lake County CoC,18-24,*
+2017,CA-529,Lake County CoC,25-34,*
+2017,CA-529,Lake County CoC,35-44,*
+2017,CA-529,Lake County CoC,45-54,*
+2017,CA-529,Lake County CoC,55-64,*
+2017,CA-529,Lake County CoC,65+,*
+2017,CA-529,Lake County CoC,Under 18,15
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,17
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,24
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,28
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,27
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,21
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,*
+2017,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,54
+2017,CA-531,Nevada County CoC,18-24,42
+2017,CA-531,Nevada County CoC,25-34,76
+2017,CA-531,Nevada County CoC,35-44,95
+2017,CA-531,Nevada County CoC,45-54,85
+2017,CA-531,Nevada County CoC,55-64,76
+2017,CA-531,Nevada County CoC,65+,24
+2017,CA-531,Nevada County CoC,Under 18,66
+2017,CA-600,Los Angeles County CoC,18-24,5907
+2017,CA-600,Los Angeles County CoC,25-34,8929
+2017,CA-600,Los Angeles County CoC,35-44,7896
+2017,CA-600,Los Angeles County CoC,45-54,8933
+2017,CA-600,Los Angeles County CoC,55-64,7606
+2017,CA-600,Los Angeles County CoC,65+,2310
+2017,CA-600,Los Angeles County CoC,Invalid,28
+2017,CA-600,Los Angeles County CoC,Under 18,12137
+2017,CA-600,Los Angeles County CoC,Unknown,1143
+2017,CA-601,San Diego County CoC,18-24,730
+2017,CA-601,San Diego County CoC,25-34,1555
+2017,CA-601,San Diego County CoC,35-44,1667
+2017,CA-601,San Diego County CoC,45-54,2057
+2017,CA-601,San Diego County CoC,55-64,2149
+2017,CA-601,San Diego County CoC,65+,577
+2017,CA-601,San Diego County CoC,Invalid,12
+2017,CA-601,San Diego County CoC,Under 18,2797
+2017,CA-601,San Diego County CoC,Unknown,22
+2017,CA-602,Orange County CoC,18-24,577
+2017,CA-602,Orange County CoC,25-34,1227
+2017,CA-602,Orange County CoC,35-44,1179
+2017,CA-602,Orange County CoC,45-54,1237
+2017,CA-602,Orange County CoC,55-64,1077
+2017,CA-602,Orange County CoC,65+,512
+2017,CA-602,Orange County CoC,Invalid,13
+2017,CA-602,Orange County CoC,Under 18,2823
+2017,CA-602,Orange County CoC,Unknown,1823
+2017,CA-603,Santa Barbara County CoC,18-24,175
+2017,CA-603,Santa Barbara County CoC,25-34,477
+2017,CA-603,Santa Barbara County CoC,35-44,442
+2017,CA-603,Santa Barbara County CoC,45-54,471
+2017,CA-603,Santa Barbara County CoC,55-64,439
+2017,CA-603,Santa Barbara County CoC,65+,162
+2017,CA-603,Santa Barbara County CoC,Invalid,*
+2017,CA-603,Santa Barbara County CoC,Under 18,543
+2017,CA-604,Kern County CoC,18-24,422
+2017,CA-604,Kern County CoC,25-34,783
+2017,CA-604,Kern County CoC,35-44,597
+2017,CA-604,Kern County CoC,45-54,602
+2017,CA-604,Kern County CoC,55-64,440
+2017,CA-604,Kern County CoC,65+,133
+2017,CA-604,Kern County CoC,Invalid,*
+2017,CA-604,Kern County CoC,Under 18,1975
+2017,CA-606,Long Beach CoC (Los Angeles County),18-24,94
+2017,CA-606,Long Beach CoC (Los Angeles County),25-34,169
+2017,CA-606,Long Beach CoC (Los Angeles County),35-44,141
+2017,CA-606,Long Beach CoC (Los Angeles County),45-54,240
+2017,CA-606,Long Beach CoC (Los Angeles County),55-64,298
+2017,CA-606,Long Beach CoC (Los Angeles County),65+,111
+2017,CA-606,Long Beach CoC (Los Angeles County),Invalid,*
+2017,CA-606,Long Beach CoC (Los Angeles County),Under 18,423
+2017,CA-607,Pasadena CoC (Los Angeles County),18-24,92
+2017,CA-607,Pasadena CoC (Los Angeles County),25-34,161
+2017,CA-607,Pasadena CoC (Los Angeles County),35-44,219
+2017,CA-607,Pasadena CoC (Los Angeles County),45-54,229
+2017,CA-607,Pasadena CoC (Los Angeles County),55-64,193
+2017,CA-607,Pasadena CoC (Los Angeles County),65+,98
+2017,CA-607,Pasadena CoC (Los Angeles County),Under 18,296
+2017,CA-607,Pasadena CoC (Los Angeles County),Unknown,*
+2017,CA-608,Riverside County CoC,18-24,680
+2017,CA-608,Riverside County CoC,25-34,1061
+2017,CA-608,Riverside County CoC,35-44,994
+2017,CA-608,Riverside County CoC,45-54,1085
+2017,CA-608,Riverside County CoC,55-64,852
+2017,CA-608,Riverside County CoC,65+,269
+2017,CA-608,Riverside County CoC,Under 18,1627
+2017,CA-608,Riverside County CoC,Unknown,88
+2017,CA-609,San Bernardino County CoC,18-24,612
+2017,CA-609,San Bernardino County CoC,25-34,1201
+2017,CA-609,San Bernardino County CoC,35-44,919
+2017,CA-609,San Bernardino County CoC,45-54,697
+2017,CA-609,San Bernardino County CoC,55-64,555
+2017,CA-609,San Bernardino County CoC,65+,165
+2017,CA-609,San Bernardino County CoC,Invalid,*
+2017,CA-609,San Bernardino County CoC,Under 18,4131
+2017,CA-611,Ventura County CoC,18-24,144
+2017,CA-611,Ventura County CoC,25-34,313
+2017,CA-611,Ventura County CoC,35-44,326
+2017,CA-611,Ventura County CoC,45-54,348
+2017,CA-611,Ventura County CoC,55-64,321
+2017,CA-611,Ventura County CoC,65+,91
+2017,CA-611,Ventura County CoC,Invalid,*
+2017,CA-611,Ventura County CoC,Under 18,649
+2017,CA-611,Ventura County CoC,Unknown,*
+2017,CA-612,Glendale CoC (Los Angeles County),18-24,25
+2017,CA-612,Glendale CoC (Los Angeles County),25-34,59
+2017,CA-612,Glendale CoC (Los Angeles County),35-44,48
+2017,CA-612,Glendale CoC (Los Angeles County),45-54,72
+2017,CA-612,Glendale CoC (Los Angeles County),55-64,57
+2017,CA-612,Glendale CoC (Los Angeles County),65+,28
+2017,CA-612,Glendale CoC (Los Angeles County),Under 18,130
+2017,CA-612,Glendale CoC (Los Angeles County),Unknown,*
+2017,CA-613,Imperial County CoC,18-24,44
+2017,CA-613,Imperial County CoC,25-34,89
+2017,CA-613,Imperial County CoC,35-44,81
+2017,CA-613,Imperial County CoC,45-54,82
+2017,CA-613,Imperial County CoC,55-64,75
+2017,CA-613,Imperial County CoC,65+,50
+2017,CA-613,Imperial County CoC,Invalid,*
+2017,CA-613,Imperial County CoC,Under 18,71
+2017,CA-613,Imperial County CoC,Unknown,*
+2017,CA-614,San Luis Obispo County CoC,18-24,137
+2017,CA-614,San Luis Obispo County CoC,25-34,356
+2017,CA-614,San Luis Obispo County CoC,35-44,264
+2017,CA-614,San Luis Obispo County CoC,45-54,224
+2017,CA-614,San Luis Obispo County CoC,55-64,201
+2017,CA-614,San Luis Obispo County CoC,65+,80
+2017,CA-614,San Luis Obispo County CoC,Invalid,*
+2017,CA-614,San Luis Obispo County CoC,Under 18,592
+2018,Statewide,California,18-24,18257
+2018,Statewide,California,25-34,32740
+2018,Statewide,California,35-44,29740
+2018,Statewide,California,45-54,30492
+2018,Statewide,California,55-64,27832
+2018,Statewide,California,65+,9588
+2018,Statewide,California,Invalid,90
+2018,Statewide,California,Under 18,56471
+2018,Statewide,California,Unknown,6284
+2018,CA-500,Santa Clara County CoC,18-24,808
+2018,CA-500,Santa Clara County CoC,25-34,1485
+2018,CA-500,Santa Clara County CoC,35-44,1442
+2018,CA-500,Santa Clara County CoC,45-54,1567
+2018,CA-500,Santa Clara County CoC,55-64,1536
+2018,CA-500,Santa Clara County CoC,65+,521
+2018,CA-500,Santa Clara County CoC,Invalid,*
+2018,CA-500,Santa Clara County CoC,Under 18,2385
+2018,CA-500,Santa Clara County CoC,Unknown,13
+2018,CA-501,San Francisco CoC,18-24,701
+2018,CA-501,San Francisco CoC,25-34,803
+2018,CA-501,San Francisco CoC,35-44,728
+2018,CA-501,San Francisco CoC,45-54,702
+2018,CA-501,San Francisco CoC,55-64,597
+2018,CA-501,San Francisco CoC,65+,218
+2018,CA-501,San Francisco CoC,Invalid,*
+2018,CA-501,San Francisco CoC,Under 18,1865
+2018,CA-501,San Francisco CoC,Unknown,49
+2018,CA-502,Alameda County CoC,18-24,752
+2018,CA-502,Alameda County CoC,25-34,942
+2018,CA-502,Alameda County CoC,35-44,812
+2018,CA-502,Alameda County CoC,45-54,897
+2018,CA-502,Alameda County CoC,55-64,950
+2018,CA-502,Alameda County CoC,65+,381
+2018,CA-502,Alameda County CoC,Invalid,*
+2018,CA-502,Alameda County CoC,Under 18,1722
+2018,CA-502,Alameda County CoC,Unknown,*
+2018,CA-503,Sacramento County CoC,18-24,1161
+2018,CA-503,Sacramento County CoC,25-34,1602
+2018,CA-503,Sacramento County CoC,35-44,1542
+2018,CA-503,Sacramento County CoC,45-54,1644
+2018,CA-503,Sacramento County CoC,55-64,1346
+2018,CA-503,Sacramento County CoC,65+,360
+2018,CA-503,Sacramento County CoC,Under 18,3994
+2018,CA-503,Sacramento County CoC,Unknown,*
+2018,CA-504,Sonoma County CoC,18-24,261
+2018,CA-504,Sonoma County CoC,25-34,408
+2018,CA-504,Sonoma County CoC,35-44,441
+2018,CA-504,Sonoma County CoC,45-54,448
+2018,CA-504,Sonoma County CoC,55-64,448
+2018,CA-504,Sonoma County CoC,65+,173
+2018,CA-504,Sonoma County CoC,Invalid,*
+2018,CA-504,Sonoma County CoC,Under 18,667
+2018,CA-505,Contra Costa County CoC,18-24,385
+2018,CA-505,Contra Costa County CoC,25-34,948
+2018,CA-505,Contra Costa County CoC,35-44,887
+2018,CA-505,Contra Costa County CoC,45-54,948
+2018,CA-505,Contra Costa County CoC,55-64,936
+2018,CA-505,Contra Costa County CoC,65+,340
+2018,CA-505,Contra Costa County CoC,Under 18,1104
+2018,CA-506,"Monterey, San Benito Counties CoC",18-24,151
+2018,CA-506,"Monterey, San Benito Counties CoC",25-34,373
+2018,CA-506,"Monterey, San Benito Counties CoC",35-44,352
+2018,CA-506,"Monterey, San Benito Counties CoC",45-54,316
+2018,CA-506,"Monterey, San Benito Counties CoC",55-64,339
+2018,CA-506,"Monterey, San Benito Counties CoC",65+,139
+2018,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2018,CA-506,"Monterey, San Benito Counties CoC",Under 18,915
+2018,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2018,CA-507,Marin County CoC,18-24,73
+2018,CA-507,Marin County CoC,25-34,225
+2018,CA-507,Marin County CoC,35-44,210
+2018,CA-507,Marin County CoC,45-54,253
+2018,CA-507,Marin County CoC,55-64,227
+2018,CA-507,Marin County CoC,65+,106
+2018,CA-507,Marin County CoC,Under 18,248
+2018,CA-508,Santa Cruz County CoC,18-24,100
+2018,CA-508,Santa Cruz County CoC,25-34,273
+2018,CA-508,Santa Cruz County CoC,35-44,279
+2018,CA-508,Santa Cruz County CoC,45-54,303
+2018,CA-508,Santa Cruz County CoC,55-64,302
+2018,CA-508,Santa Cruz County CoC,65+,124
+2018,CA-508,Santa Cruz County CoC,Under 18,464
+2018,CA-508,Santa Cruz County CoC,Unknown,45
+2018,CA-509,Mendocino County CoC,18-24,68
+2018,CA-509,Mendocino County CoC,25-34,101
+2018,CA-509,Mendocino County CoC,35-44,105
+2018,CA-509,Mendocino County CoC,45-54,112
+2018,CA-509,Mendocino County CoC,55-64,106
+2018,CA-509,Mendocino County CoC,65+,41
+2018,CA-509,Mendocino County CoC,Under 18,111
+2018,CA-509,Mendocino County CoC,Unknown,21
+2018,CA-510,Stanislaus County CoC,18-24,501
+2018,CA-510,Stanislaus County CoC,25-34,1013
+2018,CA-510,Stanislaus County CoC,35-44,878
+2018,CA-510,Stanislaus County CoC,45-54,697
+2018,CA-510,Stanislaus County CoC,55-64,558
+2018,CA-510,Stanislaus County CoC,65+,159
+2018,CA-510,Stanislaus County CoC,Under 18,2133
+2018,CA-510,Stanislaus County CoC,Unknown,*
+2018,CA-511,San Joaquin County CoC,18-24,790
+2018,CA-511,San Joaquin County CoC,25-34,1508
+2018,CA-511,San Joaquin County CoC,35-44,1111
+2018,CA-511,San Joaquin County CoC,45-54,827
+2018,CA-511,San Joaquin County CoC,55-64,611
+2018,CA-511,San Joaquin County CoC,65+,200
+2018,CA-511,San Joaquin County CoC,Under 18,4125
+2018,CA-511,San Joaquin County CoC,Unknown,*
+2018,CA-512,San Mateo County CoC,18-24,235
+2018,CA-512,San Mateo County CoC,25-34,556
+2018,CA-512,San Mateo County CoC,35-44,502
+2018,CA-512,San Mateo County CoC,45-54,502
+2018,CA-512,San Mateo County CoC,55-64,456
+2018,CA-512,San Mateo County CoC,65+,172
+2018,CA-512,San Mateo County CoC,Invalid,*
+2018,CA-512,San Mateo County CoC,Under 18,1233
+2018,CA-512,San Mateo County CoC,Unknown,*
+2018,CA-513,"Kings, Tulare Counties CoC",18-24,271
+2018,CA-513,"Kings, Tulare Counties CoC",25-34,538
+2018,CA-513,"Kings, Tulare Counties CoC",35-44,573
+2018,CA-513,"Kings, Tulare Counties CoC",45-54,422
+2018,CA-513,"Kings, Tulare Counties CoC",55-64,278
+2018,CA-513,"Kings, Tulare Counties CoC",65+,79
+2018,CA-513,"Kings, Tulare Counties CoC",Invalid,*
+2018,CA-513,"Kings, Tulare Counties CoC",Under 18,815
+2018,CA-513,"Kings, Tulare Counties CoC",Unknown,*
+2018,CA-514,"Fresno, Madera Counties CoC",18-24,300
+2018,CA-514,"Fresno, Madera Counties CoC",25-34,378
+2018,CA-514,"Fresno, Madera Counties CoC",35-44,375
+2018,CA-514,"Fresno, Madera Counties CoC",45-54,433
+2018,CA-514,"Fresno, Madera Counties CoC",55-64,422
+2018,CA-514,"Fresno, Madera Counties CoC",65+,125
+2018,CA-514,"Fresno, Madera Counties CoC",Under 18,922
+2018,CA-514,"Fresno, Madera Counties CoC",Unknown,33
+2018,CA-515,Placer County CoC,18-24,93
+2018,CA-515,Placer County CoC,25-34,249
+2018,CA-515,Placer County CoC,35-44,247
+2018,CA-515,Placer County CoC,45-54,271
+2018,CA-515,Placer County CoC,55-64,219
+2018,CA-515,Placer County CoC,65+,78
+2018,CA-515,Placer County CoC,Under 18,382
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,35
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,115
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,96
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,68
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,90
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,25
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,114
+2018,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,83
+2018,CA-517,Napa County CoC,18-24,67
+2018,CA-517,Napa County CoC,25-34,175
+2018,CA-517,Napa County CoC,35-44,168
+2018,CA-517,Napa County CoC,45-54,166
+2018,CA-517,Napa County CoC,55-64,180
+2018,CA-517,Napa County CoC,65+,38
+2018,CA-517,Napa County CoC,Under 18,137
+2018,CA-518,Solano County CoC,18-24,60
+2018,CA-518,Solano County CoC,25-34,164
+2018,CA-518,Solano County CoC,35-44,135
+2018,CA-518,Solano County CoC,45-54,133
+2018,CA-518,Solano County CoC,55-64,174
+2018,CA-518,Solano County CoC,65+,53
+2018,CA-518,Solano County CoC,Invalid,*
+2018,CA-518,Solano County CoC,Under 18,232
+2018,CA-519,Butte County CoC,18-24,115
+2018,CA-519,Butte County CoC,25-34,253
+2018,CA-519,Butte County CoC,35-44,243
+2018,CA-519,Butte County CoC,45-54,235
+2018,CA-519,Butte County CoC,55-64,206
+2018,CA-519,Butte County CoC,65+,88
+2018,CA-519,Butte County CoC,Under 18,325
+2018,CA-520,Merced County CoC,18-24,69
+2018,CA-520,Merced County CoC,25-34,154
+2018,CA-520,Merced County CoC,35-44,184
+2018,CA-520,Merced County CoC,45-54,202
+2018,CA-520,Merced County CoC,55-64,219
+2018,CA-520,Merced County CoC,65+,59
+2018,CA-520,Merced County CoC,Under 18,20
+2018,CA-521,Yolo County CoC,18-24,89
+2018,CA-521,Yolo County CoC,25-34,161
+2018,CA-521,Yolo County CoC,35-44,165
+2018,CA-521,Yolo County CoC,45-54,120
+2018,CA-521,Yolo County CoC,55-64,103
+2018,CA-521,Yolo County CoC,65+,23
+2018,CA-521,Yolo County CoC,Under 18,315
+2018,CA-522,Humboldt County CoC,18-24,163
+2018,CA-522,Humboldt County CoC,25-34,168
+2018,CA-522,Humboldt County CoC,35-44,147
+2018,CA-522,Humboldt County CoC,45-54,131
+2018,CA-522,Humboldt County CoC,55-64,121
+2018,CA-522,Humboldt County CoC,65+,42
+2018,CA-522,Humboldt County CoC,Invalid,*
+2018,CA-522,Humboldt County CoC,Under 18,315
+2018,CA-522,Humboldt County CoC,Unknown,*
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,36
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,60
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,34
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,13
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,*
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",Invalid,*
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,195
+2018,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,*
+2018,CA-524,"Yuba, Sutter Counties CoC",25-34,*
+2018,CA-524,"Yuba, Sutter Counties CoC",45-54,*
+2018,CA-524,"Yuba, Sutter Counties CoC",Under 18,*
+2018,CA-525,El Dorado County CoC,18-24,*
+2018,CA-525,El Dorado County CoC,25-34,25
+2018,CA-525,El Dorado County CoC,35-44,39
+2018,CA-525,El Dorado County CoC,45-54,39
+2018,CA-525,El Dorado County CoC,55-64,37
+2018,CA-525,El Dorado County CoC,65+,18
+2018,CA-525,El Dorado County CoC,Invalid,*
+2018,CA-525,El Dorado County CoC,Under 18,226
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,51
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,117
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,89
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,77
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,74
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,29
+2018,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,266
+2018,CA-527,Tehama County CoC,18-24,37
+2018,CA-527,Tehama County CoC,25-34,69
+2018,CA-527,Tehama County CoC,35-44,78
+2018,CA-527,Tehama County CoC,45-54,62
+2018,CA-527,Tehama County CoC,55-64,68
+2018,CA-527,Tehama County CoC,65+,17
+2018,CA-527,Tehama County CoC,Under 18,79
+2018,CA-527,Tehama County CoC,Unknown,*
+2018,CA-529,Lake County CoC,18-24,*
+2018,CA-529,Lake County CoC,25-34,*
+2018,CA-529,Lake County CoC,35-44,*
+2018,CA-529,Lake County CoC,45-54,*
+2018,CA-529,Lake County CoC,55-64,17
+2018,CA-529,Lake County CoC,65+,*
+2018,CA-529,Lake County CoC,Under 18,29
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,20
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,41
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,28
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,33
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,19
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,11
+2018,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,67
+2018,CA-531,Nevada County CoC,18-24,59
+2018,CA-531,Nevada County CoC,25-34,78
+2018,CA-531,Nevada County CoC,35-44,113
+2018,CA-531,Nevada County CoC,45-54,100
+2018,CA-531,Nevada County CoC,55-64,107
+2018,CA-531,Nevada County CoC,65+,39
+2018,CA-531,Nevada County CoC,Under 18,53
+2018,CA-600,Los Angeles County CoC,18-24,7076
+2018,CA-600,Los Angeles County CoC,25-34,11951
+2018,CA-600,Los Angeles County CoC,35-44,10630
+2018,CA-600,Los Angeles County CoC,45-54,11311
+2018,CA-600,Los Angeles County CoC,55-64,10109
+2018,CA-600,Los Angeles County CoC,65+,3284
+2018,CA-600,Los Angeles County CoC,Invalid,46
+2018,CA-600,Los Angeles County CoC,Under 18,15195
+2018,CA-600,Los Angeles County CoC,Unknown,3989
+2018,CA-601,San Diego County CoC,18-24,960
+2018,CA-601,San Diego County CoC,25-34,2280
+2018,CA-601,San Diego County CoC,35-44,2239
+2018,CA-601,San Diego County CoC,45-54,2621
+2018,CA-601,San Diego County CoC,55-64,2786
+2018,CA-601,San Diego County CoC,65+,838
+2018,CA-601,San Diego County CoC,Invalid,*
+2018,CA-601,San Diego County CoC,Under 18,3325
+2018,CA-601,San Diego County CoC,Unknown,136
+2018,CA-602,Orange County CoC,18-24,600
+2018,CA-602,Orange County CoC,25-34,1556
+2018,CA-602,Orange County CoC,35-44,1452
+2018,CA-602,Orange County CoC,45-54,1601
+2018,CA-602,Orange County CoC,55-64,1290
+2018,CA-602,Orange County CoC,65+,781
+2018,CA-602,Orange County CoC,Invalid,*
+2018,CA-602,Orange County CoC,Under 18,2936
+2018,CA-602,Orange County CoC,Unknown,1796
+2018,CA-603,Santa Barbara County CoC,18-24,177
+2018,CA-603,Santa Barbara County CoC,25-34,447
+2018,CA-603,Santa Barbara County CoC,35-44,432
+2018,CA-603,Santa Barbara County CoC,45-54,421
+2018,CA-603,Santa Barbara County CoC,55-64,478
+2018,CA-603,Santa Barbara County CoC,65+,200
+2018,CA-603,Santa Barbara County CoC,Invalid,*
+2018,CA-603,Santa Barbara County CoC,Under 18,640
+2018,CA-603,Santa Barbara County CoC,Unknown,*
+2018,CA-604,Kern County CoC,18-24,412
+2018,CA-604,Kern County CoC,25-34,809
+2018,CA-604,Kern County CoC,35-44,638
+2018,CA-604,Kern County CoC,45-54,592
+2018,CA-604,Kern County CoC,55-64,511
+2018,CA-604,Kern County CoC,65+,134
+2018,CA-604,Kern County CoC,Invalid,*
+2018,CA-604,Kern County CoC,Under 18,2052
+2018,CA-604,Kern County CoC,Unknown,*
+2018,CA-606,Long Beach CoC (Los Angeles County),18-24,167
+2018,CA-606,Long Beach CoC (Los Angeles County),25-34,381
+2018,CA-606,Long Beach CoC (Los Angeles County),35-44,335
+2018,CA-606,Long Beach CoC (Los Angeles County),45-54,474
+2018,CA-606,Long Beach CoC (Los Angeles County),55-64,553
+2018,CA-606,Long Beach CoC (Los Angeles County),65+,206
+2018,CA-606,Long Beach CoC (Los Angeles County),Under 18,675
+2018,CA-607,Pasadena CoC (Los Angeles County),18-24,108
+2018,CA-607,Pasadena CoC (Los Angeles County),25-34,223
+2018,CA-607,Pasadena CoC (Los Angeles County),35-44,206
+2018,CA-607,Pasadena CoC (Los Angeles County),45-54,271
+2018,CA-607,Pasadena CoC (Los Angeles County),55-64,257
+2018,CA-607,Pasadena CoC (Los Angeles County),65+,142
+2018,CA-607,Pasadena CoC (Los Angeles County),Under 18,364
+2018,CA-607,Pasadena CoC (Los Angeles County),Unknown,*
+2018,CA-608,Riverside County CoC,18-24,684
+2018,CA-608,Riverside County CoC,25-34,1231
+2018,CA-608,Riverside County CoC,35-44,1104
+2018,CA-608,Riverside County CoC,45-54,1136
+2018,CA-608,Riverside County CoC,55-64,1005
+2018,CA-608,Riverside County CoC,65+,300
+2018,CA-608,Riverside County CoC,Under 18,1650
+2018,CA-608,Riverside County CoC,Unknown,47
+2018,CA-609,San Bernardino County CoC,18-24,555
+2018,CA-609,San Bernardino County CoC,25-34,1020
+2018,CA-609,San Bernardino County CoC,35-44,897
+2018,CA-609,San Bernardino County CoC,45-54,662
+2018,CA-609,San Bernardino County CoC,55-64,549
+2018,CA-609,San Bernardino County CoC,65+,163
+2018,CA-609,San Bernardino County CoC,Under 18,3553
+2018,CA-609,San Bernardino County CoC,Unknown,*
+2018,CA-611,Ventura County CoC,18-24,146
+2018,CA-611,Ventura County CoC,25-34,237
+2018,CA-611,Ventura County CoC,35-44,293
+2018,CA-611,Ventura County CoC,45-54,299
+2018,CA-611,Ventura County CoC,55-64,293
+2018,CA-611,Ventura County CoC,65+,103
+2018,CA-611,Ventura County CoC,Invalid,*
+2018,CA-611,Ventura County CoC,Under 18,616
+2018,CA-611,Ventura County CoC,Unknown,*
+2018,CA-612,Glendale CoC (Los Angeles County),18-24,31
+2018,CA-612,Glendale CoC (Los Angeles County),25-34,79
+2018,CA-612,Glendale CoC (Los Angeles County),35-44,60
+2018,CA-612,Glendale CoC (Los Angeles County),45-54,92
+2018,CA-612,Glendale CoC (Los Angeles County),55-64,65
+2018,CA-612,Glendale CoC (Los Angeles County),65+,26
+2018,CA-612,Glendale CoC (Los Angeles County),Under 18,148
+2018,CA-612,Glendale CoC (Los Angeles County),Unknown,*
+2018,CA-613,Imperial County CoC,18-24,80
+2018,CA-613,Imperial County CoC,25-34,142
+2018,CA-613,Imperial County CoC,35-44,108
+2018,CA-613,Imperial County CoC,45-54,97
+2018,CA-613,Imperial County CoC,55-64,72
+2018,CA-613,Imperial County CoC,65+,46
+2018,CA-613,Imperial County CoC,Invalid,*
+2018,CA-613,Imperial County CoC,Under 18,314
+2018,CA-614,San Luis Obispo County CoC,18-24,142
+2018,CA-614,San Luis Obispo County CoC,25-34,320
+2018,CA-614,San Luis Obispo County CoC,35-44,248
+2018,CA-614,San Luis Obispo County CoC,45-54,240
+2018,CA-614,San Luis Obispo County CoC,55-64,216
+2018,CA-614,San Luis Obispo County CoC,65+,101
+2018,CA-614,San Luis Obispo County CoC,Under 18,565
+2019,Statewide,California,18-24,19517
+2019,Statewide,California,25-34,37862
+2019,Statewide,California,35-44,35010
+2019,Statewide,California,45-54,33508
+2019,Statewide,California,55-64,31797
+2019,Statewide,California,65+,11542
+2019,Statewide,California,Invalid,93
+2019,Statewide,California,Under 18,60163
+2019,Statewide,California,Unknown,6857
+2019,CA-500,Santa Clara County CoC,18-24,786
+2019,CA-500,Santa Clara County CoC,25-34,1682
+2019,CA-500,Santa Clara County CoC,35-44,1680
+2019,CA-500,Santa Clara County CoC,45-54,1625
+2019,CA-500,Santa Clara County CoC,55-64,1660
+2019,CA-500,Santa Clara County CoC,65+,616
+2019,CA-500,Santa Clara County CoC,Under 18,2566
+2019,CA-500,Santa Clara County CoC,Unknown,*
+2019,CA-501,San Francisco CoC,18-24,964
+2019,CA-501,San Francisco CoC,25-34,1224
+2019,CA-501,San Francisco CoC,35-44,1128
+2019,CA-501,San Francisco CoC,45-54,994
+2019,CA-501,San Francisco CoC,55-64,847
+2019,CA-501,San Francisco CoC,65+,339
+2019,CA-501,San Francisco CoC,Invalid,*
+2019,CA-501,San Francisco CoC,Under 18,2525
+2019,CA-501,San Francisco CoC,Unknown,28
+2019,CA-502,Alameda County CoC,18-24,813
+2019,CA-502,Alameda County CoC,25-34,1163
+2019,CA-502,Alameda County CoC,35-44,1051
+2019,CA-502,Alameda County CoC,45-54,1105
+2019,CA-502,Alameda County CoC,55-64,1203
+2019,CA-502,Alameda County CoC,65+,482
+2019,CA-502,Alameda County CoC,Under 18,1655
+2019,CA-502,Alameda County CoC,Unknown,*
+2019,CA-503,Sacramento County CoC,18-24,1152
+2019,CA-503,Sacramento County CoC,25-34,1516
+2019,CA-503,Sacramento County CoC,35-44,1506
+2019,CA-503,Sacramento County CoC,45-54,1577
+2019,CA-503,Sacramento County CoC,55-64,1369
+2019,CA-503,Sacramento County CoC,65+,420
+2019,CA-503,Sacramento County CoC,Invalid,*
+2019,CA-503,Sacramento County CoC,Under 18,3933
+2019,CA-503,Sacramento County CoC,Unknown,*
+2019,CA-504,Sonoma County CoC,18-24,262
+2019,CA-504,Sonoma County CoC,25-34,458
+2019,CA-504,Sonoma County CoC,35-44,518
+2019,CA-504,Sonoma County CoC,45-54,533
+2019,CA-504,Sonoma County CoC,55-64,544
+2019,CA-504,Sonoma County CoC,65+,239
+2019,CA-504,Sonoma County CoC,Invalid,*
+2019,CA-504,Sonoma County CoC,Under 18,698
+2019,CA-505,Contra Costa County CoC,18-24,482
+2019,CA-505,Contra Costa County CoC,25-34,1300
+2019,CA-505,Contra Costa County CoC,35-44,1200
+2019,CA-505,Contra Costa County CoC,45-54,1122
+2019,CA-505,Contra Costa County CoC,55-64,1128
+2019,CA-505,Contra Costa County CoC,65+,418
+2019,CA-505,Contra Costa County CoC,Under 18,1251
+2019,CA-505,Contra Costa County CoC,Unknown,*
+2019,CA-506,"Monterey, San Benito Counties CoC",18-24,163
+2019,CA-506,"Monterey, San Benito Counties CoC",25-34,365
+2019,CA-506,"Monterey, San Benito Counties CoC",35-44,320
+2019,CA-506,"Monterey, San Benito Counties CoC",45-54,288
+2019,CA-506,"Monterey, San Benito Counties CoC",55-64,324
+2019,CA-506,"Monterey, San Benito Counties CoC",65+,133
+2019,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2019,CA-506,"Monterey, San Benito Counties CoC",Under 18,911
+2019,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2019,CA-507,Marin County CoC,18-24,76
+2019,CA-507,Marin County CoC,25-34,192
+2019,CA-507,Marin County CoC,35-44,190
+2019,CA-507,Marin County CoC,45-54,191
+2019,CA-507,Marin County CoC,55-64,189
+2019,CA-507,Marin County CoC,65+,109
+2019,CA-507,Marin County CoC,Under 18,325
+2019,CA-507,Marin County CoC,Unknown,*
+2019,CA-508,Santa Cruz County CoC,18-24,122
+2019,CA-508,Santa Cruz County CoC,25-34,357
+2019,CA-508,Santa Cruz County CoC,35-44,369
+2019,CA-508,Santa Cruz County CoC,45-54,355
+2019,CA-508,Santa Cruz County CoC,55-64,331
+2019,CA-508,Santa Cruz County CoC,65+,171
+2019,CA-508,Santa Cruz County CoC,Under 18,509
+2019,CA-508,Santa Cruz County CoC,Unknown,45
+2019,CA-509,Mendocino County CoC,18-24,62
+2019,CA-509,Mendocino County CoC,25-34,144
+2019,CA-509,Mendocino County CoC,35-44,137
+2019,CA-509,Mendocino County CoC,45-54,124
+2019,CA-509,Mendocino County CoC,55-64,126
+2019,CA-509,Mendocino County CoC,65+,40
+2019,CA-509,Mendocino County CoC,Under 18,165
+2019,CA-509,Mendocino County CoC,Unknown,12
+2019,CA-510,Stanislaus County CoC,18-24,539
+2019,CA-510,Stanislaus County CoC,25-34,991
+2019,CA-510,Stanislaus County CoC,35-44,986
+2019,CA-510,Stanislaus County CoC,45-54,763
+2019,CA-510,Stanislaus County CoC,55-64,650
+2019,CA-510,Stanislaus County CoC,65+,205
+2019,CA-510,Stanislaus County CoC,Under 18,1961
+2019,CA-511,San Joaquin County CoC,18-24,785
+2019,CA-511,San Joaquin County CoC,25-34,1586
+2019,CA-511,San Joaquin County CoC,35-44,1267
+2019,CA-511,San Joaquin County CoC,45-54,928
+2019,CA-511,San Joaquin County CoC,55-64,679
+2019,CA-511,San Joaquin County CoC,65+,255
+2019,CA-511,San Joaquin County CoC,Under 18,4034
+2019,CA-511,San Joaquin County CoC,Unknown,*
+2019,CA-512,San Mateo County CoC,18-24,237
+2019,CA-512,San Mateo County CoC,25-34,600
+2019,CA-512,San Mateo County CoC,35-44,499
+2019,CA-512,San Mateo County CoC,45-54,513
+2019,CA-512,San Mateo County CoC,55-64,495
+2019,CA-512,San Mateo County CoC,65+,200
+2019,CA-512,San Mateo County CoC,Invalid,*
+2019,CA-512,San Mateo County CoC,Under 18,1141
+2019,CA-512,San Mateo County CoC,Unknown,*
+2019,CA-513,"Kings, Tulare Counties CoC",18-24,326
+2019,CA-513,"Kings, Tulare Counties CoC",25-34,650
+2019,CA-513,"Kings, Tulare Counties CoC",35-44,637
+2019,CA-513,"Kings, Tulare Counties CoC",45-54,445
+2019,CA-513,"Kings, Tulare Counties CoC",55-64,291
+2019,CA-513,"Kings, Tulare Counties CoC",65+,91
+2019,CA-513,"Kings, Tulare Counties CoC",Under 18,1068
+2019,CA-514,"Fresno, Madera Counties CoC",18-24,331
+2019,CA-514,"Fresno, Madera Counties CoC",25-34,381
+2019,CA-514,"Fresno, Madera Counties CoC",35-44,441
+2019,CA-514,"Fresno, Madera Counties CoC",45-54,452
+2019,CA-514,"Fresno, Madera Counties CoC",55-64,467
+2019,CA-514,"Fresno, Madera Counties CoC",65+,148
+2019,CA-514,"Fresno, Madera Counties CoC",Invalid,*
+2019,CA-514,"Fresno, Madera Counties CoC",Under 18,1031
+2019,CA-514,"Fresno, Madera Counties CoC",Unknown,34
+2019,CA-515,Placer County CoC,18-24,103
+2019,CA-515,Placer County CoC,25-34,303
+2019,CA-515,Placer County CoC,35-44,281
+2019,CA-515,Placer County CoC,45-54,292
+2019,CA-515,Placer County CoC,55-64,236
+2019,CA-515,Placer County CoC,65+,90
+2019,CA-515,Placer County CoC,Under 18,463
+2019,CA-515,Placer County CoC,Unknown,*
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,50
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,149
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,123
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,104
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,126
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,51
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,170
+2019,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,159
+2019,CA-517,Napa County CoC,18-24,56
+2019,CA-517,Napa County CoC,25-34,176
+2019,CA-517,Napa County CoC,35-44,159
+2019,CA-517,Napa County CoC,45-54,170
+2019,CA-517,Napa County CoC,55-64,175
+2019,CA-517,Napa County CoC,65+,56
+2019,CA-517,Napa County CoC,Under 18,140
+2019,CA-518,Solano County CoC,18-24,67
+2019,CA-518,Solano County CoC,25-34,192
+2019,CA-518,Solano County CoC,35-44,189
+2019,CA-518,Solano County CoC,45-54,179
+2019,CA-518,Solano County CoC,55-64,207
+2019,CA-518,Solano County CoC,65+,79
+2019,CA-518,Solano County CoC,Invalid,*
+2019,CA-518,Solano County CoC,Under 18,272
+2019,CA-518,Solano County CoC,Unknown,*
+2019,CA-519,Butte County CoC,18-24,125
+2019,CA-519,Butte County CoC,25-34,292
+2019,CA-519,Butte County CoC,35-44,285
+2019,CA-519,Butte County CoC,45-54,285
+2019,CA-519,Butte County CoC,55-64,295
+2019,CA-519,Butte County CoC,65+,145
+2019,CA-519,Butte County CoC,Under 18,317
+2019,CA-520,Merced County CoC,18-24,278
+2019,CA-520,Merced County CoC,25-34,509
+2019,CA-520,Merced County CoC,35-44,455
+2019,CA-520,Merced County CoC,45-54,306
+2019,CA-520,Merced County CoC,55-64,265
+2019,CA-520,Merced County CoC,65+,73
+2019,CA-520,Merced County CoC,Invalid,*
+2019,CA-520,Merced County CoC,Under 18,1196
+2019,CA-521,Yolo County CoC,18-24,97
+2019,CA-521,Yolo County CoC,25-34,192
+2019,CA-521,Yolo County CoC,35-44,200
+2019,CA-521,Yolo County CoC,45-54,116
+2019,CA-521,Yolo County CoC,55-64,124
+2019,CA-521,Yolo County CoC,65+,48
+2019,CA-521,Yolo County CoC,Under 18,434
+2019,CA-521,Yolo County CoC,Unknown,*
+2019,CA-522,Humboldt County CoC,18-24,210
+2019,CA-522,Humboldt County CoC,25-34,232
+2019,CA-522,Humboldt County CoC,35-44,260
+2019,CA-522,Humboldt County CoC,45-54,256
+2019,CA-522,Humboldt County CoC,55-64,226
+2019,CA-522,Humboldt County CoC,65+,85
+2019,CA-522,Humboldt County CoC,Invalid,*
+2019,CA-522,Humboldt County CoC,Under 18,347
+2019,CA-522,Humboldt County CoC,Unknown,32
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,40
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,63
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,35
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,17
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,15
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,*
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",Invalid,*
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,195
+2019,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,*
+2019,CA-524,"Yuba, Sutter Counties CoC",18-24,*
+2019,CA-524,"Yuba, Sutter Counties CoC",25-34,*
+2019,CA-524,"Yuba, Sutter Counties CoC",35-44,*
+2019,CA-524,"Yuba, Sutter Counties CoC",45-54,*
+2019,CA-524,"Yuba, Sutter Counties CoC",55-64,*
+2019,CA-524,"Yuba, Sutter Counties CoC",65+,*
+2019,CA-524,"Yuba, Sutter Counties CoC",Under 18,*
+2019,CA-525,El Dorado County CoC,18-24,15
+2019,CA-525,El Dorado County CoC,25-34,35
+2019,CA-525,El Dorado County CoC,35-44,35
+2019,CA-525,El Dorado County CoC,45-54,42
+2019,CA-525,El Dorado County CoC,55-64,42
+2019,CA-525,El Dorado County CoC,65+,20
+2019,CA-525,El Dorado County CoC,Invalid,*
+2019,CA-525,El Dorado County CoC,Under 18,169
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,51
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,91
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,107
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,89
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,77
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,34
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Invalid,*
+2019,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,220
+2019,CA-527,Tehama County CoC,18-24,22
+2019,CA-527,Tehama County CoC,25-34,60
+2019,CA-527,Tehama County CoC,35-44,69
+2019,CA-527,Tehama County CoC,45-54,71
+2019,CA-527,Tehama County CoC,55-64,69
+2019,CA-527,Tehama County CoC,65+,22
+2019,CA-527,Tehama County CoC,Invalid,*
+2019,CA-527,Tehama County CoC,Under 18,57
+2019,CA-527,Tehama County CoC,Unknown,*
+2019,CA-529,Lake County CoC,18-24,14
+2019,CA-529,Lake County CoC,25-34,42
+2019,CA-529,Lake County CoC,35-44,37
+2019,CA-529,Lake County CoC,45-54,12
+2019,CA-529,Lake County CoC,55-64,17
+2019,CA-529,Lake County CoC,65+,*
+2019,CA-529,Lake County CoC,Under 18,120
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,13
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,29
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,20
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,21
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,23
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,*
+2019,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,42
+2019,CA-531,Nevada County CoC,18-24,49
+2019,CA-531,Nevada County CoC,25-34,114
+2019,CA-531,Nevada County CoC,35-44,112
+2019,CA-531,Nevada County CoC,45-54,117
+2019,CA-531,Nevada County CoC,55-64,133
+2019,CA-531,Nevada County CoC,65+,51
+2019,CA-531,Nevada County CoC,Invalid,*
+2019,CA-531,Nevada County CoC,Under 18,30
+2019,CA-531,Nevada County CoC,Unknown,*
+2019,CA-600,Los Angeles County CoC,18-24,7321
+2019,CA-600,Los Angeles County CoC,25-34,14207
+2019,CA-600,Los Angeles County CoC,35-44,12646
+2019,CA-600,Los Angeles County CoC,45-54,12359
+2019,CA-600,Los Angeles County CoC,55-64,11382
+2019,CA-600,Los Angeles County CoC,65+,3967
+2019,CA-600,Los Angeles County CoC,Invalid,33
+2019,CA-600,Los Angeles County CoC,Under 18,16380
+2019,CA-600,Los Angeles County CoC,Unknown,5215
+2019,CA-601,San Diego County CoC,18-24,969
+2019,CA-601,San Diego County CoC,25-34,2471
+2019,CA-601,San Diego County CoC,35-44,2424
+2019,CA-601,San Diego County CoC,45-54,2707
+2019,CA-601,San Diego County CoC,55-64,3051
+2019,CA-601,San Diego County CoC,65+,1002
+2019,CA-601,San Diego County CoC,Invalid,*
+2019,CA-601,San Diego County CoC,Under 18,3183
+2019,CA-601,San Diego County CoC,Unknown,357
+2019,CA-602,Orange County CoC,18-24,657
+2019,CA-602,Orange County CoC,25-34,1892
+2019,CA-602,Orange County CoC,35-44,1876
+2019,CA-602,Orange County CoC,45-54,1981
+2019,CA-602,Orange County CoC,55-64,1791
+2019,CA-602,Orange County CoC,65+,630
+2019,CA-602,Orange County CoC,Invalid,*
+2019,CA-602,Orange County CoC,Under 18,2815
+2019,CA-602,Orange County CoC,Unknown,745
+2019,CA-603,Santa Barbara County CoC,18-24,165
+2019,CA-603,Santa Barbara County CoC,25-34,453
+2019,CA-603,Santa Barbara County CoC,35-44,485
+2019,CA-603,Santa Barbara County CoC,45-54,493
+2019,CA-603,Santa Barbara County CoC,55-64,587
+2019,CA-603,Santa Barbara County CoC,65+,239
+2019,CA-603,Santa Barbara County CoC,Invalid,*
+2019,CA-603,Santa Barbara County CoC,Under 18,537
+2019,CA-603,Santa Barbara County CoC,Unknown,*
+2019,CA-604,Kern County CoC,18-24,426
+2019,CA-604,Kern County CoC,25-34,702
+2019,CA-604,Kern County CoC,35-44,631
+2019,CA-604,Kern County CoC,45-54,521
+2019,CA-604,Kern County CoC,55-64,480
+2019,CA-604,Kern County CoC,65+,150
+2019,CA-604,Kern County CoC,Invalid,*
+2019,CA-604,Kern County CoC,Under 18,2244
+2019,CA-604,Kern County CoC,Unknown,*
+2019,CA-606,Long Beach CoC (Los Angeles County),18-24,243
+2019,CA-606,Long Beach CoC (Los Angeles County),25-34,603
+2019,CA-606,Long Beach CoC (Los Angeles County),35-44,551
+2019,CA-606,Long Beach CoC (Los Angeles County),45-54,662
+2019,CA-606,Long Beach CoC (Los Angeles County),55-64,751
+2019,CA-606,Long Beach CoC (Los Angeles County),65+,312
+2019,CA-606,Long Beach CoC (Los Angeles County),Invalid,*
+2019,CA-606,Long Beach CoC (Los Angeles County),Under 18,714
+2019,CA-606,Long Beach CoC (Los Angeles County),Unknown,*
+2019,CA-607,Pasadena CoC (Los Angeles County),18-24,143
+2019,CA-607,Pasadena CoC (Los Angeles County),25-34,199
+2019,CA-607,Pasadena CoC (Los Angeles County),35-44,208
+2019,CA-607,Pasadena CoC (Los Angeles County),45-54,255
+2019,CA-607,Pasadena CoC (Los Angeles County),55-64,315
+2019,CA-607,Pasadena CoC (Los Angeles County),65+,160
+2019,CA-607,Pasadena CoC (Los Angeles County),Under 18,252
+2019,CA-607,Pasadena CoC (Los Angeles County),Unknown,37
+2019,CA-608,Riverside County CoC,18-24,687
+2019,CA-608,Riverside County CoC,25-34,1451
+2019,CA-608,Riverside County CoC,35-44,1257
+2019,CA-608,Riverside County CoC,45-54,1132
+2019,CA-608,Riverside County CoC,55-64,1020
+2019,CA-608,Riverside County CoC,65+,387
+2019,CA-608,Riverside County CoC,Invalid,*
+2019,CA-608,Riverside County CoC,Under 18,2016
+2019,CA-608,Riverside County CoC,Unknown,44
+2019,CA-609,San Bernardino County CoC,18-24,677
+2019,CA-609,San Bernardino County CoC,25-34,1171
+2019,CA-609,San Bernardino County CoC,35-44,1032
+2019,CA-609,San Bernardino County CoC,45-54,764
+2019,CA-609,San Bernardino County CoC,55-64,666
+2019,CA-609,San Bernardino County CoC,65+,205
+2019,CA-609,San Bernardino County CoC,Invalid,*
+2019,CA-609,San Bernardino County CoC,Under 18,3201
+2019,CA-609,San Bernardino County CoC,Unknown,71
+2019,CA-611,Ventura County CoC,18-24,157
+2019,CA-611,Ventura County CoC,25-34,273
+2019,CA-611,Ventura County CoC,35-44,340
+2019,CA-611,Ventura County CoC,45-54,358
+2019,CA-611,Ventura County CoC,55-64,361
+2019,CA-611,Ventura County CoC,65+,149
+2019,CA-611,Ventura County CoC,Under 18,690
+2019,CA-611,Ventura County CoC,Unknown,*
+2019,CA-612,Glendale CoC (Los Angeles County),18-24,35
+2019,CA-612,Glendale CoC (Los Angeles County),25-34,69
+2019,CA-612,Glendale CoC (Los Angeles County),35-44,57
+2019,CA-612,Glendale CoC (Los Angeles County),45-54,48
+2019,CA-612,Glendale CoC (Los Angeles County),55-64,56
+2019,CA-612,Glendale CoC (Los Angeles County),65+,21
+2019,CA-612,Glendale CoC (Los Angeles County),Under 18,179
+2019,CA-613,Imperial County CoC,18-24,71
+2019,CA-613,Imperial County CoC,25-34,113
+2019,CA-613,Imperial County CoC,35-44,101
+2019,CA-613,Imperial County CoC,45-54,90
+2019,CA-613,Imperial County CoC,55-64,81
+2019,CA-613,Imperial County CoC,65+,42
+2019,CA-613,Imperial County CoC,Invalid,*
+2019,CA-613,Imperial County CoC,Under 18,312
+2019,CA-613,Imperial County CoC,Unknown,*
+2019,CA-614,San Luis Obispo County CoC,18-24,154
+2019,CA-614,San Luis Obispo County CoC,25-34,341
+2019,CA-614,San Luis Obispo County CoC,35-44,284
+2019,CA-614,San Luis Obispo County CoC,45-54,276
+2019,CA-614,San Luis Obispo County CoC,55-64,245
+2019,CA-614,San Luis Obispo County CoC,65+,128
+2019,CA-614,San Luis Obispo County CoC,Invalid,*
+2019,CA-614,San Luis Obispo County CoC,Under 18,618
+2020,Statewide,California,18-24,19719
+2020,Statewide,California,25-34,39870
+2020,Statewide,California,35-44,39463
+2020,Statewide,California,45-54,36657
+2020,Statewide,California,55-64,36904
+2020,Statewide,California,65+,15515
+2020,Statewide,California,Invalid,78
+2020,Statewide,California,Under 18,55601
+2020,Statewide,California,Unknown,5741
+2020,CA-500,Santa Clara County CoC,18-24,832
+2020,CA-500,Santa Clara County CoC,25-34,1728
+2020,CA-500,Santa Clara County CoC,35-44,1861
+2020,CA-500,Santa Clara County CoC,45-54,1756
+2020,CA-500,Santa Clara County CoC,55-64,1877
+2020,CA-500,Santa Clara County CoC,65+,890
+2020,CA-500,Santa Clara County CoC,Under 18,2676
+2020,CA-500,Santa Clara County CoC,Unknown,12
+2020,CA-501,San Francisco CoC,18-24,1181
+2020,CA-501,San Francisco CoC,25-34,1874
+2020,CA-501,San Francisco CoC,35-44,1838
+2020,CA-501,San Francisco CoC,45-54,1724
+2020,CA-501,San Francisco CoC,55-64,1711
+2020,CA-501,San Francisco CoC,65+,792
+2020,CA-501,San Francisco CoC,Invalid,*
+2020,CA-501,San Francisco CoC,Under 18,2639
+2020,CA-501,San Francisco CoC,Unknown,18
+2020,CA-502,Alameda County CoC,18-24,834
+2020,CA-502,Alameda County CoC,25-34,1327
+2020,CA-502,Alameda County CoC,35-44,1386
+2020,CA-502,Alameda County CoC,45-54,1432
+2020,CA-502,Alameda County CoC,55-64,1649
+2020,CA-502,Alameda County CoC,65+,755
+2020,CA-502,Alameda County CoC,Invalid,*
+2020,CA-502,Alameda County CoC,Under 18,1624
+2020,CA-502,Alameda County CoC,Unknown,*
+2020,CA-503,Sacramento County CoC,18-24,1048
+2020,CA-503,Sacramento County CoC,25-34,1310
+2020,CA-503,Sacramento County CoC,35-44,1277
+2020,CA-503,Sacramento County CoC,45-54,1367
+2020,CA-503,Sacramento County CoC,55-64,1541
+2020,CA-503,Sacramento County CoC,65+,574
+2020,CA-503,Sacramento County CoC,Invalid,*
+2020,CA-503,Sacramento County CoC,Under 18,3076
+2020,CA-503,Sacramento County CoC,Unknown,19
+2020,CA-504,Sonoma County CoC,18-24,264
+2020,CA-504,Sonoma County CoC,25-34,436
+2020,CA-504,Sonoma County CoC,35-44,467
+2020,CA-504,Sonoma County CoC,45-54,550
+2020,CA-504,Sonoma County CoC,55-64,539
+2020,CA-504,Sonoma County CoC,65+,244
+2020,CA-504,Sonoma County CoC,Under 18,551
+2020,CA-504,Sonoma County CoC,Unknown,*
+2020,CA-505,Contra Costa County CoC,18-24,453
+2020,CA-505,Contra Costa County CoC,25-34,1004
+2020,CA-505,Contra Costa County CoC,35-44,1054
+2020,CA-505,Contra Costa County CoC,45-54,980
+2020,CA-505,Contra Costa County CoC,55-64,1171
+2020,CA-505,Contra Costa County CoC,65+,481
+2020,CA-505,Contra Costa County CoC,Invalid,*
+2020,CA-505,Contra Costa County CoC,Under 18,1149
+2020,CA-506,"Monterey, San Benito Counties CoC",18-24,162
+2020,CA-506,"Monterey, San Benito Counties CoC",25-34,329
+2020,CA-506,"Monterey, San Benito Counties CoC",35-44,342
+2020,CA-506,"Monterey, San Benito Counties CoC",45-54,282
+2020,CA-506,"Monterey, San Benito Counties CoC",55-64,312
+2020,CA-506,"Monterey, San Benito Counties CoC",65+,151
+2020,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2020,CA-506,"Monterey, San Benito Counties CoC",Under 18,746
+2020,CA-507,Marin County CoC,18-24,59
+2020,CA-507,Marin County CoC,25-34,143
+2020,CA-507,Marin County CoC,35-44,150
+2020,CA-507,Marin County CoC,45-54,137
+2020,CA-507,Marin County CoC,55-64,163
+2020,CA-507,Marin County CoC,65+,90
+2020,CA-507,Marin County CoC,Under 18,308
+2020,CA-508,Santa Cruz County CoC,18-24,156
+2020,CA-508,Santa Cruz County CoC,25-34,381
+2020,CA-508,Santa Cruz County CoC,35-44,420
+2020,CA-508,Santa Cruz County CoC,45-54,370
+2020,CA-508,Santa Cruz County CoC,55-64,366
+2020,CA-508,Santa Cruz County CoC,65+,229
+2020,CA-508,Santa Cruz County CoC,Under 18,492
+2020,CA-508,Santa Cruz County CoC,Unknown,13
+2020,CA-509,Mendocino County CoC,18-24,69
+2020,CA-509,Mendocino County CoC,25-34,170
+2020,CA-509,Mendocino County CoC,35-44,193
+2020,CA-509,Mendocino County CoC,45-54,199
+2020,CA-509,Mendocino County CoC,55-64,156
+2020,CA-509,Mendocino County CoC,65+,87
+2020,CA-509,Mendocino County CoC,Invalid,*
+2020,CA-509,Mendocino County CoC,Under 18,196
+2020,CA-510,Stanislaus County CoC,18-24,415
+2020,CA-510,Stanislaus County CoC,25-34,749
+2020,CA-510,Stanislaus County CoC,35-44,772
+2020,CA-510,Stanislaus County CoC,45-54,617
+2020,CA-510,Stanislaus County CoC,55-64,636
+2020,CA-510,Stanislaus County CoC,65+,191
+2020,CA-510,Stanislaus County CoC,Under 18,1341
+2020,CA-510,Stanislaus County CoC,Unknown,*
+2020,CA-511,San Joaquin County CoC,18-24,563
+2020,CA-511,San Joaquin County CoC,25-34,1136
+2020,CA-511,San Joaquin County CoC,35-44,867
+2020,CA-511,San Joaquin County CoC,45-54,594
+2020,CA-511,San Joaquin County CoC,55-64,507
+2020,CA-511,San Joaquin County CoC,65+,221
+2020,CA-511,San Joaquin County CoC,Invalid,*
+2020,CA-511,San Joaquin County CoC,Under 18,2862
+2020,CA-511,San Joaquin County CoC,Unknown,*
+2020,CA-512,San Mateo County CoC,18-24,179
+2020,CA-512,San Mateo County CoC,25-34,547
+2020,CA-512,San Mateo County CoC,35-44,491
+2020,CA-512,San Mateo County CoC,45-54,472
+2020,CA-512,San Mateo County CoC,55-64,490
+2020,CA-512,San Mateo County CoC,65+,221
+2020,CA-512,San Mateo County CoC,Invalid,*
+2020,CA-512,San Mateo County CoC,Under 18,974
+2020,CA-512,San Mateo County CoC,Unknown,*
+2020,CA-513,"Kings, Tulare Counties CoC",18-24,298
+2020,CA-513,"Kings, Tulare Counties CoC",25-34,596
+2020,CA-513,"Kings, Tulare Counties CoC",35-44,637
+2020,CA-513,"Kings, Tulare Counties CoC",45-54,487
+2020,CA-513,"Kings, Tulare Counties CoC",55-64,359
+2020,CA-513,"Kings, Tulare Counties CoC",65+,96
+2020,CA-513,"Kings, Tulare Counties CoC",Invalid,*
+2020,CA-513,"Kings, Tulare Counties CoC",Under 18,956
+2020,CA-513,"Kings, Tulare Counties CoC",Unknown,*
+2020,CA-514,"Fresno, Madera Counties CoC",18-24,371
+2020,CA-514,"Fresno, Madera Counties CoC",25-34,715
+2020,CA-514,"Fresno, Madera Counties CoC",35-44,861
+2020,CA-514,"Fresno, Madera Counties CoC",45-54,800
+2020,CA-514,"Fresno, Madera Counties CoC",55-64,718
+2020,CA-514,"Fresno, Madera Counties CoC",65+,282
+2020,CA-514,"Fresno, Madera Counties CoC",Under 18,1286
+2020,CA-514,"Fresno, Madera Counties CoC",Unknown,30
+2020,CA-515,Placer County CoC,18-24,121
+2020,CA-515,Placer County CoC,25-34,310
+2020,CA-515,Placer County CoC,35-44,303
+2020,CA-515,Placer County CoC,45-54,298
+2020,CA-515,Placer County CoC,55-64,254
+2020,CA-515,Placer County CoC,65+,122
+2020,CA-515,Placer County CoC,Invalid,*
+2020,CA-515,Placer County CoC,Under 18,454
+2020,CA-515,Placer County CoC,Unknown,12
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,84
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,249
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,224
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,190
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,273
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,112
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,286
+2020,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,174
+2020,CA-517,Napa County CoC,18-24,112
+2020,CA-517,Napa County CoC,25-34,243
+2020,CA-517,Napa County CoC,35-44,235
+2020,CA-517,Napa County CoC,45-54,244
+2020,CA-517,Napa County CoC,55-64,217
+2020,CA-517,Napa County CoC,65+,109
+2020,CA-517,Napa County CoC,Under 18,205
+2020,CA-517,Napa County CoC,Unknown,*
+2020,CA-518,Solano County CoC,18-24,81
+2020,CA-518,Solano County CoC,25-34,221
+2020,CA-518,Solano County CoC,35-44,265
+2020,CA-518,Solano County CoC,45-54,249
+2020,CA-518,Solano County CoC,55-64,274
+2020,CA-518,Solano County CoC,65+,124
+2020,CA-518,Solano County CoC,Under 18,255
+2020,CA-518,Solano County CoC,Unknown,*
+2020,CA-519,Butte County CoC,18-24,120
+2020,CA-519,Butte County CoC,25-34,312
+2020,CA-519,Butte County CoC,35-44,329
+2020,CA-519,Butte County CoC,45-54,313
+2020,CA-519,Butte County CoC,55-64,299
+2020,CA-519,Butte County CoC,65+,161
+2020,CA-519,Butte County CoC,Under 18,317
+2020,CA-519,Butte County CoC,Unknown,*
+2020,CA-520,Merced County CoC,18-24,212
+2020,CA-520,Merced County CoC,25-34,442
+2020,CA-520,Merced County CoC,35-44,386
+2020,CA-520,Merced County CoC,45-54,263
+2020,CA-520,Merced County CoC,55-64,223
+2020,CA-520,Merced County CoC,65+,67
+2020,CA-520,Merced County CoC,Invalid,*
+2020,CA-520,Merced County CoC,Under 18,1034
+2020,CA-520,Merced County CoC,Unknown,*
+2020,CA-521,Yolo County CoC,18-24,107
+2020,CA-521,Yolo County CoC,25-34,216
+2020,CA-521,Yolo County CoC,35-44,249
+2020,CA-521,Yolo County CoC,45-54,218
+2020,CA-521,Yolo County CoC,55-64,232
+2020,CA-521,Yolo County CoC,65+,111
+2020,CA-521,Yolo County CoC,Under 18,425
+2020,CA-522,Humboldt County CoC,18-24,80
+2020,CA-522,Humboldt County CoC,25-34,241
+2020,CA-522,Humboldt County CoC,35-44,504
+2020,CA-522,Humboldt County CoC,45-54,316
+2020,CA-522,Humboldt County CoC,55-64,260
+2020,CA-522,Humboldt County CoC,65+,143
+2020,CA-522,Humboldt County CoC,Under 18,271
+2020,CA-522,Humboldt County CoC,Unknown,28
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,65
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,108
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,56
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,32
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,30
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,13
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",Invalid,*
+2020,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,230
+2020,CA-524,"Yuba, Sutter Counties CoC",18-24,56
+2020,CA-524,"Yuba, Sutter Counties CoC",25-34,103
+2020,CA-524,"Yuba, Sutter Counties CoC",35-44,93
+2020,CA-524,"Yuba, Sutter Counties CoC",45-54,59
+2020,CA-524,"Yuba, Sutter Counties CoC",55-64,72
+2020,CA-524,"Yuba, Sutter Counties CoC",65+,41
+2020,CA-524,"Yuba, Sutter Counties CoC",Invalid,*
+2020,CA-524,"Yuba, Sutter Counties CoC",Under 18,283
+2020,CA-525,El Dorado County CoC,18-24,31
+2020,CA-525,El Dorado County CoC,25-34,47
+2020,CA-525,El Dorado County CoC,35-44,65
+2020,CA-525,El Dorado County CoC,45-54,66
+2020,CA-525,El Dorado County CoC,55-64,82
+2020,CA-525,El Dorado County CoC,65+,46
+2020,CA-525,El Dorado County CoC,Invalid,*
+2020,CA-525,El Dorado County CoC,Under 18,96
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,45
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,104
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,123
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,98
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,98
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,43
+2020,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,218
+2020,CA-527,Tehama County CoC,18-24,30
+2020,CA-527,Tehama County CoC,25-34,86
+2020,CA-527,Tehama County CoC,35-44,93
+2020,CA-527,Tehama County CoC,45-54,63
+2020,CA-527,Tehama County CoC,55-64,80
+2020,CA-527,Tehama County CoC,65+,34
+2020,CA-527,Tehama County CoC,Invalid,*
+2020,CA-527,Tehama County CoC,Under 18,59
+2020,CA-529,Lake County CoC,18-24,16
+2020,CA-529,Lake County CoC,25-34,31
+2020,CA-529,Lake County CoC,35-44,32
+2020,CA-529,Lake County CoC,45-54,22
+2020,CA-529,Lake County CoC,55-64,43
+2020,CA-529,Lake County CoC,65+,13
+2020,CA-529,Lake County CoC,Under 18,38
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,12
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,36
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,31
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,24
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,33
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,19
+2020,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,48
+2020,CA-531,Nevada County CoC,18-24,32
+2020,CA-531,Nevada County CoC,25-34,107
+2020,CA-531,Nevada County CoC,35-44,103
+2020,CA-531,Nevada County CoC,45-54,116
+2020,CA-531,Nevada County CoC,55-64,118
+2020,CA-531,Nevada County CoC,65+,46
+2020,CA-531,Nevada County CoC,Under 18,27
+2020,CA-531,Nevada County CoC,Unknown,*
+2020,CA-600,Los Angeles County CoC,18-24,6849
+2020,CA-600,Los Angeles County CoC,25-34,14843
+2020,CA-600,Los Angeles County CoC,35-44,14336
+2020,CA-600,Los Angeles County CoC,45-54,13251
+2020,CA-600,Los Angeles County CoC,55-64,12428
+2020,CA-600,Los Angeles County CoC,65+,4853
+2020,CA-600,Los Angeles County CoC,Invalid,24
+2020,CA-600,Los Angeles County CoC,Under 18,14316
+2020,CA-600,Los Angeles County CoC,Unknown,4417
+2020,CA-601,San Diego County CoC,18-24,1608
+2020,CA-601,San Diego County CoC,25-34,3227
+2020,CA-601,San Diego County CoC,35-44,3195
+2020,CA-601,San Diego County CoC,45-54,3294
+2020,CA-601,San Diego County CoC,55-64,3626
+2020,CA-601,San Diego County CoC,65+,1474
+2020,CA-601,San Diego County CoC,Invalid,*
+2020,CA-601,San Diego County CoC,Under 18,3369
+2020,CA-601,San Diego County CoC,Unknown,773
+2020,CA-602,Orange County CoC,18-24,636
+2020,CA-602,Orange County CoC,25-34,1943
+2020,CA-602,Orange County CoC,35-44,1876
+2020,CA-602,Orange County CoC,45-54,1959
+2020,CA-602,Orange County CoC,55-64,2062
+2020,CA-602,Orange County CoC,65+,847
+2020,CA-602,Orange County CoC,Under 18,2644
+2020,CA-602,Orange County CoC,Unknown,60
+2020,CA-603,Santa Barbara County CoC,18-24,225
+2020,CA-603,Santa Barbara County CoC,25-34,435
+2020,CA-603,Santa Barbara County CoC,35-44,491
+2020,CA-603,Santa Barbara County CoC,45-54,461
+2020,CA-603,Santa Barbara County CoC,55-64,573
+2020,CA-603,Santa Barbara County CoC,65+,241
+2020,CA-603,Santa Barbara County CoC,Under 18,694
+2020,CA-604,Kern County CoC,18-24,418
+2020,CA-604,Kern County CoC,25-34,822
+2020,CA-604,Kern County CoC,35-44,802
+2020,CA-604,Kern County CoC,45-54,710
+2020,CA-604,Kern County CoC,55-64,644
+2020,CA-604,Kern County CoC,65+,194
+2020,CA-604,Kern County CoC,Invalid,*
+2020,CA-604,Kern County CoC,Under 18,2015
+2020,CA-606,Long Beach CoC (Los Angeles County),18-24,216
+2020,CA-606,Long Beach CoC (Los Angeles County),25-34,525
+2020,CA-606,Long Beach CoC (Los Angeles County),35-44,529
+2020,CA-606,Long Beach CoC (Los Angeles County),45-54,640
+2020,CA-606,Long Beach CoC (Los Angeles County),55-64,766
+2020,CA-606,Long Beach CoC (Los Angeles County),65+,418
+2020,CA-606,Long Beach CoC (Los Angeles County),Invalid,*
+2020,CA-606,Long Beach CoC (Los Angeles County),Under 18,546
+2020,CA-606,Long Beach CoC (Los Angeles County),Unknown,13
+2020,CA-607,Pasadena CoC (Los Angeles County),18-24,104
+2020,CA-607,Pasadena CoC (Los Angeles County),25-34,179
+2020,CA-607,Pasadena CoC (Los Angeles County),35-44,169
+2020,CA-607,Pasadena CoC (Los Angeles County),45-54,219
+2020,CA-607,Pasadena CoC (Los Angeles County),55-64,289
+2020,CA-607,Pasadena CoC (Los Angeles County),65+,152
+2020,CA-607,Pasadena CoC (Los Angeles County),Under 18,200
+2020,CA-607,Pasadena CoC (Los Angeles County),Unknown,*
+2020,CA-608,Riverside County CoC,18-24,776
+2020,CA-608,Riverside County CoC,25-34,1567
+2020,CA-608,Riverside County CoC,35-44,1451
+2020,CA-608,Riverside County CoC,45-54,1219
+2020,CA-608,Riverside County CoC,55-64,1177
+2020,CA-608,Riverside County CoC,65+,571
+2020,CA-608,Riverside County CoC,Invalid,*
+2020,CA-608,Riverside County CoC,Under 18,2353
+2020,CA-608,Riverside County CoC,Unknown,50
+2020,CA-609,San Bernardino County CoC,18-24,818
+2020,CA-609,San Bernardino County CoC,25-34,1317
+2020,CA-609,San Bernardino County CoC,35-44,1146
+2020,CA-609,San Bernardino County CoC,45-54,886
+2020,CA-609,San Bernardino County CoC,55-64,903
+2020,CA-609,San Bernardino County CoC,65+,356
+2020,CA-609,San Bernardino County CoC,Invalid,*
+2020,CA-609,San Bernardino County CoC,Under 18,3439
+2020,CA-609,San Bernardino County CoC,Unknown,73
+2020,CA-611,Ventura County CoC,18-24,143
+2020,CA-611,Ventura County CoC,25-34,289
+2020,CA-611,Ventura County CoC,35-44,396
+2020,CA-611,Ventura County CoC,45-54,419
+2020,CA-611,Ventura County CoC,55-64,549
+2020,CA-611,Ventura County CoC,65+,262
+2020,CA-611,Ventura County CoC,Invalid,*
+2020,CA-611,Ventura County CoC,Under 18,579
+2020,CA-611,Ventura County CoC,Unknown,*
+2020,CA-612,Glendale CoC (Los Angeles County),18-24,41
+2020,CA-612,Glendale CoC (Los Angeles County),25-34,81
+2020,CA-612,Glendale CoC (Los Angeles County),35-44,68
+2020,CA-612,Glendale CoC (Los Angeles County),45-54,78
+2020,CA-612,Glendale CoC (Los Angeles County),55-64,86
+2020,CA-612,Glendale CoC (Los Angeles County),65+,40
+2020,CA-612,Glendale CoC (Los Angeles County),Invalid,*
+2020,CA-612,Glendale CoC (Los Angeles County),Under 18,164
+2020,CA-612,Glendale CoC (Los Angeles County),Unknown,*
+2020,CA-613,Imperial County CoC,18-24,80
+2020,CA-613,Imperial County CoC,25-34,144
+2020,CA-613,Imperial County CoC,35-44,117
+2020,CA-613,Imperial County CoC,45-54,108
+2020,CA-613,Imperial County CoC,55-64,98
+2020,CA-613,Imperial County CoC,65+,49
+2020,CA-613,Imperial County CoC,Invalid,*
+2020,CA-613,Imperial County CoC,Under 18,379
+2020,CA-613,Imperial County CoC,Unknown,*
+2020,CA-614,San Luis Obispo County CoC,18-24,123
+2020,CA-614,San Luis Obispo County CoC,25-34,252
+2020,CA-614,San Luis Obispo County CoC,35-44,284
+2020,CA-614,San Luis Obispo County CoC,45-54,226
+2020,CA-614,San Luis Obispo County CoC,55-64,221
+2020,CA-614,San Luis Obispo County CoC,65+,121
+2020,CA-614,San Luis Obispo County CoC,Invalid,*
+2020,CA-614,San Luis Obispo County CoC,Under 18,552
+2021,Statewide,California,18-24,20164
+2021,Statewide,California,25-34,42612
+2021,Statewide,California,35-44,42945
+2021,Statewide,California,45-54,38212
+2021,Statewide,California,55-64,39042
+2021,Statewide,California,65+,17257
+2021,Statewide,California,Invalid,73
+2021,Statewide,California,Under 18,55578
+2021,Statewide,California,Unknown,7580
+2021,CA-500,Santa Clara County CoC,18-24,964
+2021,CA-500,Santa Clara County CoC,25-34,1928
+2021,CA-500,Santa Clara County CoC,35-44,2148
+2021,CA-500,Santa Clara County CoC,45-54,1834
+2021,CA-500,Santa Clara County CoC,55-64,1991
+2021,CA-500,Santa Clara County CoC,65+,951
+2021,CA-500,Santa Clara County CoC,Under 18,2932
+2021,CA-500,Santa Clara County CoC,Unknown,*
+2021,CA-501,San Francisco CoC,18-24,1344
+2021,CA-501,San Francisco CoC,25-34,2282
+2021,CA-501,San Francisco CoC,35-44,2384
+2021,CA-501,San Francisco CoC,45-54,2012
+2021,CA-501,San Francisco CoC,55-64,1914
+2021,CA-501,San Francisco CoC,65+,977
+2021,CA-501,San Francisco CoC,Invalid,*
+2021,CA-501,San Francisco CoC,Under 18,3278
+2021,CA-501,San Francisco CoC,Unknown,20
+2021,CA-502,Alameda County CoC,18-24,865
+2021,CA-502,Alameda County CoC,25-34,1529
+2021,CA-502,Alameda County CoC,35-44,1482
+2021,CA-502,Alameda County CoC,45-54,1559
+2021,CA-502,Alameda County CoC,55-64,1848
+2021,CA-502,Alameda County CoC,65+,868
+2021,CA-502,Alameda County CoC,Under 18,1847
+2021,CA-502,Alameda County CoC,Unknown,*
+2021,CA-503,Sacramento County CoC,18-24,1031
+2021,CA-503,Sacramento County CoC,25-34,1348
+2021,CA-503,Sacramento County CoC,35-44,1458
+2021,CA-503,Sacramento County CoC,45-54,1445
+2021,CA-503,Sacramento County CoC,55-64,1702
+2021,CA-503,Sacramento County CoC,65+,671
+2021,CA-503,Sacramento County CoC,Invalid,*
+2021,CA-503,Sacramento County CoC,Under 18,2928
+2021,CA-503,Sacramento County CoC,Unknown,72
+2021,CA-504,Sonoma County CoC,18-24,229
+2021,CA-504,Sonoma County CoC,25-34,360
+2021,CA-504,Sonoma County CoC,35-44,386
+2021,CA-504,Sonoma County CoC,45-54,436
+2021,CA-504,Sonoma County CoC,55-64,471
+2021,CA-504,Sonoma County CoC,65+,228
+2021,CA-504,Sonoma County CoC,Under 18,448
+2021,CA-505,Contra Costa County CoC,18-24,486
+2021,CA-505,Contra Costa County CoC,25-34,894
+2021,CA-505,Contra Costa County CoC,35-44,933
+2021,CA-505,Contra Costa County CoC,45-54,879
+2021,CA-505,Contra Costa County CoC,55-64,994
+2021,CA-505,Contra Costa County CoC,65+,439
+2021,CA-505,Contra Costa County CoC,Under 18,1245
+2021,CA-506,"Monterey, San Benito Counties CoC",18-24,194
+2021,CA-506,"Monterey, San Benito Counties CoC",25-34,422
+2021,CA-506,"Monterey, San Benito Counties CoC",35-44,436
+2021,CA-506,"Monterey, San Benito Counties CoC",45-54,309
+2021,CA-506,"Monterey, San Benito Counties CoC",55-64,361
+2021,CA-506,"Monterey, San Benito Counties CoC",65+,191
+2021,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2021,CA-506,"Monterey, San Benito Counties CoC",Under 18,705
+2021,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2021,CA-507,Marin County CoC,18-24,107
+2021,CA-507,Marin County CoC,25-34,230
+2021,CA-507,Marin County CoC,35-44,226
+2021,CA-507,Marin County CoC,45-54,255
+2021,CA-507,Marin County CoC,55-64,290
+2021,CA-507,Marin County CoC,65+,165
+2021,CA-507,Marin County CoC,Under 18,331
+2021,CA-507,Marin County CoC,Unknown,172
+2021,CA-508,Santa Cruz County CoC,18-24,160
+2021,CA-508,Santa Cruz County CoC,25-34,323
+2021,CA-508,Santa Cruz County CoC,35-44,414
+2021,CA-508,Santa Cruz County CoC,45-54,335
+2021,CA-508,Santa Cruz County CoC,55-64,381
+2021,CA-508,Santa Cruz County CoC,65+,253
+2021,CA-508,Santa Cruz County CoC,Invalid,*
+2021,CA-508,Santa Cruz County CoC,Under 18,554
+2021,CA-508,Santa Cruz County CoC,Unknown,*
+2021,CA-509,Mendocino County CoC,18-24,75
+2021,CA-509,Mendocino County CoC,25-34,227
+2021,CA-509,Mendocino County CoC,35-44,263
+2021,CA-509,Mendocino County CoC,45-54,225
+2021,CA-509,Mendocino County CoC,55-64,174
+2021,CA-509,Mendocino County CoC,65+,125
+2021,CA-509,Mendocino County CoC,Under 18,296
+2021,CA-510,Stanislaus County CoC,18-24,441
+2021,CA-510,Stanislaus County CoC,25-34,803
+2021,CA-510,Stanislaus County CoC,35-44,802
+2021,CA-510,Stanislaus County CoC,45-54,682
+2021,CA-510,Stanislaus County CoC,55-64,691
+2021,CA-510,Stanislaus County CoC,65+,250
+2021,CA-510,Stanislaus County CoC,Under 18,1131
+2021,CA-510,Stanislaus County CoC,Unknown,18
+2021,CA-511,San Joaquin County CoC,18-24,495
+2021,CA-511,San Joaquin County CoC,25-34,1004
+2021,CA-511,San Joaquin County CoC,35-44,817
+2021,CA-511,San Joaquin County CoC,45-54,567
+2021,CA-511,San Joaquin County CoC,55-64,544
+2021,CA-511,San Joaquin County CoC,65+,241
+2021,CA-511,San Joaquin County CoC,Under 18,2314
+2021,CA-511,San Joaquin County CoC,Unknown,39
+2021,CA-512,San Mateo County CoC,18-24,184
+2021,CA-512,San Mateo County CoC,25-34,499
+2021,CA-512,San Mateo County CoC,35-44,513
+2021,CA-512,San Mateo County CoC,45-54,460
+2021,CA-512,San Mateo County CoC,55-64,569
+2021,CA-512,San Mateo County CoC,65+,306
+2021,CA-512,San Mateo County CoC,Under 18,899
+2021,CA-512,San Mateo County CoC,Unknown,14
+2021,CA-513,"Kings, Tulare Counties CoC",18-24,312
+2021,CA-513,"Kings, Tulare Counties CoC",25-34,577
+2021,CA-513,"Kings, Tulare Counties CoC",35-44,675
+2021,CA-513,"Kings, Tulare Counties CoC",45-54,516
+2021,CA-513,"Kings, Tulare Counties CoC",55-64,429
+2021,CA-513,"Kings, Tulare Counties CoC",65+,137
+2021,CA-513,"Kings, Tulare Counties CoC",Under 18,966
+2021,CA-514,"Fresno, Madera Counties CoC",18-24,465
+2021,CA-514,"Fresno, Madera Counties CoC",25-34,1150
+2021,CA-514,"Fresno, Madera Counties CoC",35-44,1325
+2021,CA-514,"Fresno, Madera Counties CoC",45-54,1283
+2021,CA-514,"Fresno, Madera Counties CoC",55-64,1084
+2021,CA-514,"Fresno, Madera Counties CoC",65+,380
+2021,CA-514,"Fresno, Madera Counties CoC",Invalid,*
+2021,CA-514,"Fresno, Madera Counties CoC",Under 18,1227
+2021,CA-514,"Fresno, Madera Counties CoC",Unknown,38
+2021,CA-515,Placer County CoC,18-24,154
+2021,CA-515,Placer County CoC,25-34,373
+2021,CA-515,Placer County CoC,35-44,374
+2021,CA-515,Placer County CoC,45-54,353
+2021,CA-515,Placer County CoC,55-64,327
+2021,CA-515,Placer County CoC,65+,146
+2021,CA-515,Placer County CoC,Invalid,*
+2021,CA-515,Placer County CoC,Under 18,477
+2021,CA-515,Placer County CoC,Unknown,*
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,127
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,301
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,338
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,252
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,317
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,160
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,409
+2021,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,34
+2021,CA-517,Napa County CoC,18-24,49
+2021,CA-517,Napa County CoC,25-34,109
+2021,CA-517,Napa County CoC,35-44,143
+2021,CA-517,Napa County CoC,45-54,151
+2021,CA-517,Napa County CoC,55-64,147
+2021,CA-517,Napa County CoC,65+,63
+2021,CA-517,Napa County CoC,Under 18,87
+2021,CA-518,Solano County CoC,18-24,94
+2021,CA-518,Solano County CoC,25-34,295
+2021,CA-518,Solano County CoC,35-44,267
+2021,CA-518,Solano County CoC,45-54,248
+2021,CA-518,Solano County CoC,55-64,329
+2021,CA-518,Solano County CoC,65+,177
+2021,CA-518,Solano County CoC,Under 18,247
+2021,CA-518,Solano County CoC,Unknown,*
+2021,CA-519,Butte County CoC,18-24,154
+2021,CA-519,Butte County CoC,25-34,327
+2021,CA-519,Butte County CoC,35-44,365
+2021,CA-519,Butte County CoC,45-54,325
+2021,CA-519,Butte County CoC,55-64,316
+2021,CA-519,Butte County CoC,65+,192
+2021,CA-519,Butte County CoC,Under 18,361
+2021,CA-519,Butte County CoC,Unknown,13
+2021,CA-520,Merced County CoC,18-24,174
+2021,CA-520,Merced County CoC,25-34,434
+2021,CA-520,Merced County CoC,35-44,435
+2021,CA-520,Merced County CoC,45-54,332
+2021,CA-520,Merced County CoC,55-64,321
+2021,CA-520,Merced County CoC,65+,116
+2021,CA-520,Merced County CoC,Invalid,*
+2021,CA-520,Merced County CoC,Under 18,513
+2021,CA-520,Merced County CoC,Unknown,*
+2021,CA-521,Yolo County CoC,18-24,97
+2021,CA-521,Yolo County CoC,25-34,215
+2021,CA-521,Yolo County CoC,35-44,221
+2021,CA-521,Yolo County CoC,45-54,184
+2021,CA-521,Yolo County CoC,55-64,206
+2021,CA-521,Yolo County CoC,65+,98
+2021,CA-521,Yolo County CoC,Under 18,407
+2021,CA-521,Yolo County CoC,Unknown,*
+2021,CA-522,Humboldt County CoC,18-24,139
+2021,CA-522,Humboldt County CoC,25-34,207
+2021,CA-522,Humboldt County CoC,35-44,384
+2021,CA-522,Humboldt County CoC,45-54,285
+2021,CA-522,Humboldt County CoC,55-64,269
+2021,CA-522,Humboldt County CoC,65+,136
+2021,CA-522,Humboldt County CoC,Invalid,*
+2021,CA-522,Humboldt County CoC,Under 18,248
+2021,CA-522,Humboldt County CoC,Unknown,29
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,72
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,118
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,104
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,81
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,67
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,35
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",Invalid,*
+2021,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,240
+2021,CA-524,"Yuba, Sutter Counties CoC",18-24,158
+2021,CA-524,"Yuba, Sutter Counties CoC",25-34,341
+2021,CA-524,"Yuba, Sutter Counties CoC",35-44,293
+2021,CA-524,"Yuba, Sutter Counties CoC",45-54,241
+2021,CA-524,"Yuba, Sutter Counties CoC",55-64,278
+2021,CA-524,"Yuba, Sutter Counties CoC",65+,141
+2021,CA-524,"Yuba, Sutter Counties CoC",Invalid,*
+2021,CA-524,"Yuba, Sutter Counties CoC",Under 18,719
+2021,CA-525,El Dorado County CoC,18-24,25
+2021,CA-525,El Dorado County CoC,25-34,40
+2021,CA-525,El Dorado County CoC,35-44,61
+2021,CA-525,El Dorado County CoC,45-54,62
+2021,CA-525,El Dorado County CoC,55-64,82
+2021,CA-525,El Dorado County CoC,65+,50
+2021,CA-525,El Dorado County CoC,Invalid,*
+2021,CA-525,El Dorado County CoC,Under 18,97
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,51
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,125
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,99
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,110
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,108
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,54
+2021,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,191
+2021,CA-527,Tehama County CoC,18-24,22
+2021,CA-527,Tehama County CoC,25-34,41
+2021,CA-527,Tehama County CoC,35-44,52
+2021,CA-527,Tehama County CoC,45-54,29
+2021,CA-527,Tehama County CoC,55-64,34
+2021,CA-527,Tehama County CoC,65+,18
+2021,CA-527,Tehama County CoC,Under 18,83
+2021,CA-527,Tehama County CoC,Unknown,15
+2021,CA-529,Lake County CoC,18-24,25
+2021,CA-529,Lake County CoC,25-34,87
+2021,CA-529,Lake County CoC,35-44,66
+2021,CA-529,Lake County CoC,45-54,49
+2021,CA-529,Lake County CoC,55-64,63
+2021,CA-529,Lake County CoC,65+,34
+2021,CA-529,Lake County CoC,Under 18,65
+2021,CA-529,Lake County CoC,Unknown,*
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,17
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,37
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,33
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,26
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,36
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,13
+2021,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,61
+2021,CA-531,Nevada County CoC,18-24,49
+2021,CA-531,Nevada County CoC,25-34,122
+2021,CA-531,Nevada County CoC,35-44,126
+2021,CA-531,Nevada County CoC,45-54,114
+2021,CA-531,Nevada County CoC,55-64,142
+2021,CA-531,Nevada County CoC,65+,66
+2021,CA-531,Nevada County CoC,Under 18,78
+2021,CA-531,Nevada County CoC,Unknown,34
+2021,CA-600,Los Angeles County CoC,18-24,6222
+2021,CA-600,Los Angeles County CoC,25-34,15057
+2021,CA-600,Los Angeles County CoC,35-44,14971
+2021,CA-600,Los Angeles County CoC,45-54,13147
+2021,CA-600,Los Angeles County CoC,55-64,12508
+2021,CA-600,Los Angeles County CoC,65+,5117
+2021,CA-600,Los Angeles County CoC,Invalid,19
+2021,CA-600,Los Angeles County CoC,Under 18,12812
+2021,CA-600,Los Angeles County CoC,Unknown,3345
+2021,CA-601,San Diego County CoC,18-24,1867
+2021,CA-601,San Diego County CoC,25-34,3882
+2021,CA-601,San Diego County CoC,35-44,3628
+2021,CA-601,San Diego County CoC,45-54,3524
+2021,CA-601,San Diego County CoC,55-64,3732
+2021,CA-601,San Diego County CoC,65+,1517
+2021,CA-601,San Diego County CoC,Invalid,15
+2021,CA-601,San Diego County CoC,Under 18,4399
+2021,CA-601,San Diego County CoC,Unknown,364
+2021,CA-602,Orange County CoC,18-24,810
+2021,CA-602,Orange County CoC,25-34,2039
+2021,CA-602,Orange County CoC,35-44,2032
+2021,CA-602,Orange County CoC,45-54,1932
+2021,CA-602,Orange County CoC,55-64,2080
+2021,CA-602,Orange County CoC,65+,910
+2021,CA-602,Orange County CoC,Under 18,2762
+2021,CA-602,Orange County CoC,Unknown,3160
+2021,CA-603,Santa Barbara County CoC,18-24,263
+2021,CA-603,Santa Barbara County CoC,25-34,560
+2021,CA-603,Santa Barbara County CoC,35-44,633
+2021,CA-603,Santa Barbara County CoC,45-54,539
+2021,CA-603,Santa Barbara County CoC,55-64,628
+2021,CA-603,Santa Barbara County CoC,65+,275
+2021,CA-603,Santa Barbara County CoC,Under 18,858
+2021,CA-604,Kern County CoC,18-24,606
+2021,CA-604,Kern County CoC,25-34,1223
+2021,CA-604,Kern County CoC,35-44,1217
+2021,CA-604,Kern County CoC,45-54,1029
+2021,CA-604,Kern County CoC,55-64,913
+2021,CA-604,Kern County CoC,65+,294
+2021,CA-604,Kern County CoC,Invalid,*
+2021,CA-604,Kern County CoC,Under 18,2150
+2021,CA-606,Long Beach CoC (Los Angeles County),18-24,192
+2021,CA-606,Long Beach CoC (Los Angeles County),25-34,369
+2021,CA-606,Long Beach CoC (Los Angeles County),35-44,432
+2021,CA-606,Long Beach CoC (Los Angeles County),45-54,442
+2021,CA-606,Long Beach CoC (Los Angeles County),55-64,604
+2021,CA-606,Long Beach CoC (Los Angeles County),65+,343
+2021,CA-606,Long Beach CoC (Los Angeles County),Invalid,*
+2021,CA-606,Long Beach CoC (Los Angeles County),Under 18,459
+2021,CA-606,Long Beach CoC (Los Angeles County),Unknown,57
+2021,CA-607,Pasadena CoC (Los Angeles County),18-24,99
+2021,CA-607,Pasadena CoC (Los Angeles County),25-34,119
+2021,CA-607,Pasadena CoC (Los Angeles County),35-44,117
+2021,CA-607,Pasadena CoC (Los Angeles County),45-54,158
+2021,CA-607,Pasadena CoC (Los Angeles County),55-64,222
+2021,CA-607,Pasadena CoC (Los Angeles County),65+,108
+2021,CA-607,Pasadena CoC (Los Angeles County),Under 18,165
+2021,CA-607,Pasadena CoC (Los Angeles County),Unknown,39
+2021,CA-608,Riverside County CoC,18-24,638
+2021,CA-608,Riverside County CoC,25-34,1438
+2021,CA-608,Riverside County CoC,35-44,1336
+2021,CA-608,Riverside County CoC,45-54,1105
+2021,CA-608,Riverside County CoC,55-64,1090
+2021,CA-608,Riverside County CoC,65+,530
+2021,CA-608,Riverside County CoC,Under 18,2497
+2021,CA-608,Riverside County CoC,Unknown,30
+2021,CA-609,San Bernardino County CoC,18-24,673
+2021,CA-609,San Bernardino County CoC,25-34,1276
+2021,CA-609,San Bernardino County CoC,35-44,1103
+2021,CA-609,San Bernardino County CoC,45-54,817
+2021,CA-609,San Bernardino County CoC,55-64,877
+2021,CA-609,San Bernardino County CoC,65+,372
+2021,CA-609,San Bernardino County CoC,Under 18,2999
+2021,CA-609,San Bernardino County CoC,Unknown,*
+2021,CA-611,Ventura County CoC,18-24,131
+2021,CA-611,Ventura County CoC,25-34,309
+2021,CA-611,Ventura County CoC,35-44,400
+2021,CA-611,Ventura County CoC,45-54,451
+2021,CA-611,Ventura County CoC,55-64,570
+2021,CA-611,Ventura County CoC,65+,310
+2021,CA-611,Ventura County CoC,Invalid,*
+2021,CA-611,Ventura County CoC,Under 18,455
+2021,CA-611,Ventura County CoC,Unknown,*
+2021,CA-612,Glendale CoC (Los Angeles County),18-24,40
+2021,CA-612,Glendale CoC (Los Angeles County),25-34,84
+2021,CA-612,Glendale CoC (Los Angeles County),35-44,78
+2021,CA-612,Glendale CoC (Los Angeles County),45-54,80
+2021,CA-612,Glendale CoC (Los Angeles County),55-64,95
+2021,CA-612,Glendale CoC (Los Angeles County),65+,53
+2021,CA-612,Glendale CoC (Los Angeles County),Under 18,131
+2021,CA-613,Imperial County CoC,18-24,140
+2021,CA-613,Imperial County CoC,25-34,254
+2021,CA-613,Imperial County CoC,35-44,184
+2021,CA-613,Imperial County CoC,45-54,119
+2021,CA-613,Imperial County CoC,55-64,137
+2021,CA-613,Imperial County CoC,65+,91
+2021,CA-613,Imperial County CoC,Invalid,*
+2021,CA-613,Imperial County CoC,Under 18,685
+2021,CA-613,Imperial County CoC,Unknown,31
+2021,CA-614,San Luis Obispo County CoC,18-24,191
+2021,CA-614,San Luis Obispo County CoC,25-34,384
+2021,CA-614,San Luis Obispo County CoC,35-44,397
+2021,CA-614,San Luis Obispo County CoC,45-54,296
+2021,CA-614,San Luis Obispo County CoC,55-64,275
+2021,CA-614,San Luis Obispo County CoC,65+,154
+2021,CA-614,San Luis Obispo County CoC,Invalid,*
+2021,CA-614,San Luis Obispo County CoC,Under 18,634
+2022,Statewide,California,18-24,23855
+2022,Statewide,California,25-34,51427
+2022,Statewide,California,35-44,53141
+2022,Statewide,California,45-54,43164
+2022,Statewide,California,55-64,42377
+2022,Statewide,California,65+,19280
+2022,Statewide,California,Invalid,79
+2022,Statewide,California,Under 18,64588
+2022,Statewide,California,Unknown,7159
+2022,CA-500,Santa Clara County CoC,18-24,1060
+2022,CA-500,Santa Clara County CoC,25-34,2286
+2022,CA-500,Santa Clara County CoC,35-44,2401
+2022,CA-500,Santa Clara County CoC,45-54,1911
+2022,CA-500,Santa Clara County CoC,55-64,1910
+2022,CA-500,Santa Clara County CoC,65+,901
+2022,CA-500,Santa Clara County CoC,Invalid,*
+2022,CA-500,Santa Clara County CoC,Under 18,3767
+2022,CA-500,Santa Clara County CoC,Unknown,13
+2022,CA-501,San Francisco CoC,18-24,1680
+2022,CA-501,San Francisco CoC,25-34,3555
+2022,CA-501,San Francisco CoC,35-44,3567
+2022,CA-501,San Francisco CoC,45-54,2668
+2022,CA-501,San Francisco CoC,55-64,2189
+2022,CA-501,San Francisco CoC,65+,1000
+2022,CA-501,San Francisco CoC,Invalid,12
+2022,CA-501,San Francisco CoC,Under 18,3793
+2022,CA-501,San Francisco CoC,Unknown,21
+2022,CA-502,Alameda County CoC,18-24,961
+2022,CA-502,Alameda County CoC,25-34,1976
+2022,CA-502,Alameda County CoC,35-44,2016
+2022,CA-502,Alameda County CoC,45-54,1891
+2022,CA-502,Alameda County CoC,55-64,2072
+2022,CA-502,Alameda County CoC,65+,975
+2022,CA-502,Alameda County CoC,Under 18,1926
+2022,CA-502,Alameda County CoC,Unknown,*
+2022,CA-503,Sacramento County CoC,18-24,1172
+2022,CA-503,Sacramento County CoC,25-34,1589
+2022,CA-503,Sacramento County CoC,35-44,1760
+2022,CA-503,Sacramento County CoC,45-54,1548
+2022,CA-503,Sacramento County CoC,55-64,1596
+2022,CA-503,Sacramento County CoC,65+,663
+2022,CA-503,Sacramento County CoC,Invalid,*
+2022,CA-503,Sacramento County CoC,Under 18,3469
+2022,CA-503,Sacramento County CoC,Unknown,20
+2022,CA-504,Sonoma County CoC,18-24,183
+2022,CA-504,Sonoma County CoC,25-34,317
+2022,CA-504,Sonoma County CoC,35-44,404
+2022,CA-504,Sonoma County CoC,45-54,404
+2022,CA-504,Sonoma County CoC,55-64,431
+2022,CA-504,Sonoma County CoC,65+,225
+2022,CA-504,Sonoma County CoC,Under 18,449
+2022,CA-505,Contra Costa County CoC,18-24,517
+2022,CA-505,Contra Costa County CoC,25-34,980
+2022,CA-505,Contra Costa County CoC,35-44,1082
+2022,CA-505,Contra Costa County CoC,45-54,944
+2022,CA-505,Contra Costa County CoC,55-64,1039
+2022,CA-505,Contra Costa County CoC,65+,499
+2022,CA-505,Contra Costa County CoC,Under 18,1263
+2022,CA-506,"Monterey, San Benito Counties CoC",18-24,234
+2022,CA-506,"Monterey, San Benito Counties CoC",25-34,464
+2022,CA-506,"Monterey, San Benito Counties CoC",35-44,496
+2022,CA-506,"Monterey, San Benito Counties CoC",45-54,370
+2022,CA-506,"Monterey, San Benito Counties CoC",55-64,407
+2022,CA-506,"Monterey, San Benito Counties CoC",65+,235
+2022,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2022,CA-506,"Monterey, San Benito Counties CoC",Under 18,768
+2022,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2022,CA-507,Marin County CoC,18-24,107
+2022,CA-507,Marin County CoC,25-34,269
+2022,CA-507,Marin County CoC,35-44,283
+2022,CA-507,Marin County CoC,45-54,267
+2022,CA-507,Marin County CoC,55-64,285
+2022,CA-507,Marin County CoC,65+,179
+2022,CA-507,Marin County CoC,Invalid,*
+2022,CA-507,Marin County CoC,Under 18,403
+2022,CA-507,Marin County CoC,Unknown,18
+2022,CA-508,Santa Cruz County CoC,18-24,129
+2022,CA-508,Santa Cruz County CoC,25-34,203
+2022,CA-508,Santa Cruz County CoC,35-44,261
+2022,CA-508,Santa Cruz County CoC,45-54,224
+2022,CA-508,Santa Cruz County CoC,55-64,258
+2022,CA-508,Santa Cruz County CoC,65+,216
+2022,CA-508,Santa Cruz County CoC,Invalid,*
+2022,CA-508,Santa Cruz County CoC,Under 18,550
+2022,CA-509,Mendocino County CoC,18-24,98
+2022,CA-509,Mendocino County CoC,25-34,269
+2022,CA-509,Mendocino County CoC,35-44,327
+2022,CA-509,Mendocino County CoC,45-54,276
+2022,CA-509,Mendocino County CoC,55-64,220
+2022,CA-509,Mendocino County CoC,65+,133
+2022,CA-509,Mendocino County CoC,Invalid,*
+2022,CA-509,Mendocino County CoC,Under 18,394
+2022,CA-509,Mendocino County CoC,Unknown,*
+2022,CA-510,Stanislaus County CoC,18-24,502
+2022,CA-510,Stanislaus County CoC,25-34,1058
+2022,CA-510,Stanislaus County CoC,35-44,1116
+2022,CA-510,Stanislaus County CoC,45-54,829
+2022,CA-510,Stanislaus County CoC,55-64,808
+2022,CA-510,Stanislaus County CoC,65+,299
+2022,CA-510,Stanislaus County CoC,Under 18,1449
+2022,CA-510,Stanislaus County CoC,Unknown,14
+2022,CA-511,San Joaquin County CoC,18-24,694
+2022,CA-511,San Joaquin County CoC,25-34,1403
+2022,CA-511,San Joaquin County CoC,35-44,1119
+2022,CA-511,San Joaquin County CoC,45-54,673
+2022,CA-511,San Joaquin County CoC,55-64,669
+2022,CA-511,San Joaquin County CoC,65+,311
+2022,CA-511,San Joaquin County CoC,Under 18,3610
+2022,CA-511,San Joaquin County CoC,Unknown,41
+2022,CA-512,San Mateo County CoC,18-24,233
+2022,CA-512,San Mateo County CoC,25-34,611
+2022,CA-512,San Mateo County CoC,35-44,575
+2022,CA-512,San Mateo County CoC,45-54,518
+2022,CA-512,San Mateo County CoC,55-64,575
+2022,CA-512,San Mateo County CoC,65+,326
+2022,CA-512,San Mateo County CoC,Under 18,999
+2022,CA-512,San Mateo County CoC,Unknown,29
+2022,CA-513,"Kings, Tulare Counties CoC",18-24,344
+2022,CA-513,"Kings, Tulare Counties CoC",25-34,717
+2022,CA-513,"Kings, Tulare Counties CoC",35-44,788
+2022,CA-513,"Kings, Tulare Counties CoC",45-54,583
+2022,CA-513,"Kings, Tulare Counties CoC",55-64,450
+2022,CA-513,"Kings, Tulare Counties CoC",65+,156
+2022,CA-513,"Kings, Tulare Counties CoC",Under 18,1324
+2022,CA-514,"Fresno, Madera Counties CoC",18-24,565
+2022,CA-514,"Fresno, Madera Counties CoC",25-34,1453
+2022,CA-514,"Fresno, Madera Counties CoC",35-44,1908
+2022,CA-514,"Fresno, Madera Counties CoC",45-54,1663
+2022,CA-514,"Fresno, Madera Counties CoC",55-64,1395
+2022,CA-514,"Fresno, Madera Counties CoC",65+,474
+2022,CA-514,"Fresno, Madera Counties CoC",Invalid,*
+2022,CA-514,"Fresno, Madera Counties CoC",Under 18,1181
+2022,CA-514,"Fresno, Madera Counties CoC",Unknown,50
+2022,CA-515,Placer County CoC,18-24,205
+2022,CA-515,Placer County CoC,25-34,462
+2022,CA-515,Placer County CoC,35-44,505
+2022,CA-515,Placer County CoC,45-54,399
+2022,CA-515,Placer County CoC,55-64,362
+2022,CA-515,Placer County CoC,65+,155
+2022,CA-515,Placer County CoC,Under 18,601
+2022,CA-515,Placer County CoC,Unknown,*
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,149
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,371
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,411
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,281
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,339
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,191
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,591
+2022,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,11
+2022,CA-517,Napa County CoC,18-24,61
+2022,CA-517,Napa County CoC,25-34,143
+2022,CA-517,Napa County CoC,35-44,191
+2022,CA-517,Napa County CoC,45-54,151
+2022,CA-517,Napa County CoC,55-64,143
+2022,CA-517,Napa County CoC,65+,70
+2022,CA-517,Napa County CoC,Under 18,183
+2022,CA-518,Solano County CoC,18-24,98
+2022,CA-518,Solano County CoC,25-34,225
+2022,CA-518,Solano County CoC,35-44,237
+2022,CA-518,Solano County CoC,45-54,184
+2022,CA-518,Solano County CoC,55-64,280
+2022,CA-518,Solano County CoC,65+,143
+2022,CA-518,Solano County CoC,Invalid,*
+2022,CA-518,Solano County CoC,Under 18,215
+2022,CA-518,Solano County CoC,Unknown,*
+2022,CA-519,Butte County CoC,18-24,183
+2022,CA-519,Butte County CoC,25-34,410
+2022,CA-519,Butte County CoC,35-44,487
+2022,CA-519,Butte County CoC,45-54,432
+2022,CA-519,Butte County CoC,55-64,419
+2022,CA-519,Butte County CoC,65+,239
+2022,CA-519,Butte County CoC,Under 18,304
+2022,CA-519,Butte County CoC,Unknown,55
+2022,CA-520,Merced County CoC,18-24,221
+2022,CA-520,Merced County CoC,25-34,487
+2022,CA-520,Merced County CoC,35-44,536
+2022,CA-520,Merced County CoC,45-54,328
+2022,CA-520,Merced County CoC,55-64,303
+2022,CA-520,Merced County CoC,65+,118
+2022,CA-520,Merced County CoC,Invalid,*
+2022,CA-520,Merced County CoC,Under 18,978
+2022,CA-520,Merced County CoC,Unknown,*
+2022,CA-521,Yolo County CoC,18-24,97
+2022,CA-521,Yolo County CoC,25-34,228
+2022,CA-521,Yolo County CoC,35-44,250
+2022,CA-521,Yolo County CoC,45-54,168
+2022,CA-521,Yolo County CoC,55-64,197
+2022,CA-521,Yolo County CoC,65+,85
+2022,CA-521,Yolo County CoC,Under 18,469
+2022,CA-522,Humboldt County CoC,18-24,176
+2022,CA-522,Humboldt County CoC,25-34,326
+2022,CA-522,Humboldt County CoC,35-44,507
+2022,CA-522,Humboldt County CoC,45-54,398
+2022,CA-522,Humboldt County CoC,55-64,385
+2022,CA-522,Humboldt County CoC,65+,169
+2022,CA-522,Humboldt County CoC,Invalid,*
+2022,CA-522,Humboldt County CoC,Under 18,354
+2022,CA-522,Humboldt County CoC,Unknown,28
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,65
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,104
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,125
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,93
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,71
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,23
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,215
+2022,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,*
+2022,CA-524,"Yuba, Sutter Counties CoC",18-24,155
+2022,CA-524,"Yuba, Sutter Counties CoC",25-34,395
+2022,CA-524,"Yuba, Sutter Counties CoC",35-44,450
+2022,CA-524,"Yuba, Sutter Counties CoC",45-54,292
+2022,CA-524,"Yuba, Sutter Counties CoC",55-64,305
+2022,CA-524,"Yuba, Sutter Counties CoC",65+,133
+2022,CA-524,"Yuba, Sutter Counties CoC",Invalid,*
+2022,CA-524,"Yuba, Sutter Counties CoC",Under 18,908
+2022,CA-525,El Dorado County CoC,18-24,35
+2022,CA-525,El Dorado County CoC,25-34,56
+2022,CA-525,El Dorado County CoC,35-44,63
+2022,CA-525,El Dorado County CoC,45-54,56
+2022,CA-525,El Dorado County CoC,55-64,76
+2022,CA-525,El Dorado County CoC,65+,37
+2022,CA-525,El Dorado County CoC,Invalid,*
+2022,CA-525,El Dorado County CoC,Under 18,151
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,76
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,147
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,167
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,129
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,139
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,82
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,269
+2022,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Unknown,*
+2022,CA-527,Tehama County CoC,18-24,44
+2022,CA-527,Tehama County CoC,25-34,98
+2022,CA-527,Tehama County CoC,35-44,110
+2022,CA-527,Tehama County CoC,45-54,90
+2022,CA-527,Tehama County CoC,55-64,70
+2022,CA-527,Tehama County CoC,65+,29
+2022,CA-527,Tehama County CoC,Under 18,222
+2022,CA-527,Tehama County CoC,Unknown,44
+2022,CA-529,Lake County CoC,18-24,24
+2022,CA-529,Lake County CoC,25-34,68
+2022,CA-529,Lake County CoC,35-44,63
+2022,CA-529,Lake County CoC,45-54,45
+2022,CA-529,Lake County CoC,55-64,59
+2022,CA-529,Lake County CoC,65+,30
+2022,CA-529,Lake County CoC,Under 18,51
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,14
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,28
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,38
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,18
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,26
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,19
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",Invalid,*
+2022,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,63
+2022,CA-531,Nevada County CoC,18-24,83
+2022,CA-531,Nevada County CoC,25-34,170
+2022,CA-531,Nevada County CoC,35-44,187
+2022,CA-531,Nevada County CoC,45-54,166
+2022,CA-531,Nevada County CoC,55-64,172
+2022,CA-531,Nevada County CoC,65+,112
+2022,CA-531,Nevada County CoC,Invalid,*
+2022,CA-531,Nevada County CoC,Under 18,150
+2022,CA-531,Nevada County CoC,Unknown,25
+2022,CA-600,Los Angeles County CoC,18-24,6715
+2022,CA-600,Los Angeles County CoC,25-34,17076
+2022,CA-600,Los Angeles County CoC,35-44,17236
+2022,CA-600,Los Angeles County CoC,45-54,13936
+2022,CA-600,Los Angeles County CoC,55-64,13164
+2022,CA-600,Los Angeles County CoC,65+,5594
+2022,CA-600,Los Angeles County CoC,Invalid,20
+2022,CA-600,Los Angeles County CoC,Under 18,13260
+2022,CA-600,Los Angeles County CoC,Unknown,2699
+2022,CA-601,San Diego County CoC,18-24,1951
+2022,CA-601,San Diego County CoC,25-34,4154
+2022,CA-601,San Diego County CoC,35-44,4331
+2022,CA-601,San Diego County CoC,45-54,3792
+2022,CA-601,San Diego County CoC,55-64,3998
+2022,CA-601,San Diego County CoC,65+,1737
+2022,CA-601,San Diego County CoC,Invalid,*
+2022,CA-601,San Diego County CoC,Under 18,5168
+2022,CA-601,San Diego County CoC,Unknown,206
+2022,CA-602,Orange County CoC,18-24,1814
+2022,CA-602,Orange County CoC,25-34,3140
+2022,CA-602,Orange County CoC,35-44,3039
+2022,CA-602,Orange County CoC,45-54,2552
+2022,CA-602,Orange County CoC,55-64,2524
+2022,CA-602,Orange County CoC,65+,1253
+2022,CA-602,Orange County CoC,Invalid,*
+2022,CA-602,Orange County CoC,Under 18,3485
+2022,CA-602,Orange County CoC,Unknown,3638
+2022,CA-603,Santa Barbara County CoC,18-24,317
+2022,CA-603,Santa Barbara County CoC,25-34,713
+2022,CA-603,Santa Barbara County CoC,35-44,730
+2022,CA-603,Santa Barbara County CoC,45-54,596
+2022,CA-603,Santa Barbara County CoC,55-64,666
+2022,CA-603,Santa Barbara County CoC,65+,352
+2022,CA-603,Santa Barbara County CoC,Invalid,*
+2022,CA-603,Santa Barbara County CoC,Under 18,1083
+2022,CA-603,Santa Barbara County CoC,Unknown,*
+2022,CA-604,Kern County CoC,18-24,747
+2022,CA-604,Kern County CoC,25-34,1460
+2022,CA-604,Kern County CoC,35-44,1502
+2022,CA-604,Kern County CoC,45-54,1151
+2022,CA-604,Kern County CoC,55-64,994
+2022,CA-604,Kern County CoC,65+,337
+2022,CA-604,Kern County CoC,Invalid,*
+2022,CA-604,Kern County CoC,Under 18,2205
+2022,CA-604,Kern County CoC,Unknown,*
+2022,CA-606,Long Beach CoC (Los Angeles County),18-24,255
+2022,CA-606,Long Beach CoC (Los Angeles County),25-34,595
+2022,CA-606,Long Beach CoC (Los Angeles County),35-44,649
+2022,CA-606,Long Beach CoC (Los Angeles County),45-54,586
+2022,CA-606,Long Beach CoC (Los Angeles County),55-64,742
+2022,CA-606,Long Beach CoC (Los Angeles County),65+,422
+2022,CA-606,Long Beach CoC (Los Angeles County),Under 18,450
+2022,CA-606,Long Beach CoC (Los Angeles County),Unknown,16
+2022,CA-607,Pasadena CoC (Los Angeles County),18-24,115
+2022,CA-607,Pasadena CoC (Los Angeles County),25-34,183
+2022,CA-607,Pasadena CoC (Los Angeles County),35-44,179
+2022,CA-607,Pasadena CoC (Los Angeles County),45-54,208
+2022,CA-607,Pasadena CoC (Los Angeles County),55-64,261
+2022,CA-607,Pasadena CoC (Los Angeles County),65+,133
+2022,CA-607,Pasadena CoC (Los Angeles County),Under 18,170
+2022,CA-607,Pasadena CoC (Los Angeles County),Unknown,44
+2022,CA-608,Riverside County CoC,18-24,781
+2022,CA-608,Riverside County CoC,25-34,1928
+2022,CA-608,Riverside County CoC,35-44,1858
+2022,CA-608,Riverside County CoC,45-54,1482
+2022,CA-608,Riverside County CoC,55-64,1335
+2022,CA-608,Riverside County CoC,65+,587
+2022,CA-608,Riverside County CoC,Invalid,*
+2022,CA-608,Riverside County CoC,Under 18,3077
+2022,CA-608,Riverside County CoC,Unknown,114
+2022,CA-609,San Bernardino County CoC,18-24,947
+2022,CA-609,San Bernardino County CoC,25-34,1496
+2022,CA-609,San Bernardino County CoC,35-44,1497
+2022,CA-609,San Bernardino County CoC,45-54,1024
+2022,CA-609,San Bernardino County CoC,55-64,1065
+2022,CA-609,San Bernardino County CoC,65+,453
+2022,CA-609,San Bernardino County CoC,Invalid,*
+2022,CA-609,San Bernardino County CoC,Under 18,3321
+2022,CA-609,San Bernardino County CoC,Unknown,16
+2022,CA-611,Ventura County CoC,18-24,178
+2022,CA-611,Ventura County CoC,25-34,406
+2022,CA-611,Ventura County CoC,35-44,464
+2022,CA-611,Ventura County CoC,45-54,553
+2022,CA-611,Ventura County CoC,55-64,667
+2022,CA-611,Ventura County CoC,65+,399
+2022,CA-611,Ventura County CoC,Invalid,*
+2022,CA-611,Ventura County CoC,Under 18,465
+2022,CA-611,Ventura County CoC,Unknown,*
+2022,CA-612,Glendale CoC (Los Angeles County),18-24,63
+2022,CA-612,Glendale CoC (Los Angeles County),25-34,102
+2022,CA-612,Glendale CoC (Los Angeles County),35-44,107
+2022,CA-612,Glendale CoC (Los Angeles County),45-54,115
+2022,CA-612,Glendale CoC (Los Angeles County),55-64,138
+2022,CA-612,Glendale CoC (Los Angeles County),65+,85
+2022,CA-612,Glendale CoC (Los Angeles County),Under 18,105
+2022,CA-613,Imperial County CoC,18-24,189
+2022,CA-613,Imperial County CoC,25-34,262
+2022,CA-613,Imperial County CoC,35-44,210
+2022,CA-613,Imperial County CoC,45-54,133
+2022,CA-613,Imperial County CoC,55-64,124
+2022,CA-613,Imperial County CoC,65+,63
+2022,CA-613,Imperial County CoC,Invalid,*
+2022,CA-613,Imperial County CoC,Under 18,868
+2022,CA-613,Imperial County CoC,Unknown,21
+2022,CA-614,San Luis Obispo County CoC,18-24,176
+2022,CA-614,San Luis Obispo County CoC,25-34,489
+2022,CA-614,San Luis Obispo County CoC,35-44,467
+2022,CA-614,San Luis Obispo County CoC,45-54,369
+2022,CA-614,San Luis Obispo County CoC,55-64,345
+2022,CA-614,San Luis Obispo County CoC,65+,181
+2022,CA-614,San Luis Obispo County CoC,Invalid,*
+2022,CA-614,San Luis Obispo County CoC,Under 18,707
+2023,Statewide,California,18-24,25706
+2023,Statewide,California,25-34,57206
+2023,Statewide,California,35-44,60607
+2023,Statewide,California,45-54,47744
+2023,Statewide,California,55-64,44602
+2023,Statewide,California,65+,21509
+2023,Statewide,California,Invalid,88
+2023,Statewide,California,Under 18,72217
+2023,Statewide,California,Unknown,6834
+2023,CA-500,Santa Clara County CoC,18-24,1210
+2023,CA-500,Santa Clara County CoC,25-34,2398
+2023,CA-500,Santa Clara County CoC,35-44,2591
+2023,CA-500,Santa Clara County CoC,45-54,1956
+2023,CA-500,Santa Clara County CoC,55-64,1897
+2023,CA-500,Santa Clara County CoC,65+,904
+2023,CA-500,Santa Clara County CoC,Invalid,*
+2023,CA-500,Santa Clara County CoC,Under 18,4536
+2023,CA-500,Santa Clara County CoC,Unknown,*
+2023,CA-501,San Francisco CoC,18-24,2109
+2023,CA-501,San Francisco CoC,25-34,4125
+2023,CA-501,San Francisco CoC,35-44,4067
+2023,CA-501,San Francisco CoC,45-54,2816
+2023,CA-501,San Francisco CoC,55-64,2161
+2023,CA-501,San Francisco CoC,65+,932
+2023,CA-501,San Francisco CoC,Invalid,*
+2023,CA-501,San Francisco CoC,Under 18,4252
+2023,CA-501,San Francisco CoC,Unknown,41
+2023,CA-502,Alameda County CoC,18-24,1131
+2023,CA-502,Alameda County CoC,25-34,2458
+2023,CA-502,Alameda County CoC,35-44,2409
+2023,CA-502,Alameda County CoC,45-54,2083
+2023,CA-502,Alameda County CoC,55-64,2160
+2023,CA-502,Alameda County CoC,65+,981
+2023,CA-502,Alameda County CoC,Under 18,2318
+2023,CA-502,Alameda County CoC,Unknown,*
+2023,CA-503,Sacramento County CoC,18-24,1279
+2023,CA-503,Sacramento County CoC,25-34,1803
+2023,CA-503,Sacramento County CoC,35-44,1962
+2023,CA-503,Sacramento County CoC,45-54,1636
+2023,CA-503,Sacramento County CoC,55-64,1698
+2023,CA-503,Sacramento County CoC,65+,799
+2023,CA-503,Sacramento County CoC,Invalid,*
+2023,CA-503,Sacramento County CoC,Under 18,4172
+2023,CA-503,Sacramento County CoC,Unknown,11
+2023,CA-504,Sonoma County CoC,18-24,198
+2023,CA-504,Sonoma County CoC,25-34,347
+2023,CA-504,Sonoma County CoC,35-44,501
+2023,CA-504,Sonoma County CoC,45-54,457
+2023,CA-504,Sonoma County CoC,55-64,460
+2023,CA-504,Sonoma County CoC,65+,289
+2023,CA-504,Sonoma County CoC,Under 18,602
+2023,CA-505,Contra Costa County CoC,18-24,619
+2023,CA-505,Contra Costa County CoC,25-34,1272
+2023,CA-505,Contra Costa County CoC,35-44,1448
+2023,CA-505,Contra Costa County CoC,45-54,1268
+2023,CA-505,Contra Costa County CoC,55-64,1272
+2023,CA-505,Contra Costa County CoC,65+,599
+2023,CA-505,Contra Costa County CoC,Under 18,1523
+2023,CA-505,Contra Costa County CoC,Unknown,*
+2023,CA-506,"Monterey, San Benito Counties CoC",18-24,324
+2023,CA-506,"Monterey, San Benito Counties CoC",25-34,517
+2023,CA-506,"Monterey, San Benito Counties CoC",35-44,595
+2023,CA-506,"Monterey, San Benito Counties CoC",45-54,419
+2023,CA-506,"Monterey, San Benito Counties CoC",55-64,388
+2023,CA-506,"Monterey, San Benito Counties CoC",65+,223
+2023,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2023,CA-506,"Monterey, San Benito Counties CoC",Under 18,890
+2023,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2023,CA-507,Marin County CoC,18-24,106
+2023,CA-507,Marin County CoC,25-34,277
+2023,CA-507,Marin County CoC,35-44,314
+2023,CA-507,Marin County CoC,45-54,252
+2023,CA-507,Marin County CoC,55-64,310
+2023,CA-507,Marin County CoC,65+,188
+2023,CA-507,Marin County CoC,Under 18,449
+2023,CA-507,Marin County CoC,Unknown,16
+2023,CA-508,Santa Cruz County CoC,18-24,125
+2023,CA-508,Santa Cruz County CoC,25-34,272
+2023,CA-508,Santa Cruz County CoC,35-44,318
+2023,CA-508,Santa Cruz County CoC,45-54,235
+2023,CA-508,Santa Cruz County CoC,55-64,272
+2023,CA-508,Santa Cruz County CoC,65+,206
+2023,CA-508,Santa Cruz County CoC,Invalid,*
+2023,CA-508,Santa Cruz County CoC,Under 18,545
+2023,CA-508,Santa Cruz County CoC,Unknown,*
+2023,CA-509,Mendocino County CoC,18-24,85
+2023,CA-509,Mendocino County CoC,25-34,238
+2023,CA-509,Mendocino County CoC,35-44,265
+2023,CA-509,Mendocino County CoC,45-54,226
+2023,CA-509,Mendocino County CoC,55-64,192
+2023,CA-509,Mendocino County CoC,65+,121
+2023,CA-509,Mendocino County CoC,Under 18,375
+2023,CA-509,Mendocino County CoC,Unknown,*
+2023,CA-510,Stanislaus County CoC,18-24,522
+2023,CA-510,Stanislaus County CoC,25-34,911
+2023,CA-510,Stanislaus County CoC,35-44,988
+2023,CA-510,Stanislaus County CoC,45-54,772
+2023,CA-510,Stanislaus County CoC,55-64,770
+2023,CA-510,Stanislaus County CoC,65+,294
+2023,CA-510,Stanislaus County CoC,Under 18,1618
+2023,CA-510,Stanislaus County CoC,Unknown,*
+2023,CA-511,San Joaquin County CoC,18-24,587
+2023,CA-511,San Joaquin County CoC,25-34,1362
+2023,CA-511,San Joaquin County CoC,35-44,1244
+2023,CA-511,San Joaquin County CoC,45-54,769
+2023,CA-511,San Joaquin County CoC,55-64,748
+2023,CA-511,San Joaquin County CoC,65+,375
+2023,CA-511,San Joaquin County CoC,Under 18,3874
+2023,CA-511,San Joaquin County CoC,Unknown,37
+2023,CA-512,San Mateo County CoC,18-24,265
+2023,CA-512,San Mateo County CoC,25-34,686
+2023,CA-512,San Mateo County CoC,35-44,759
+2023,CA-512,San Mateo County CoC,45-54,594
+2023,CA-512,San Mateo County CoC,55-64,586
+2023,CA-512,San Mateo County CoC,65+,339
+2023,CA-512,San Mateo County CoC,Under 18,1101
+2023,CA-512,San Mateo County CoC,Unknown,29
+2023,CA-513,"Kings, Tulare Counties CoC",18-24,397
+2023,CA-513,"Kings, Tulare Counties CoC",25-34,802
+2023,CA-513,"Kings, Tulare Counties CoC",35-44,947
+2023,CA-513,"Kings, Tulare Counties CoC",45-54,726
+2023,CA-513,"Kings, Tulare Counties CoC",55-64,563
+2023,CA-513,"Kings, Tulare Counties CoC",65+,225
+2023,CA-513,"Kings, Tulare Counties CoC",Under 18,1408
+2023,CA-514,"Fresno, Madera Counties CoC",18-24,813
+2023,CA-514,"Fresno, Madera Counties CoC",25-34,1919
+2023,CA-514,"Fresno, Madera Counties CoC",35-44,2571
+2023,CA-514,"Fresno, Madera Counties CoC",45-54,2140
+2023,CA-514,"Fresno, Madera Counties CoC",55-64,1759
+2023,CA-514,"Fresno, Madera Counties CoC",65+,627
+2023,CA-514,"Fresno, Madera Counties CoC",Invalid,*
+2023,CA-514,"Fresno, Madera Counties CoC",Under 18,1760
+2023,CA-514,"Fresno, Madera Counties CoC",Unknown,102
+2023,CA-515,Placer County CoC,18-24,230
+2023,CA-515,Placer County CoC,25-34,482
+2023,CA-515,Placer County CoC,35-44,558
+2023,CA-515,Placer County CoC,45-54,428
+2023,CA-515,Placer County CoC,55-64,370
+2023,CA-515,Placer County CoC,65+,175
+2023,CA-515,Placer County CoC,Invalid,*
+2023,CA-515,Placer County CoC,Under 18,447
+2023,CA-515,Placer County CoC,Unknown,*
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,158
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,376
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,456
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,312
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,348
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,172
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,666
+2023,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,30
+2023,CA-517,Napa County CoC,18-24,68
+2023,CA-517,Napa County CoC,25-34,163
+2023,CA-517,Napa County CoC,35-44,198
+2023,CA-517,Napa County CoC,45-54,153
+2023,CA-517,Napa County CoC,55-64,161
+2023,CA-517,Napa County CoC,65+,60
+2023,CA-517,Napa County CoC,Invalid,*
+2023,CA-517,Napa County CoC,Under 18,246
+2023,CA-518,Solano County CoC,18-24,118
+2023,CA-518,Solano County CoC,25-34,274
+2023,CA-518,Solano County CoC,35-44,273
+2023,CA-518,Solano County CoC,45-54,219
+2023,CA-518,Solano County CoC,55-64,286
+2023,CA-518,Solano County CoC,65+,141
+2023,CA-518,Solano County CoC,Under 18,198
+2023,CA-518,Solano County CoC,Unknown,*
+2023,CA-519,Butte County CoC,18-24,322
+2023,CA-519,Butte County CoC,25-34,729
+2023,CA-519,Butte County CoC,35-44,866
+2023,CA-519,Butte County CoC,45-54,601
+2023,CA-519,Butte County CoC,55-64,573
+2023,CA-519,Butte County CoC,65+,337
+2023,CA-519,Butte County CoC,Under 18,989
+2023,CA-519,Butte County CoC,Unknown,27
+2023,CA-520,Merced County CoC,18-24,260
+2023,CA-520,Merced County CoC,25-34,501
+2023,CA-520,Merced County CoC,35-44,583
+2023,CA-520,Merced County CoC,45-54,369
+2023,CA-520,Merced County CoC,55-64,302
+2023,CA-520,Merced County CoC,65+,147
+2023,CA-520,Merced County CoC,Under 18,1074
+2023,CA-520,Merced County CoC,Unknown,*
+2023,CA-521,Yolo County CoC,18-24,86
+2023,CA-521,Yolo County CoC,25-34,213
+2023,CA-521,Yolo County CoC,35-44,264
+2023,CA-521,Yolo County CoC,45-54,159
+2023,CA-521,Yolo County CoC,55-64,165
+2023,CA-521,Yolo County CoC,65+,80
+2023,CA-521,Yolo County CoC,Under 18,583
+2023,CA-521,Yolo County CoC,Unknown,*
+2023,CA-522,Humboldt County CoC,18-24,261
+2023,CA-522,Humboldt County CoC,25-34,369
+2023,CA-522,Humboldt County CoC,35-44,563
+2023,CA-522,Humboldt County CoC,45-54,484
+2023,CA-522,Humboldt County CoC,55-64,409
+2023,CA-522,Humboldt County CoC,65+,193
+2023,CA-522,Humboldt County CoC,Invalid,*
+2023,CA-522,Humboldt County CoC,Under 18,432
+2023,CA-522,Humboldt County CoC,Unknown,15
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,41
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,111
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,108
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,68
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,77
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,35
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",Invalid,*
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,229
+2023,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,*
+2023,CA-524,"Yuba, Sutter Counties CoC",18-24,196
+2023,CA-524,"Yuba, Sutter Counties CoC",25-34,477
+2023,CA-524,"Yuba, Sutter Counties CoC",35-44,509
+2023,CA-524,"Yuba, Sutter Counties CoC",45-54,329
+2023,CA-524,"Yuba, Sutter Counties CoC",55-64,334
+2023,CA-524,"Yuba, Sutter Counties CoC",65+,147
+2023,CA-524,"Yuba, Sutter Counties CoC",Under 18,1022
+2023,CA-525,El Dorado County CoC,18-24,44
+2023,CA-525,El Dorado County CoC,25-34,71
+2023,CA-525,El Dorado County CoC,35-44,88
+2023,CA-525,El Dorado County CoC,45-54,81
+2023,CA-525,El Dorado County CoC,55-64,86
+2023,CA-525,El Dorado County CoC,65+,42
+2023,CA-525,El Dorado County CoC,Invalid,*
+2023,CA-525,El Dorado County CoC,Under 18,200
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,72
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,137
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,147
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,124
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,102
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,82
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Invalid,*
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,306
+2023,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Unknown,*
+2023,CA-527,Tehama County CoC,18-24,35
+2023,CA-527,Tehama County CoC,25-34,89
+2023,CA-527,Tehama County CoC,35-44,120
+2023,CA-527,Tehama County CoC,45-54,89
+2023,CA-527,Tehama County CoC,55-64,73
+2023,CA-527,Tehama County CoC,65+,40
+2023,CA-527,Tehama County CoC,Invalid,*
+2023,CA-527,Tehama County CoC,Under 18,187
+2023,CA-527,Tehama County CoC,Unknown,49
+2023,CA-529,Lake County CoC,18-24,26
+2023,CA-529,Lake County CoC,25-34,66
+2023,CA-529,Lake County CoC,35-44,80
+2023,CA-529,Lake County CoC,45-54,72
+2023,CA-529,Lake County CoC,55-64,76
+2023,CA-529,Lake County CoC,65+,37
+2023,CA-529,Lake County CoC,Under 18,96
+2023,CA-529,Lake County CoC,Unknown,11
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,*
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,18
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,27
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,*
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,*
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,15
+2023,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,72
+2023,CA-531,Nevada County CoC,18-24,81
+2023,CA-531,Nevada County CoC,25-34,227
+2023,CA-531,Nevada County CoC,35-44,237
+2023,CA-531,Nevada County CoC,45-54,177
+2023,CA-531,Nevada County CoC,55-64,180
+2023,CA-531,Nevada County CoC,65+,111
+2023,CA-531,Nevada County CoC,Invalid,*
+2023,CA-531,Nevada County CoC,Under 18,203
+2023,CA-531,Nevada County CoC,Unknown,*
+2023,CA-600,Los Angeles County CoC,18-24,7199
+2023,CA-600,Los Angeles County CoC,25-34,18855
+2023,CA-600,Los Angeles County CoC,35-44,19447
+2023,CA-600,Los Angeles County CoC,45-54,15230
+2023,CA-600,Los Angeles County CoC,55-64,13637
+2023,CA-600,Los Angeles County CoC,65+,6216
+2023,CA-600,Los Angeles County CoC,Invalid,23
+2023,CA-600,Los Angeles County CoC,Under 18,14443
+2023,CA-600,Los Angeles County CoC,Unknown,2736
+2023,CA-601,San Diego County CoC,18-24,2159
+2023,CA-601,San Diego County CoC,25-34,4593
+2023,CA-601,San Diego County CoC,35-44,4725
+2023,CA-601,San Diego County CoC,45-54,3965
+2023,CA-601,San Diego County CoC,55-64,3917
+2023,CA-601,San Diego County CoC,65+,1928
+2023,CA-601,San Diego County CoC,Invalid,29
+2023,CA-601,San Diego County CoC,Under 18,5879
+2023,CA-601,San Diego County CoC,Unknown,238
+2023,CA-602,Orange County CoC,18-24,1433
+2023,CA-602,Orange County CoC,25-34,3227
+2023,CA-602,Orange County CoC,35-44,3406
+2023,CA-602,Orange County CoC,45-54,3023
+2023,CA-602,Orange County CoC,55-64,2798
+2023,CA-602,Orange County CoC,65+,1612
+2023,CA-602,Orange County CoC,Invalid,*
+2023,CA-602,Orange County CoC,Under 18,3512
+2023,CA-602,Orange County CoC,Unknown,3094
+2023,CA-603,Santa Barbara County CoC,18-24,362
+2023,CA-603,Santa Barbara County CoC,25-34,709
+2023,CA-603,Santa Barbara County CoC,35-44,795
+2023,CA-603,Santa Barbara County CoC,45-54,675
+2023,CA-603,Santa Barbara County CoC,55-64,709
+2023,CA-603,Santa Barbara County CoC,65+,404
+2023,CA-603,Santa Barbara County CoC,Under 18,1194
+2023,CA-603,Santa Barbara County CoC,Unknown,66
+2023,CA-604,Kern County CoC,18-24,813
+2023,CA-604,Kern County CoC,25-34,1500
+2023,CA-604,Kern County CoC,35-44,1639
+2023,CA-604,Kern County CoC,45-54,1204
+2023,CA-604,Kern County CoC,55-64,1043
+2023,CA-604,Kern County CoC,65+,379
+2023,CA-604,Kern County CoC,Invalid,*
+2023,CA-604,Kern County CoC,Under 18,2111
+2023,CA-604,Kern County CoC,Unknown,*
+2023,CA-606,Long Beach CoC (Los Angeles County),18-24,363
+2023,CA-606,Long Beach CoC (Los Angeles County),25-34,1124
+2023,CA-606,Long Beach CoC (Los Angeles County),35-44,1287
+2023,CA-606,Long Beach CoC (Los Angeles County),45-54,1105
+2023,CA-606,Long Beach CoC (Los Angeles County),55-64,1175
+2023,CA-606,Long Beach CoC (Los Angeles County),65+,612
+2023,CA-606,Long Beach CoC (Los Angeles County),Invalid,*
+2023,CA-606,Long Beach CoC (Los Angeles County),Under 18,486
+2023,CA-606,Long Beach CoC (Los Angeles County),Unknown,40
+2023,CA-607,Pasadena CoC (Los Angeles County),18-24,124
+2023,CA-607,Pasadena CoC (Los Angeles County),25-34,247
+2023,CA-607,Pasadena CoC (Los Angeles County),35-44,233
+2023,CA-607,Pasadena CoC (Los Angeles County),45-54,227
+2023,CA-607,Pasadena CoC (Los Angeles County),55-64,278
+2023,CA-607,Pasadena CoC (Los Angeles County),65+,158
+2023,CA-607,Pasadena CoC (Los Angeles County),Under 18,209
+2023,CA-607,Pasadena CoC (Los Angeles County),Unknown,40
+2023,CA-608,Riverside County CoC,18-24,857
+2023,CA-608,Riverside County CoC,25-34,2357
+2023,CA-608,Riverside County CoC,35-44,2331
+2023,CA-608,Riverside County CoC,45-54,1740
+2023,CA-608,Riverside County CoC,55-64,1594
+2023,CA-608,Riverside County CoC,65+,782
+2023,CA-608,Riverside County CoC,Under 18,3443
+2023,CA-608,Riverside County CoC,Unknown,146
+2023,CA-609,San Bernardino County CoC,18-24,772
+2023,CA-609,San Bernardino County CoC,25-34,1366
+2023,CA-609,San Bernardino County CoC,35-44,1335
+2023,CA-609,San Bernardino County CoC,45-54,989
+2023,CA-609,San Bernardino County CoC,55-64,945
+2023,CA-609,San Bernardino County CoC,65+,457
+2023,CA-609,San Bernardino County CoC,Under 18,3042
+2023,CA-609,San Bernardino County CoC,Unknown,22
+2023,CA-611,Ventura County CoC,18-24,173
+2023,CA-611,Ventura County CoC,25-34,341
+2023,CA-611,Ventura County CoC,35-44,476
+2023,CA-611,Ventura County CoC,45-54,531
+2023,CA-611,Ventura County CoC,55-64,660
+2023,CA-611,Ventura County CoC,65+,390
+2023,CA-611,Ventura County CoC,Invalid,*
+2023,CA-611,Ventura County CoC,Under 18,446
+2023,CA-611,Ventura County CoC,Unknown,12
+2023,CA-612,Glendale CoC (Los Angeles County),18-24,53
+2023,CA-612,Glendale CoC (Los Angeles County),25-34,115
+2023,CA-612,Glendale CoC (Los Angeles County),35-44,120
+2023,CA-612,Glendale CoC (Los Angeles County),45-54,118
+2023,CA-612,Glendale CoC (Los Angeles County),55-64,156
+2023,CA-612,Glendale CoC (Los Angeles County),65+,84
+2023,CA-612,Glendale CoC (Los Angeles County),Under 18,141
+2023,CA-612,Glendale CoC (Los Angeles County),Unknown,*
+2023,CA-613,Imperial County CoC,18-24,165
+2023,CA-613,Imperial County CoC,25-34,250
+2023,CA-613,Imperial County CoC,35-44,185
+2023,CA-613,Imperial County CoC,45-54,89
+2023,CA-613,Imperial County CoC,55-64,74
+2023,CA-613,Imperial County CoC,65+,54
+2023,CA-613,Imperial County CoC,Invalid,*
+2023,CA-613,Imperial County CoC,Under 18,986
+2023,CA-613,Imperial County CoC,Unknown,*
+2023,CA-614,San Luis Obispo County CoC,18-24,180
+2023,CA-614,San Luis Obispo County CoC,25-34,536
+2023,CA-614,San Luis Obispo County CoC,35-44,560
+2023,CA-614,San Luis Obispo County CoC,45-54,436
+2023,CA-614,San Luis Obispo County CoC,55-64,353
+2023,CA-614,San Luis Obispo County CoC,65+,215
+2023,CA-614,San Luis Obispo County CoC,Invalid,*
+2023,CA-614,San Luis Obispo County CoC,Under 18,862
+2024,Statewide,California,18-24,26863
+2024,Statewide,California,25-34,60442
+2024,Statewide,California,35-44,65986
+2024,Statewide,California,45-54,49683
+2024,Statewide,California,55-64,45866
+2024,Statewide,California,65+,22717
+2024,Statewide,California,Invalid,65
+2024,Statewide,California,Under 18,78561
+2024,Statewide,California,Unknown,7213
+2024,CA-500,Santa Clara County CoC,18-24,1308
+2024,CA-500,Santa Clara County CoC,25-34,2504
+2024,CA-500,Santa Clara County CoC,35-44,2694
+2024,CA-500,Santa Clara County CoC,45-54,2008
+2024,CA-500,Santa Clara County CoC,55-64,1957
+2024,CA-500,Santa Clara County CoC,65+,963
+2024,CA-500,Santa Clara County CoC,Invalid,*
+2024,CA-500,Santa Clara County CoC,Under 18,4626
+2024,CA-500,Santa Clara County CoC,Unknown,*
+2024,CA-501,San Francisco CoC,18-24,2276
+2024,CA-501,San Francisco CoC,25-34,4646
+2024,CA-501,San Francisco CoC,35-44,4648
+2024,CA-501,San Francisco CoC,45-54,3016
+2024,CA-501,San Francisco CoC,55-64,2216
+2024,CA-501,San Francisco CoC,65+,1014
+2024,CA-501,San Francisco CoC,Invalid,*
+2024,CA-501,San Francisco CoC,Under 18,4835
+2024,CA-501,San Francisco CoC,Unknown,29
+2024,CA-502,Alameda County CoC,18-24,1290
+2024,CA-502,Alameda County CoC,25-34,2735
+2024,CA-502,Alameda County CoC,35-44,2772
+2024,CA-502,Alameda County CoC,45-54,2296
+2024,CA-502,Alameda County CoC,55-64,2288
+2024,CA-502,Alameda County CoC,65+,1206
+2024,CA-502,Alameda County CoC,Invalid,*
+2024,CA-502,Alameda County CoC,Under 18,2780
+2024,CA-502,Alameda County CoC,Unknown,*
+2024,CA-503,Sacramento County CoC,18-24,1396
+2024,CA-503,Sacramento County CoC,25-34,2193
+2024,CA-503,Sacramento County CoC,35-44,2505
+2024,CA-503,Sacramento County CoC,45-54,1970
+2024,CA-503,Sacramento County CoC,55-64,2000
+2024,CA-503,Sacramento County CoC,65+,942
+2024,CA-503,Sacramento County CoC,Invalid,*
+2024,CA-503,Sacramento County CoC,Under 18,4706
+2024,CA-503,Sacramento County CoC,Unknown,17
+2024,CA-504,Sonoma County CoC,18-24,278
+2024,CA-504,Sonoma County CoC,25-34,504
+2024,CA-504,Sonoma County CoC,35-44,650
+2024,CA-504,Sonoma County CoC,45-54,552
+2024,CA-504,Sonoma County CoC,55-64,559
+2024,CA-504,Sonoma County CoC,65+,330
+2024,CA-504,Sonoma County CoC,Invalid,*
+2024,CA-504,Sonoma County CoC,Under 18,708
+2024,CA-505,Contra Costa County CoC,18-24,690
+2024,CA-505,Contra Costa County CoC,25-34,1456
+2024,CA-505,Contra Costa County CoC,35-44,1666
+2024,CA-505,Contra Costa County CoC,45-54,1311
+2024,CA-505,Contra Costa County CoC,55-64,1352
+2024,CA-505,Contra Costa County CoC,65+,604
+2024,CA-505,Contra Costa County CoC,Under 18,1770
+2024,CA-506,"Monterey, San Benito Counties CoC",18-24,365
+2024,CA-506,"Monterey, San Benito Counties CoC",25-34,568
+2024,CA-506,"Monterey, San Benito Counties CoC",35-44,610
+2024,CA-506,"Monterey, San Benito Counties CoC",45-54,467
+2024,CA-506,"Monterey, San Benito Counties CoC",55-64,399
+2024,CA-506,"Monterey, San Benito Counties CoC",65+,238
+2024,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+2024,CA-506,"Monterey, San Benito Counties CoC",Under 18,1094
+2024,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2024,CA-507,Marin County CoC,18-24,128
+2024,CA-507,Marin County CoC,25-34,264
+2024,CA-507,Marin County CoC,35-44,314
+2024,CA-507,Marin County CoC,45-54,243
+2024,CA-507,Marin County CoC,55-64,304
+2024,CA-507,Marin County CoC,65+,178
+2024,CA-507,Marin County CoC,Under 18,480
+2024,CA-507,Marin County CoC,Unknown,17
+2024,CA-508,Santa Cruz County CoC,18-24,170
+2024,CA-508,Santa Cruz County CoC,25-34,249
+2024,CA-508,Santa Cruz County CoC,35-44,344
+2024,CA-508,Santa Cruz County CoC,45-54,236
+2024,CA-508,Santa Cruz County CoC,55-64,300
+2024,CA-508,Santa Cruz County CoC,65+,212
+2024,CA-508,Santa Cruz County CoC,Invalid,*
+2024,CA-508,Santa Cruz County CoC,Under 18,610
+2024,CA-508,Santa Cruz County CoC,Unknown,*
+2024,CA-509,Mendocino County CoC,18-24,69
+2024,CA-509,Mendocino County CoC,25-34,166
+2024,CA-509,Mendocino County CoC,35-44,236
+2024,CA-509,Mendocino County CoC,45-54,173
+2024,CA-509,Mendocino County CoC,55-64,177
+2024,CA-509,Mendocino County CoC,65+,94
+2024,CA-509,Mendocino County CoC,Invalid,*
+2024,CA-509,Mendocino County CoC,Under 18,321
+2024,CA-509,Mendocino County CoC,Unknown,*
+2024,CA-510,Stanislaus County CoC,18-24,510
+2024,CA-510,Stanislaus County CoC,25-34,927
+2024,CA-510,Stanislaus County CoC,35-44,1031
+2024,CA-510,Stanislaus County CoC,45-54,807
+2024,CA-510,Stanislaus County CoC,55-64,789
+2024,CA-510,Stanislaus County CoC,65+,313
+2024,CA-510,Stanislaus County CoC,Under 18,1736
+2024,CA-510,Stanislaus County CoC,Unknown,*
+2024,CA-511,San Joaquin County CoC,18-24,743
+2024,CA-511,San Joaquin County CoC,25-34,1523
+2024,CA-511,San Joaquin County CoC,35-44,1438
+2024,CA-511,San Joaquin County CoC,45-54,924
+2024,CA-511,San Joaquin County CoC,55-64,778
+2024,CA-511,San Joaquin County CoC,65+,433
+2024,CA-511,San Joaquin County CoC,Under 18,4428
+2024,CA-511,San Joaquin County CoC,Unknown,11
+2024,CA-512,San Mateo County CoC,18-24,309
+2024,CA-512,San Mateo County CoC,25-34,802
+2024,CA-512,San Mateo County CoC,35-44,915
+2024,CA-512,San Mateo County CoC,45-54,675
+2024,CA-512,San Mateo County CoC,55-64,666
+2024,CA-512,San Mateo County CoC,65+,415
+2024,CA-512,San Mateo County CoC,Under 18,1137
+2024,CA-512,San Mateo County CoC,Unknown,25
+2024,CA-513,"Kings, Tulare Counties CoC",18-24,501
+2024,CA-513,"Kings, Tulare Counties CoC",25-34,1034
+2024,CA-513,"Kings, Tulare Counties CoC",35-44,1241
+2024,CA-513,"Kings, Tulare Counties CoC",45-54,872
+2024,CA-513,"Kings, Tulare Counties CoC",55-64,643
+2024,CA-513,"Kings, Tulare Counties CoC",65+,270
+2024,CA-513,"Kings, Tulare Counties CoC",Under 18,1570
+2024,CA-514,"Fresno, Madera Counties CoC",18-24,907
+2024,CA-514,"Fresno, Madera Counties CoC",25-34,2123
+2024,CA-514,"Fresno, Madera Counties CoC",35-44,2776
+2024,CA-514,"Fresno, Madera Counties CoC",45-54,2248
+2024,CA-514,"Fresno, Madera Counties CoC",55-64,1853
+2024,CA-514,"Fresno, Madera Counties CoC",65+,665
+2024,CA-514,"Fresno, Madera Counties CoC",Under 18,2185
+2024,CA-514,"Fresno, Madera Counties CoC",Unknown,100
+2024,CA-515,Placer County CoC,18-24,245
+2024,CA-515,Placer County CoC,25-34,440
+2024,CA-515,Placer County CoC,35-44,544
+2024,CA-515,Placer County CoC,45-54,453
+2024,CA-515,Placer County CoC,55-64,399
+2024,CA-515,Placer County CoC,65+,199
+2024,CA-515,Placer County CoC,Under 18,366
+2024,CA-515,Placer County CoC,Unknown,*
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,176
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,371
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,471
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,328
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,337
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,180
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,744
+2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,17
+2024,CA-517,Napa County CoC,18-24,66
+2024,CA-517,Napa County CoC,25-34,174
+2024,CA-517,Napa County CoC,35-44,245
+2024,CA-517,Napa County CoC,45-54,153
+2024,CA-517,Napa County CoC,55-64,171
+2024,CA-517,Napa County CoC,65+,75
+2024,CA-517,Napa County CoC,Invalid,*
+2024,CA-517,Napa County CoC,Under 18,235
+2024,CA-518,Solano County CoC,18-24,123
+2024,CA-518,Solano County CoC,25-34,470
+2024,CA-518,Solano County CoC,35-44,416
+2024,CA-518,Solano County CoC,45-54,352
+2024,CA-518,Solano County CoC,55-64,379
+2024,CA-518,Solano County CoC,65+,190
+2024,CA-518,Solano County CoC,Under 18,211
+2024,CA-518,Solano County CoC,Unknown,*
+2024,CA-519,Butte County CoC,18-24,416
+2024,CA-519,Butte County CoC,25-34,906
+2024,CA-519,Butte County CoC,35-44,1139
+2024,CA-519,Butte County CoC,45-54,722
+2024,CA-519,Butte County CoC,55-64,667
+2024,CA-519,Butte County CoC,65+,319
+2024,CA-519,Butte County CoC,Under 18,1576
+2024,CA-519,Butte County CoC,Unknown,14
+2024,CA-520,Merced County CoC,18-24,188
+2024,CA-520,Merced County CoC,25-34,344
+2024,CA-520,Merced County CoC,35-44,462
+2024,CA-520,Merced County CoC,45-54,342
+2024,CA-520,Merced County CoC,55-64,310
+2024,CA-520,Merced County CoC,65+,155
+2024,CA-520,Merced County CoC,Under 18,737
+2024,CA-521,Yolo County CoC,18-24,96
+2024,CA-521,Yolo County CoC,25-34,133
+2024,CA-521,Yolo County CoC,35-44,194
+2024,CA-521,Yolo County CoC,45-54,147
+2024,CA-521,Yolo County CoC,55-64,135
+2024,CA-521,Yolo County CoC,65+,76
+2024,CA-521,Yolo County CoC,Under 18,372
+2024,CA-522,Humboldt County CoC,18-24,153
+2024,CA-522,Humboldt County CoC,25-34,325
+2024,CA-522,Humboldt County CoC,35-44,466
+2024,CA-522,Humboldt County CoC,45-54,435
+2024,CA-522,Humboldt County CoC,55-64,359
+2024,CA-522,Humboldt County CoC,65+,149
+2024,CA-522,Humboldt County CoC,Under 18,429
+2024,CA-522,Humboldt County CoC,Unknown,*
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,41
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,91
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,105
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,69
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,53
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,32
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,276
+2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,14
+2024,CA-524,"Yuba, Sutter Counties CoC",18-24,165
+2024,CA-524,"Yuba, Sutter Counties CoC",25-34,389
+2024,CA-524,"Yuba, Sutter Counties CoC",35-44,494
+2024,CA-524,"Yuba, Sutter Counties CoC",45-54,316
+2024,CA-524,"Yuba, Sutter Counties CoC",55-64,296
+2024,CA-524,"Yuba, Sutter Counties CoC",65+,143
+2024,CA-524,"Yuba, Sutter Counties CoC",Invalid,*
+2024,CA-524,"Yuba, Sutter Counties CoC",Under 18,914
+2024,CA-524,"Yuba, Sutter Counties CoC",Unknown,*
+2024,CA-525,El Dorado County CoC,18-24,51
+2024,CA-525,El Dorado County CoC,25-34,71
+2024,CA-525,El Dorado County CoC,35-44,93
+2024,CA-525,El Dorado County CoC,45-54,72
+2024,CA-525,El Dorado County CoC,55-64,122
+2024,CA-525,El Dorado County CoC,65+,56
+2024,CA-525,El Dorado County CoC,Invalid,*
+2024,CA-525,El Dorado County CoC,Under 18,168
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,69
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,139
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,174
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,147
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,130
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,124
+2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,344
+2024,CA-527,Tehama County CoC,18-24,60
+2024,CA-527,Tehama County CoC,25-34,107
+2024,CA-527,Tehama County CoC,35-44,128
+2024,CA-527,Tehama County CoC,45-54,120
+2024,CA-527,Tehama County CoC,55-64,123
+2024,CA-527,Tehama County CoC,65+,60
+2024,CA-527,Tehama County CoC,Under 18,121
+2024,CA-527,Tehama County CoC,Unknown,30
+2024,CA-529,Lake County CoC,18-24,21
+2024,CA-529,Lake County CoC,25-34,43
+2024,CA-529,Lake County CoC,35-44,54
+2024,CA-529,Lake County CoC,45-54,55
+2024,CA-529,Lake County CoC,55-64,83
+2024,CA-529,Lake County CoC,65+,31
+2024,CA-529,Lake County CoC,Invalid,*
+2024,CA-529,Lake County CoC,Under 18,47
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,*
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,18
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,31
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,11
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,19
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,22
+2024,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,56
+2024,CA-531,Nevada County CoC,18-24,74
+2024,CA-531,Nevada County CoC,25-34,218
+2024,CA-531,Nevada County CoC,35-44,235
+2024,CA-531,Nevada County CoC,45-54,187
+2024,CA-531,Nevada County CoC,55-64,185
+2024,CA-531,Nevada County CoC,65+,119
+2024,CA-531,Nevada County CoC,Invalid,*
+2024,CA-531,Nevada County CoC,Under 18,199
+2024,CA-531,Nevada County CoC,Unknown,*
+2024,CA-600,Los Angeles County CoC,18-24,7595
+2024,CA-600,Los Angeles County CoC,25-34,20180
+2024,CA-600,Los Angeles County CoC,35-44,21009
+2024,CA-600,Los Angeles County CoC,45-54,15479
+2024,CA-600,Los Angeles County CoC,55-64,13706
+2024,CA-600,Los Angeles County CoC,65+,6722
+2024,CA-600,Los Angeles County CoC,Invalid,14
+2024,CA-600,Los Angeles County CoC,Under 18,16833
+2024,CA-600,Los Angeles County CoC,Unknown,3109
+2024,CA-601,San Diego County CoC,18-24,2032
+2024,CA-601,San Diego County CoC,25-34,4425
+2024,CA-601,San Diego County CoC,35-44,4937
+2024,CA-601,San Diego County CoC,45-54,3963
+2024,CA-601,San Diego County CoC,55-64,3936
+2024,CA-601,San Diego County CoC,65+,2001
+2024,CA-601,San Diego County CoC,Invalid,23
+2024,CA-601,San Diego County CoC,Under 18,6311
+2024,CA-601,San Diego County CoC,Unknown,145
+2024,CA-602,Orange County CoC,18-24,1261
+2024,CA-602,Orange County CoC,25-34,3443
+2024,CA-602,Orange County CoC,35-44,3858
+2024,CA-602,Orange County CoC,45-54,3116
+2024,CA-602,Orange County CoC,55-64,2966
+2024,CA-602,Orange County CoC,65+,1392
+2024,CA-602,Orange County CoC,Under 18,3518
+2024,CA-602,Orange County CoC,Unknown,3330
+2024,CA-603,Santa Barbara County CoC,18-24,391
+2024,CA-603,Santa Barbara County CoC,25-34,635
+2024,CA-603,Santa Barbara County CoC,35-44,754
+2024,CA-603,Santa Barbara County CoC,45-54,668
+2024,CA-603,Santa Barbara County CoC,55-64,681
+2024,CA-603,Santa Barbara County CoC,65+,389
+2024,CA-603,Santa Barbara County CoC,Invalid,*
+2024,CA-603,Santa Barbara County CoC,Under 18,1176
+2024,CA-603,Santa Barbara County CoC,Unknown,29
+2024,CA-604,Kern County CoC,18-24,730
+2024,CA-604,Kern County CoC,25-34,1335
+2024,CA-604,Kern County CoC,35-44,1580
+2024,CA-604,Kern County CoC,45-54,1211
+2024,CA-604,Kern County CoC,55-64,1073
+2024,CA-604,Kern County CoC,65+,421
+2024,CA-604,Kern County CoC,Invalid,*
+2024,CA-604,Kern County CoC,Under 18,1658
+2024,CA-606,Long Beach CoC (Los Angeles County),18-24,363
+2024,CA-606,Long Beach CoC (Los Angeles County),25-34,1157
+2024,CA-606,Long Beach CoC (Los Angeles County),35-44,1432
+2024,CA-606,Long Beach CoC (Los Angeles County),45-54,1156
+2024,CA-606,Long Beach CoC (Los Angeles County),55-64,1183
+2024,CA-606,Long Beach CoC (Los Angeles County),65+,654
+2024,CA-606,Long Beach CoC (Los Angeles County),Under 18,486
+2024,CA-606,Long Beach CoC (Los Angeles County),Unknown,76
+2024,CA-607,Pasadena CoC (Los Angeles County),18-24,106
+2024,CA-607,Pasadena CoC (Los Angeles County),25-34,265
+2024,CA-607,Pasadena CoC (Los Angeles County),35-44,258
+2024,CA-607,Pasadena CoC (Los Angeles County),45-54,211
+2024,CA-607,Pasadena CoC (Los Angeles County),55-64,257
+2024,CA-607,Pasadena CoC (Los Angeles County),65+,131
+2024,CA-607,Pasadena CoC (Los Angeles County),Under 18,214
+2024,CA-607,Pasadena CoC (Los Angeles County),Unknown,50
+2024,CA-608,Riverside County CoC,18-24,940
+2024,CA-608,Riverside County CoC,25-34,2521
+2024,CA-608,Riverside County CoC,35-44,2448
+2024,CA-608,Riverside County CoC,45-54,1689
+2024,CA-608,Riverside County CoC,55-64,1467
+2024,CA-608,Riverside County CoC,65+,724
+2024,CA-608,Riverside County CoC,Under 18,4316
+2024,CA-608,Riverside County CoC,Unknown,78
+2024,CA-609,San Bernardino County CoC,18-24,600
+2024,CA-609,San Bernardino County CoC,25-34,1290
+2024,CA-609,San Bernardino County CoC,35-44,1344
+2024,CA-609,San Bernardino County CoC,45-54,972
+2024,CA-609,San Bernardino County CoC,55-64,890
+2024,CA-609,San Bernardino County CoC,65+,477
+2024,CA-609,San Bernardino County CoC,Invalid,*
+2024,CA-609,San Bernardino County CoC,Under 18,2725
+2024,CA-609,San Bernardino County CoC,Unknown,37
+2024,CA-611,Ventura County CoC,18-24,224
+2024,CA-611,Ventura County CoC,25-34,335
+2024,CA-611,Ventura County CoC,35-44,511
+2024,CA-611,Ventura County CoC,45-54,502
+2024,CA-611,Ventura County CoC,55-64,620
+2024,CA-611,Ventura County CoC,65+,359
+2024,CA-611,Ventura County CoC,Under 18,485
+2024,CA-611,Ventura County CoC,Unknown,16
+2024,CA-612,Glendale CoC (Los Angeles County),18-24,45
+2024,CA-612,Glendale CoC (Los Angeles County),25-34,126
+2024,CA-612,Glendale CoC (Los Angeles County),35-44,132
+2024,CA-612,Glendale CoC (Los Angeles County),45-54,104
+2024,CA-612,Glendale CoC (Los Angeles County),55-64,117
+2024,CA-612,Glendale CoC (Los Angeles County),65+,78
+2024,CA-612,Glendale CoC (Los Angeles County),Under 18,162
+2024,CA-613,Imperial County CoC,18-24,152
+2024,CA-613,Imperial County CoC,25-34,207
+2024,CA-613,Imperial County CoC,35-44,168
+2024,CA-613,Imperial County CoC,45-54,82
+2024,CA-613,Imperial County CoC,55-64,68
+2024,CA-613,Imperial County CoC,65+,52
+2024,CA-613,Imperial County CoC,Invalid,*
+2024,CA-613,Imperial County CoC,Under 18,971
+2024,CA-613,Imperial County CoC,Unknown,*
+2024,CA-614,San Luis Obispo County CoC,18-24,224
+2024,CA-614,San Luis Obispo County CoC,25-34,497
+2024,CA-614,San Luis Obispo County CoC,35-44,622
+2024,CA-614,San Luis Obispo County CoC,45-54,471
+2024,CA-614,San Luis Obispo County CoC,55-64,402
+2024,CA-614,San Luis Obispo County CoC,65+,208
+2024,CA-614,San Luis Obispo County CoC,Under 18,930
+2024,CA-614,San Luis Obispo County CoC,Unknown,20
+2025,Statewide,California,18-24,27088
+2025,Statewide,California,25-34,58592
+2025,Statewide,California,35-44,68495
+2025,Statewide,California,45-54,51087
+2025,Statewide,California,55-64,46242
+2025,Statewide,California,65+,24385
+2025,Statewide,California,Invalid,28
+2025,Statewide,California,Under 18,75696
+2025,Statewide,California,Unknown,7497
+2025,CA-500,Santa Clara County CoC,18-24,1224
+2025,CA-500,Santa Clara County CoC,25-34,2183
+2025,CA-500,Santa Clara County CoC,35-44,2551
+2025,CA-500,Santa Clara County CoC,45-54,1910
+2025,CA-500,Santa Clara County CoC,55-64,1720
+2025,CA-500,Santa Clara County CoC,65+,919
+2025,CA-500,Santa Clara County CoC,Invalid,*
+2025,CA-500,Santa Clara County CoC,Under 18,4313
+2025,CA-500,Santa Clara County CoC,Unknown,*
+2025,CA-501,San Francisco CoC,18-24,2421
+2025,CA-501,San Francisco CoC,25-34,4523
+2025,CA-501,San Francisco CoC,35-44,4735
+2025,CA-501,San Francisco CoC,45-54,3009
+2025,CA-501,San Francisco CoC,55-64,2155
+2025,CA-501,San Francisco CoC,65+,1061
+2025,CA-501,San Francisco CoC,Under 18,5016
+2025,CA-501,San Francisco CoC,Unknown,27
+2025,CA-502,Alameda County CoC,18-24,1298
+2025,CA-502,Alameda County CoC,25-34,2684
+2025,CA-502,Alameda County CoC,35-44,2955
+2025,CA-502,Alameda County CoC,45-54,2406
+2025,CA-502,Alameda County CoC,55-64,2474
+2025,CA-502,Alameda County CoC,65+,1420
+2025,CA-502,Alameda County CoC,Under 18,2938
+2025,CA-502,Alameda County CoC,Unknown,*
+2025,CA-503,Sacramento County CoC,18-24,1466
+2025,CA-503,Sacramento County CoC,25-34,2352
+2025,CA-503,Sacramento County CoC,35-44,2956
+2025,CA-503,Sacramento County CoC,45-54,2249
+2025,CA-503,Sacramento County CoC,55-64,2168
+2025,CA-503,Sacramento County CoC,65+,1043
+2025,CA-503,Sacramento County CoC,Invalid,*
+2025,CA-503,Sacramento County CoC,Under 18,4143
+2025,CA-503,Sacramento County CoC,Unknown,15
+2025,CA-504,Sonoma County CoC,18-24,254
+2025,CA-504,Sonoma County CoC,25-34,552
+2025,CA-504,Sonoma County CoC,35-44,756
+2025,CA-504,Sonoma County CoC,45-54,636
+2025,CA-504,Sonoma County CoC,55-64,667
+2025,CA-504,Sonoma County CoC,65+,405
+2025,CA-504,Sonoma County CoC,Invalid,*
+2025,CA-504,Sonoma County CoC,Under 18,799
+2025,CA-505,Contra Costa County CoC,18-24,627
+2025,CA-505,Contra Costa County CoC,25-34,1359
+2025,CA-505,Contra Costa County CoC,35-44,1657
+2025,CA-505,Contra Costa County CoC,45-54,1249
+2025,CA-505,Contra Costa County CoC,55-64,1258
+2025,CA-505,Contra Costa County CoC,65+,601
+2025,CA-505,Contra Costa County CoC,Invalid,*
+2025,CA-505,Contra Costa County CoC,Under 18,1643
+2025,CA-506,"Monterey, San Benito Counties CoC",18-24,338
+2025,CA-506,"Monterey, San Benito Counties CoC",25-34,518
+2025,CA-506,"Monterey, San Benito Counties CoC",35-44,619
+2025,CA-506,"Monterey, San Benito Counties CoC",45-54,473
+2025,CA-506,"Monterey, San Benito Counties CoC",55-64,408
+2025,CA-506,"Monterey, San Benito Counties CoC",65+,258
+2025,CA-506,"Monterey, San Benito Counties CoC",Under 18,1015
+2025,CA-506,"Monterey, San Benito Counties CoC",Unknown,*
+2025,CA-507,Marin County CoC,18-24,133
+2025,CA-507,Marin County CoC,25-34,275
+2025,CA-507,Marin County CoC,35-44,333
+2025,CA-507,Marin County CoC,45-54,233
+2025,CA-507,Marin County CoC,55-64,276
+2025,CA-507,Marin County CoC,65+,190
+2025,CA-507,Marin County CoC,Invalid,*
+2025,CA-507,Marin County CoC,Under 18,537
+2025,CA-507,Marin County CoC,Unknown,*
+2025,CA-508,Santa Cruz County CoC,18-24,191
+2025,CA-508,Santa Cruz County CoC,25-34,270
+2025,CA-508,Santa Cruz County CoC,35-44,394
+2025,CA-508,Santa Cruz County CoC,45-54,282
+2025,CA-508,Santa Cruz County CoC,55-64,296
+2025,CA-508,Santa Cruz County CoC,65+,222
+2025,CA-508,Santa Cruz County CoC,Under 18,621
+2025,CA-508,Santa Cruz County CoC,Unknown,*
+2025,CA-509,Mendocino County CoC,18-24,64
+2025,CA-509,Mendocino County CoC,25-34,143
+2025,CA-509,Mendocino County CoC,35-44,220
+2025,CA-509,Mendocino County CoC,45-54,157
+2025,CA-509,Mendocino County CoC,55-64,160
+2025,CA-509,Mendocino County CoC,65+,88
+2025,CA-509,Mendocino County CoC,Under 18,245
+2025,CA-509,Mendocino County CoC,Unknown,12
+2025,CA-510,Stanislaus County CoC,18-24,536
+2025,CA-510,Stanislaus County CoC,25-34,971
+2025,CA-510,Stanislaus County CoC,35-44,1072
+2025,CA-510,Stanislaus County CoC,45-54,851
+2025,CA-510,Stanislaus County CoC,55-64,813
+2025,CA-510,Stanislaus County CoC,65+,372
+2025,CA-510,Stanislaus County CoC,Under 18,1642
+2025,CA-511,San Joaquin County CoC,18-24,854
+2025,CA-511,San Joaquin County CoC,25-34,1685
+2025,CA-511,San Joaquin County CoC,35-44,1605
+2025,CA-511,San Joaquin County CoC,45-54,922
+2025,CA-511,San Joaquin County CoC,55-64,865
+2025,CA-511,San Joaquin County CoC,65+,469
+2025,CA-511,San Joaquin County CoC,Under 18,4485
+2025,CA-511,San Joaquin County CoC,Unknown,19
+2025,CA-512,San Mateo County CoC,18-24,282
+2025,CA-512,San Mateo County CoC,25-34,794
+2025,CA-512,San Mateo County CoC,35-44,983
+2025,CA-512,San Mateo County CoC,45-54,724
+2025,CA-512,San Mateo County CoC,55-64,704
+2025,CA-512,San Mateo County CoC,65+,438
+2025,CA-512,San Mateo County CoC,Under 18,1154
+2025,CA-512,San Mateo County CoC,Unknown,15
+2025,CA-513,"Kings, Tulare Counties CoC",18-24,540
+2025,CA-513,"Kings, Tulare Counties CoC",25-34,1061
+2025,CA-513,"Kings, Tulare Counties CoC",35-44,1441
+2025,CA-513,"Kings, Tulare Counties CoC",45-54,951
+2025,CA-513,"Kings, Tulare Counties CoC",55-64,724
+2025,CA-513,"Kings, Tulare Counties CoC",65+,298
+2025,CA-513,"Kings, Tulare Counties CoC",Under 18,1546
+2025,CA-513,"Kings, Tulare Counties CoC",Unknown,*
+2025,CA-514,"Fresno, Madera Counties CoC",18-24,953
+2025,CA-514,"Fresno, Madera Counties CoC",25-34,2107
+2025,CA-514,"Fresno, Madera Counties CoC",35-44,2808
+2025,CA-514,"Fresno, Madera Counties CoC",45-54,2215
+2025,CA-514,"Fresno, Madera Counties CoC",55-64,1873
+2025,CA-514,"Fresno, Madera Counties CoC",65+,724
+2025,CA-514,"Fresno, Madera Counties CoC",Under 18,1953
+2025,CA-514,"Fresno, Madera Counties CoC",Unknown,23
+2025,CA-515,Placer County CoC,18-24,266
+2025,CA-515,Placer County CoC,25-34,516
+2025,CA-515,Placer County CoC,35-44,628
+2025,CA-515,Placer County CoC,45-54,514
+2025,CA-515,Placer County CoC,55-64,446
+2025,CA-515,Placer County CoC,65+,220
+2025,CA-515,Placer County CoC,Under 18,345
+2025,CA-515,Placer County CoC,Unknown,*
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,161
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,301
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,419
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,324
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,319
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,199
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,681
+2025,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,15
+2025,CA-517,Napa County CoC,18-24,71
+2025,CA-517,Napa County CoC,25-34,164
+2025,CA-517,Napa County CoC,35-44,220
+2025,CA-517,Napa County CoC,45-54,147
+2025,CA-517,Napa County CoC,55-64,171
+2025,CA-517,Napa County CoC,65+,68
+2025,CA-517,Napa County CoC,Under 18,236
+2025,CA-518,Solano County CoC,18-24,255
+2025,CA-518,Solano County CoC,25-34,735
+2025,CA-518,Solano County CoC,35-44,793
+2025,CA-518,Solano County CoC,45-54,589
+2025,CA-518,Solano County CoC,55-64,572
+2025,CA-518,Solano County CoC,65+,258
+2025,CA-518,Solano County CoC,Under 18,234
+2025,CA-518,Solano County CoC,Unknown,*
+2025,CA-519,Butte County CoC,18-24,444
+2025,CA-519,Butte County CoC,25-34,859
+2025,CA-519,Butte County CoC,35-44,1068
+2025,CA-519,Butte County CoC,45-54,766
+2025,CA-519,Butte County CoC,55-64,691
+2025,CA-519,Butte County CoC,65+,376
+2025,CA-519,Butte County CoC,Under 18,1249
+2025,CA-519,Butte County CoC,Unknown,19
+2025,CA-520,Merced County CoC,18-24,178
+2025,CA-520,Merced County CoC,25-34,380
+2025,CA-520,Merced County CoC,35-44,442
+2025,CA-520,Merced County CoC,45-54,309
+2025,CA-520,Merced County CoC,55-64,265
+2025,CA-520,Merced County CoC,65+,149
+2025,CA-520,Merced County CoC,Under 18,821
+2025,CA-521,Yolo County CoC,18-24,102
+2025,CA-521,Yolo County CoC,25-34,148
+2025,CA-521,Yolo County CoC,35-44,211
+2025,CA-521,Yolo County CoC,45-54,141
+2025,CA-521,Yolo County CoC,55-64,146
+2025,CA-521,Yolo County CoC,65+,74
+2025,CA-521,Yolo County CoC,Under 18,312
+2025,CA-521,Yolo County CoC,Unknown,*
+2025,CA-522,Humboldt County CoC,18-24,157
+2025,CA-522,Humboldt County CoC,25-34,246
+2025,CA-522,Humboldt County CoC,35-44,375
+2025,CA-522,Humboldt County CoC,45-54,398
+2025,CA-522,Humboldt County CoC,55-64,314
+2025,CA-522,Humboldt County CoC,65+,133
+2025,CA-522,Humboldt County CoC,Under 18,333
+2025,CA-522,Humboldt County CoC,Unknown,30
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,59
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,98
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,105
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,60
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,61
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,35
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,248
+2025,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,14
+2025,CA-524,"Yuba, Sutter Counties CoC",18-24,147
+2025,CA-524,"Yuba, Sutter Counties CoC",25-34,353
+2025,CA-524,"Yuba, Sutter Counties CoC",35-44,420
+2025,CA-524,"Yuba, Sutter Counties CoC",45-54,312
+2025,CA-524,"Yuba, Sutter Counties CoC",55-64,267
+2025,CA-524,"Yuba, Sutter Counties CoC",65+,133
+2025,CA-524,"Yuba, Sutter Counties CoC",Invalid,*
+2025,CA-524,"Yuba, Sutter Counties CoC",Under 18,800
+2025,CA-525,El Dorado County CoC,18-24,41
+2025,CA-525,El Dorado County CoC,25-34,62
+2025,CA-525,El Dorado County CoC,35-44,109
+2025,CA-525,El Dorado County CoC,45-54,81
+2025,CA-525,El Dorado County CoC,55-64,101
+2025,CA-525,El Dorado County CoC,65+,66
+2025,CA-525,El Dorado County CoC,Under 18,173
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,88
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,188
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,248
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,142
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,154
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,109
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Invalid,*
+2025,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,306
+2025,CA-527,Tehama County CoC,18-24,42
+2025,CA-527,Tehama County CoC,25-34,82
+2025,CA-527,Tehama County CoC,35-44,119
+2025,CA-527,Tehama County CoC,45-54,101
+2025,CA-527,Tehama County CoC,55-64,95
+2025,CA-527,Tehama County CoC,65+,46
+2025,CA-527,Tehama County CoC,Under 18,89
+2025,CA-527,Tehama County CoC,Unknown,16
+2025,CA-529,Lake County CoC,18-24,36
+2025,CA-529,Lake County CoC,25-34,42
+2025,CA-529,Lake County CoC,35-44,68
+2025,CA-529,Lake County CoC,45-54,61
+2025,CA-529,Lake County CoC,55-64,74
+2025,CA-529,Lake County CoC,65+,48
+2025,CA-529,Lake County CoC,Invalid,*
+2025,CA-529,Lake County CoC,Under 18,39
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,14
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,30
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,43
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,31
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,27
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,31
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",Invalid,*
+2025,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,39
+2025,CA-531,Nevada County CoC,18-24,72
+2025,CA-531,Nevada County CoC,25-34,218
+2025,CA-531,Nevada County CoC,35-44,253
+2025,CA-531,Nevada County CoC,45-54,195
+2025,CA-531,Nevada County CoC,55-64,190
+2025,CA-531,Nevada County CoC,65+,125
+2025,CA-531,Nevada County CoC,Under 18,216
+2025,CA-531,Nevada County CoC,Unknown,*
+2025,CA-600,Los Angeles County CoC,18-24,7386
+2025,CA-600,Los Angeles County CoC,25-34,19268
+2025,CA-600,Los Angeles County CoC,35-44,21930
+2025,CA-600,Los Angeles County CoC,45-54,16021
+2025,CA-600,Los Angeles County CoC,55-64,14016
+2025,CA-600,Los Angeles County CoC,65+,7328
+2025,CA-600,Los Angeles County CoC,Invalid,*
+2025,CA-600,Los Angeles County CoC,Under 18,17059
+2025,CA-600,Los Angeles County CoC,Unknown,5441
+2025,CA-601,San Diego County CoC,18-24,2055
+2025,CA-601,San Diego County CoC,25-34,3940
+2025,CA-601,San Diego County CoC,35-44,4876
+2025,CA-601,San Diego County CoC,45-54,4003
+2025,CA-601,San Diego County CoC,55-64,3848
+2025,CA-601,San Diego County CoC,65+,2095
+2025,CA-601,San Diego County CoC,Invalid,*
+2025,CA-601,San Diego County CoC,Under 18,5774
+2025,CA-601,San Diego County CoC,Unknown,113
+2025,CA-602,Orange County CoC,18-24,1079
+2025,CA-602,Orange County CoC,25-34,3003
+2025,CA-602,Orange County CoC,35-44,3678
+2025,CA-602,Orange County CoC,45-54,3008
+2025,CA-602,Orange County CoC,55-64,2904
+2025,CA-602,Orange County CoC,65+,1491
+2025,CA-602,Orange County CoC,Invalid,*
+2025,CA-602,Orange County CoC,Under 18,2823
+2025,CA-602,Orange County CoC,Unknown,1517
+2025,CA-603,Santa Barbara County CoC,18-24,343
+2025,CA-603,Santa Barbara County CoC,25-34,613
+2025,CA-603,Santa Barbara County CoC,35-44,784
+2025,CA-603,Santa Barbara County CoC,45-54,648
+2025,CA-603,Santa Barbara County CoC,55-64,627
+2025,CA-603,Santa Barbara County CoC,65+,401
+2025,CA-603,Santa Barbara County CoC,Invalid,*
+2025,CA-603,Santa Barbara County CoC,Under 18,1052
+2025,CA-603,Santa Barbara County CoC,Unknown,13
+2025,CA-604,Kern County CoC,18-24,677
+2025,CA-604,Kern County CoC,25-34,1229
+2025,CA-604,Kern County CoC,35-44,1503
+2025,CA-604,Kern County CoC,45-54,1180
+2025,CA-604,Kern County CoC,55-64,1027
+2025,CA-604,Kern County CoC,65+,451
+2025,CA-604,Kern County CoC,Under 18,925
+2025,CA-606,Long Beach CoC (Los Angeles County),18-24,412
+2025,CA-606,Long Beach CoC (Los Angeles County),25-34,1253
+2025,CA-606,Long Beach CoC (Los Angeles County),35-44,1552
+2025,CA-606,Long Beach CoC (Los Angeles County),45-54,1248
+2025,CA-606,Long Beach CoC (Los Angeles County),55-64,1197
+2025,CA-606,Long Beach CoC (Los Angeles County),65+,673
+2025,CA-606,Long Beach CoC (Los Angeles County),Invalid,*
+2025,CA-606,Long Beach CoC (Los Angeles County),Under 18,591
+2025,CA-606,Long Beach CoC (Los Angeles County),Unknown,44
+2025,CA-607,Pasadena CoC (Los Angeles County),18-24,107
+2025,CA-607,Pasadena CoC (Los Angeles County),25-34,234
+2025,CA-607,Pasadena CoC (Los Angeles County),35-44,263
+2025,CA-607,Pasadena CoC (Los Angeles County),45-54,222
+2025,CA-607,Pasadena CoC (Los Angeles County),55-64,222
+2025,CA-607,Pasadena CoC (Los Angeles County),65+,135
+2025,CA-607,Pasadena CoC (Los Angeles County),Under 18,230
+2025,CA-607,Pasadena CoC (Los Angeles County),Unknown,59
+2025,CA-608,Riverside County CoC,18-24,953
+2025,CA-608,Riverside County CoC,25-34,2352
+2025,CA-608,Riverside County CoC,35-44,2345
+2025,CA-608,Riverside County CoC,45-54,1602
+2025,CA-608,Riverside County CoC,55-64,1249
+2025,CA-608,Riverside County CoC,65+,633
+2025,CA-608,Riverside County CoC,Invalid,*
+2025,CA-608,Riverside County CoC,Under 18,4521
+2025,CA-608,Riverside County CoC,Unknown,18
+2025,CA-609,San Bernardino County CoC,18-24,773
+2025,CA-609,San Bernardino County CoC,25-34,1553
+2025,CA-609,San Bernardino County CoC,35-44,1707
+2025,CA-609,San Bernardino County CoC,45-54,1208
+2025,CA-609,San Bernardino County CoC,55-64,1049
+2025,CA-609,San Bernardino County CoC,65+,581
+2025,CA-609,San Bernardino County CoC,Under 18,2967
+2025,CA-609,San Bernardino County CoC,Unknown,11
+2025,CA-611,Ventura County CoC,18-24,270
+2025,CA-611,Ventura County CoC,25-34,383
+2025,CA-611,Ventura County CoC,35-44,541
+2025,CA-611,Ventura County CoC,45-54,497
+2025,CA-611,Ventura County CoC,55-64,583
+2025,CA-611,Ventura County CoC,65+,368
+2025,CA-611,Ventura County CoC,Under 18,483
+2025,CA-611,Ventura County CoC,Unknown,14
+2025,CA-612,Glendale CoC (Los Angeles County),18-24,51
+2025,CA-612,Glendale CoC (Los Angeles County),25-34,126
+2025,CA-612,Glendale CoC (Los Angeles County),35-44,131
+2025,CA-612,Glendale CoC (Los Angeles County),45-54,103
+2025,CA-612,Glendale CoC (Los Angeles County),55-64,118
+2025,CA-612,Glendale CoC (Los Angeles County),65+,76
+2025,CA-612,Glendale CoC (Los Angeles County),Under 18,161
+2025,CA-613,Imperial County CoC,18-24,179
+2025,CA-613,Imperial County CoC,25-34,223
+2025,CA-613,Imperial County CoC,35-44,224
+2025,CA-613,Imperial County CoC,45-54,85
+2025,CA-613,Imperial County CoC,55-64,41
+2025,CA-613,Imperial County CoC,65+,53
+2025,CA-613,Imperial County CoC,Under 18,1030
+2025,CA-613,Imperial County CoC,Unknown,*
+2025,CA-614,San Luis Obispo County CoC,18-24,214
+2025,CA-614,San Luis Obispo County CoC,25-34,549
+2025,CA-614,San Luis Obispo County CoC,35-44,664
+2025,CA-614,San Luis Obispo County CoC,45-54,522
+2025,CA-614,San Luis Obispo County CoC,55-64,412
+2025,CA-614,San Luis Obispo County CoC,65+,237
+2025,CA-614,San Luis Obispo County CoC,Under 18,957
+2025,CA-614,San Luis Obispo County CoC,Unknown,*
