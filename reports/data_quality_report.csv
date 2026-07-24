@@ -1,0 +1,13 @@
+dataset,metric,value,status
+Age dataset,Total rows,2963,INFO
+Age dataset,Duplicate rows,0,PASS
+Age dataset,Missing values,0,PASS
+Age dataset,Invalid years,0,PASS
+Age dataset,Negative homelessness counts,0,PASS
+Age dataset,Overall dataset status,PASS,PASS
+Race dataset,Total rows,6449,INFO
+Race dataset,Duplicate rows,0,PASS
+Race dataset,Missing values,0,PASS
+Race dataset,Invalid years,0,PASS
+Race dataset,Negative homelessness counts,0,PASS
+Race dataset,Overall dataset status,PASS,PASS

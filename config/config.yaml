@@ -1,0 +1,10 @@
+project:
+  name: California Homelessness Data Platform
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  analysis_data: data/analysis
+  charts: data/charts
+  database: data/homelessness.db
+  logs: logs
