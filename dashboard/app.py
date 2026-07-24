@@ -593,6 +593,26 @@ st.sidebar.caption(
 filtered_age_df = age_df.copy()
 filtered_race_df = race_df.copy()
 
+# Exclude statewide aggregate rows from location-level analysis.
+# The "California" row is a statewide total, not an individual CoC.
+if age_location_column:
+    filtered_age_df = filtered_age_df[
+        filtered_age_df[age_location_column]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .ne("california")
+    ].copy()
+
+if race_location_column:
+    filtered_race_df = filtered_race_df[
+        filtered_race_df[race_location_column]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .ne("california")
+    ].copy()
+
 
 # ============================================================
 # YEAR FILTER
@@ -652,7 +672,7 @@ all_locations: list[str] = []
 
 if age_location_column:
     all_locations.extend(
-        age_df[age_location_column]
+        filtered_age_df[age_location_column]
         .dropna()
         .astype(str)
         .tolist()
@@ -660,7 +680,7 @@ if age_location_column:
 
 if race_location_column:
     all_locations.extend(
-        race_df[race_location_column]
+        filtered_race_df[race_location_column]
         .dropna()
         .astype(str)
         .tolist()
