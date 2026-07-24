@@ -5,6 +5,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from map_utils import create_california_county_map
+
 
 # ============================================================
 # PAGE CONFIGURATION
@@ -25,7 +27,6 @@ st.set_page_config(
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 DATABASE_PATH = PROJECT_ROOT / "data" / "homelessness.db"
-ANALYSIS_DIR = PROJECT_ROOT / "data" / "analysis"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
 DATA_QUALITY_PATH = REPORTS_DIR / "data_quality_report.csv"
@@ -45,38 +46,44 @@ st.markdown(
         }
 
         [data-testid="stSidebar"] {
-            background-color: #f5f7fa;
+            background-color: #111827;
+        }
+
+        [data-testid="stSidebar"] * {
+            color: #f8fafc;
         }
 
         .main-header {
-            padding: 1.7rem;
-            border-radius: 14px;
+            padding: 1.8rem;
+            border-radius: 16px;
             background: linear-gradient(
                 90deg,
-                #0f4c5c 0%,
-                #1d7874 50%,
+                #155e75 0%,
+                #0f766e 50%,
                 #2a9d8f 100%
             );
             color: white;
-            margin-bottom: 1.3rem;
+            margin-bottom: 1.4rem;
         }
 
         .main-header h1 {
             margin: 0;
             font-size: 2.15rem;
+            color: white;
         }
 
         .main-header p {
-            margin-top: 0.6rem;
+            margin-top: 0.7rem;
             margin-bottom: 0;
             font-size: 1rem;
-            opacity: 0.95;
+            line-height: 1.7;
+            color: white;
         }
 
         .section-title {
-            margin-top: 1.2rem;
-            margin-bottom: 0.7rem;
-            font-size: 1.45rem;
+            margin-top: 1.4rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.5rem;
             font-weight: 700;
         }
 
@@ -84,34 +91,48 @@ st.markdown(
             padding: 1rem 1.2rem;
             border-left: 5px solid #2a9d8f;
             border-radius: 8px;
-            background-color: #f4fbfa;
+            background-color: #ecfeff;
+            color: #164e63;
             margin-bottom: 0.7rem;
+            font-weight: 500;
         }
 
         .status-pass {
-            padding: 0.7rem;
+            padding: 0.8rem;
             border-radius: 8px;
-            background-color: #e8f5e9;
-            color: #1b5e20;
+            background-color: #dcfce7;
+            color: #166534;
             font-weight: 700;
             text-align: center;
         }
 
         .status-fail {
-            padding: 0.7rem;
+            padding: 0.8rem;
             border-radius: 8px;
-            background-color: #ffebee;
-            color: #b71c1c;
+            background-color: #fee2e2;
+            color: #991b1b;
             font-weight: 700;
             text-align: center;
         }
 
         div[data-testid="stMetric"] {
-            background-color: white;
-            border: 1px solid #e5e7eb;
+            background-color: #16212d;
+            border: 1px solid #334155;
             padding: 1rem;
             border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+        }
+
+        div[data-testid="stMetric"] label {
+            color: #cbd5e1 !important;
+        }
+
+        div[data-testid="stMetricValue"] {
+            color: #ffffff !important;
+        }
+
+        div[data-testid="stMetricDelta"] {
+            color: #cbd5e1 !important;
         }
     </style>
     """,
@@ -123,15 +144,14 @@ st.markdown(
 # HELPER FUNCTIONS
 # ============================================================
 
-def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+def normalize_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
     """
-    Standardize column names so the dashboard can work even if
-    capitalization, spaces, or punctuation differ slightly.
+    Standardize dataframe column names.
     """
-    cleaned_df = df.copy()
+    normalized_df = dataframe.copy()
 
-    cleaned_df.columns = (
-        cleaned_df.columns.astype(str)
+    normalized_df.columns = (
+        normalized_df.columns.astype(str)
         .str.strip()
         .str.lower()
         .str.replace(" ", "_")
@@ -140,42 +160,44 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         .str.replace(r"[^\w]", "", regex=True)
     )
 
-    return cleaned_df
+    return normalized_df
 
 
 def find_column(
-    df: pd.DataFrame,
+    dataframe: pd.DataFrame,
     possible_names: list[str],
 ) -> str | None:
     """
-    Find the first matching column name from a list of possible names.
+    Return the first matching column name.
     """
     for column_name in possible_names:
-        if column_name in df.columns:
+        if column_name in dataframe.columns:
             return column_name
 
     return None
 
 
 def convert_numeric(
-    df: pd.DataFrame,
+    dataframe: pd.DataFrame,
     column_name: str | None,
 ) -> pd.DataFrame:
     """
-    Safely convert a selected column to numeric values.
+    Convert a column to numeric safely.
     """
-    if column_name and column_name in df.columns:
-        df[column_name] = pd.to_numeric(
-            df[column_name],
+    converted_df = dataframe.copy()
+
+    if column_name and column_name in converted_df.columns:
+        converted_df[column_name] = pd.to_numeric(
+            converted_df[column_name],
             errors="coerce",
         )
 
-    return df
+    return converted_df
 
 
 def read_csv_safely(file_path: Path) -> pd.DataFrame:
     """
-    Read a CSV file without crashing the dashboard.
+    Read a CSV without crashing the dashboard.
     """
     if not file_path.exists():
         return pd.DataFrame()
@@ -200,26 +222,30 @@ def load_database_tables(
 
     try:
         with sqlite3.connect(database_path) as connection:
-            age_df = pd.read_sql_query(
+            age_data = pd.read_sql_query(
                 "SELECT * FROM homelessness_by_age",
                 connection,
             )
 
-            race_df = pd.read_sql_query(
+            race_data = pd.read_sql_query(
                 "SELECT * FROM homelessness_by_race",
                 connection,
             )
 
-        return normalize_columns(age_df), normalize_columns(race_df)
+        return (
+            normalize_columns(age_data),
+            normalize_columns(race_data),
+        )
 
-    except Exception:
+    except Exception as error:
+        st.error(f"Database loading error: {error}")
         return pd.DataFrame(), pd.DataFrame()
 
 
 @st.cache_data
 def load_report(file_path_string: str) -> pd.DataFrame:
     """
-    Load a report CSV and normalize its column names.
+    Load and normalize a report CSV.
     """
     file_path = Path(file_path_string)
     report_df = read_csv_safely(file_path)
@@ -253,7 +279,7 @@ def create_download_button(
 
 def format_number(value: float | int) -> str:
     """
-    Format large numbers with commas.
+    Format numeric values with commas.
     """
     try:
         return f"{int(value):,}"
@@ -262,8 +288,8 @@ def format_number(value: float | int) -> str:
 
 
 def build_insights(
-    age_df: pd.DataFrame,
-    race_df: pd.DataFrame,
+    age_dataframe: pd.DataFrame,
+    race_dataframe: pd.DataFrame,
     age_year_column: str | None,
     age_category_column: str | None,
     age_location_column: str | None,
@@ -272,20 +298,24 @@ def build_insights(
     race_count_column: str | None,
 ) -> list[str]:
     """
-    Generate automatic dashboard insights from filtered data.
+    Generate automatic analytical insights.
     """
     insights: list[str] = []
 
     if (
         age_count_column
-        and age_count_column in age_df.columns
-        and not age_df.empty
+        and age_count_column in age_dataframe.columns
+        and not age_dataframe.empty
     ):
-        total_population = age_df[age_count_column].sum()
+        total_population = age_dataframe[age_count_column].sum()
 
-        if total_population > 0 and age_location_column:
+        if (
+            total_population > 0
+            and age_location_column
+            and age_location_column in age_dataframe.columns
+        ):
             location_totals = (
-                age_df.groupby(age_location_column)[age_count_column]
+                age_dataframe.groupby(age_location_column)[age_count_column]
                 .sum()
                 .sort_values(ascending=False)
             )
@@ -293,42 +323,50 @@ def build_insights(
             if not location_totals.empty:
                 top_location = str(location_totals.index[0])
                 top_location_value = float(location_totals.iloc[0])
+
                 contribution = (
                     top_location_value / total_population
                 ) * 100
 
                 insights.append(
-                    f"{top_location} has the highest recorded total, "
-                    f"representing approximately {contribution:.1f}% "
-                    f"of the selected population."
+                    f"{top_location} has the highest recorded total and "
+                    f"represents approximately {contribution:.1f}% of the "
+                    f"selected population."
                 )
 
-        if age_category_column:
+        if (
+            age_category_column
+            and age_category_column in age_dataframe.columns
+        ):
             age_totals = (
-                age_df.groupby(age_category_column)[age_count_column]
+                age_dataframe.groupby(age_category_column)[age_count_column]
                 .sum()
                 .sort_values(ascending=False)
             )
 
             if not age_totals.empty:
                 insights.append(
-                    f"The largest age category in the selected data is "
+                    f"The largest age category is "
                     f"{age_totals.index[0]}, with "
                     f"{format_number(age_totals.iloc[0])} people."
                 )
 
-        if age_year_column and age_df[age_year_column].nunique() >= 2:
+        if (
+            age_year_column
+            and age_year_column in age_dataframe.columns
+            and age_dataframe[age_year_column].nunique() >= 2
+        ):
             yearly_totals = (
-                age_df.groupby(age_year_column)[age_count_column]
+                age_dataframe.groupby(age_year_column)[age_count_column]
                 .sum()
                 .sort_index()
             )
 
-            first_year = yearly_totals.index[0]
-            latest_year = yearly_totals.index[-1]
+            first_year = int(yearly_totals.index[0])
+            latest_year = int(yearly_totals.index[-1])
 
-            first_value = yearly_totals.iloc[0]
-            latest_value = yearly_totals.iloc[-1]
+            first_value = float(yearly_totals.iloc[0])
+            latest_value = float(yearly_totals.iloc[-1])
 
             if first_value != 0:
                 percentage_change = (
@@ -350,23 +388,25 @@ def build_insights(
     if (
         race_count_column
         and race_category_column
-        and not race_df.empty
+        and race_count_column in race_dataframe.columns
+        and race_category_column in race_dataframe.columns
+        and not race_dataframe.empty
     ):
         race_totals = (
-            race_df.groupby(race_category_column)[race_count_column]
+            race_dataframe.groupby(race_category_column)[race_count_column]
             .sum()
             .sort_values(ascending=False)
         )
 
         if not race_totals.empty:
             insights.append(
-                f"The largest race or ethnicity category in the "
-                f"selected data is {race_totals.index[0]}."
+                f"The largest race or ethnicity category is "
+                f"{race_totals.index[0]}."
             )
 
     if not insights:
         insights.append(
-            "Select additional years or locations to generate more insights."
+            "No analytical insights are available for the selected filters."
         )
 
     return insights[:4]
@@ -383,12 +423,12 @@ pipeline_history_df = load_report(str(PIPELINE_HISTORY_PATH))
 
 
 # ============================================================
-# VALIDATE DATA AVAILABILITY
+# VALIDATE DATABASE
 # ============================================================
 
 if age_df.empty and race_df.empty:
     st.error(
-        "The dashboard could not find data in "
+        "The dashboard could not find usable data in "
         "`data/homelessness.db`."
     )
 
@@ -403,19 +443,23 @@ if age_df.empty and race_df.empty:
 
 
 # ============================================================
-# IDENTIFY DATASET COLUMNS
+# IDENTIFY AGE DATASET COLUMNS
 # ============================================================
 
 age_year_column = find_column(
     age_df,
-    ["year", "calendar_year", "report_year"],
+    [
+        "calendar_year",
+        "year",
+        "report_year",
+    ],
 )
 
 age_location_column = find_column(
     age_df,
     [
-        "county",
         "location",
+        "county",
         "coc_name",
         "continuum_of_care",
         "jurisdiction",
@@ -426,6 +470,7 @@ age_location_column = find_column(
 age_category_column = find_column(
     age_df,
     [
+        "age_group_public",
         "age_group",
         "age",
         "age_category",
@@ -437,6 +482,7 @@ age_category_column = find_column(
 age_count_column = find_column(
     age_df,
     [
+        "experiencing_homelessness_cnt",
         "count",
         "homeless_count",
         "population",
@@ -446,16 +492,25 @@ age_count_column = find_column(
     ],
 )
 
+
+# ============================================================
+# IDENTIFY RACE DATASET COLUMNS
+# ============================================================
+
 race_year_column = find_column(
     race_df,
-    ["year", "calendar_year", "report_year"],
+    [
+        "calendar_year",
+        "year",
+        "report_year",
+    ],
 )
 
 race_location_column = find_column(
     race_df,
     [
-        "county",
         "location",
+        "county",
         "coc_name",
         "continuum_of_care",
         "jurisdiction",
@@ -466,8 +521,9 @@ race_location_column = find_column(
 race_category_column = find_column(
     race_df,
     [
-        "race",
+        "race_ethnicity_public",
         "race_ethnicity",
+        "race",
         "race_group",
         "ethnicity",
         "category",
@@ -477,6 +533,7 @@ race_category_column = find_column(
 race_count_column = find_column(
     race_df,
     [
+        "experiencing_homelessness_cnt",
         "count",
         "homeless_count",
         "population",
@@ -487,12 +544,15 @@ race_count_column = find_column(
 )
 
 
+# ============================================================
+# CLEAN NUMERIC DATA
+# ============================================================
+
 age_df = convert_numeric(age_df, age_year_column)
 age_df = convert_numeric(age_df, age_count_column)
 
 race_df = convert_numeric(race_df, race_year_column)
 race_df = convert_numeric(race_df, race_count_column)
-
 
 if age_count_column:
     age_df = age_df.dropna(subset=[age_count_column])
@@ -510,9 +570,9 @@ st.markdown(
     <div class="main-header">
         <h1>📊 California Homelessness Analytics Platform</h1>
         <p>
-            Explore homelessness trends across California using an
-            automated Python ETL pipeline, SQLite, data-quality
-            validation, pipeline monitoring, and interactive analytics.
+            Explore homelessness trends across California using an automated
+            Python ETL pipeline, SQLite, data-quality validation, pipeline
+            monitoring, geospatial mapping, and interactive analytics.
         </p>
     </div>
     """,
@@ -525,6 +585,7 @@ st.markdown(
 # ============================================================
 
 st.sidebar.title("Dashboard Controls")
+
 st.sidebar.caption(
     "Use the filters below to explore specific years and locations."
 )
@@ -533,21 +594,30 @@ filtered_age_df = age_df.copy()
 filtered_race_df = race_df.copy()
 
 
-# Year filter
+# ============================================================
+# YEAR FILTER
+# ============================================================
 
 all_years: list[int] = []
 
 if age_year_column:
     all_years.extend(
-        age_df[age_year_column].dropna().astype(int).tolist()
+        age_df[age_year_column]
+        .dropna()
+        .astype(int)
+        .tolist()
     )
 
 if race_year_column:
     all_years.extend(
-        race_df[race_year_column].dropna().astype(int).tolist()
+        race_df[race_year_column]
+        .dropna()
+        .astype(int)
+        .tolist()
     )
 
 available_years = sorted(set(all_years))
+selected_years = available_years
 
 if available_years:
     selected_years = st.sidebar.multiselect(
@@ -574,7 +644,9 @@ if available_years:
         ]
 
 
-# Location filter
+# ============================================================
+# LOCATION FILTER
+# ============================================================
 
 all_locations: list[str] = []
 
@@ -595,6 +667,7 @@ if race_location_column:
     )
 
 available_locations = sorted(set(all_locations))
+selected_locations = available_locations
 
 if available_locations:
     selected_locations = st.sidebar.multiselect(
@@ -632,7 +705,7 @@ if st.sidebar.button(
 
 
 # ============================================================
-# EXECUTIVE KPI METRICS
+# EXECUTIVE SUMMARY
 # ============================================================
 
 st.markdown(
@@ -649,7 +722,9 @@ elif race_count_column and not filtered_race_df.empty:
 
 
 if age_location_column and not filtered_age_df.empty:
-    total_locations = filtered_age_df[age_location_column].nunique()
+    total_locations = filtered_age_df[
+        age_location_column
+    ].nunique()
 elif race_location_column and not filtered_race_df.empty:
     total_locations = filtered_race_df[
         race_location_column
@@ -658,24 +733,24 @@ else:
     total_locations = 0
 
 
-selected_year_count = len(available_years)
-
-if available_years:
-    if "selected_years" in locals():
-        selected_year_count = len(selected_years)
+selected_year_count = len(selected_years)
 
 
 latest_pipeline_status = "Not Available"
 
 if not pipeline_history_df.empty:
-    status_column = find_column(
+    pipeline_status_column = find_column(
         pipeline_history_df,
-        ["status", "pipeline_status", "result"],
+        [
+            "status",
+            "pipeline_status",
+            "result",
+        ],
     )
 
-    if status_column:
+    if pipeline_status_column:
         latest_pipeline_status = str(
-            pipeline_history_df.iloc[-1][status_column]
+            pipeline_history_df.iloc[-1][pipeline_status_column]
         ).upper()
 
 
@@ -703,7 +778,7 @@ metric_col4.metric(
 
 
 # ============================================================
-# ANALYTICS TABS
+# INTERACTIVE ANALYTICS TABS
 # ============================================================
 
 st.markdown(
@@ -711,9 +786,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-overview_tab, age_tab, race_tab, data_tab = st.tabs(
+overview_tab, map_tab, age_tab, race_tab, data_tab = st.tabs(
     [
         "Overview",
+        "California Map",
         "Age Analysis",
         "Race Analysis",
         "Data Explorer",
@@ -760,7 +836,12 @@ with overview_tab:
 
             trend_chart.update_layout(
                 hovermode="x unified",
-                margin=dict(l=20, r=20, t=60, b=20),
+                margin=dict(
+                    l=20,
+                    r=20,
+                    t=60,
+                    b=20,
+                ),
             )
 
             trend_chart.update_yaxes(
@@ -809,7 +890,12 @@ with overview_tab:
             )
 
             location_chart.update_layout(
-                margin=dict(l=20, r=20, t=60, b=20),
+                margin=dict(
+                    l=20,
+                    r=20,
+                    t=60,
+                    b=20,
+                ),
             )
 
             location_chart.update_xaxes(
@@ -828,7 +914,50 @@ with overview_tab:
 
 
 # ============================================================
-# AGE TAB
+# CALIFORNIA MAP TAB
+# ============================================================
+
+with map_tab:
+
+    st.subheader("Geographic Distribution")
+
+    st.caption(
+        "County estimates are derived from Continuum of Care locations. "
+        "For multi-county CoCs, totals are divided equally across the "
+        "counties listed in the CoC name."
+    )
+
+    if (
+        age_location_column
+        and age_count_column
+        and not filtered_age_df.empty
+    ):
+        try:
+            california_map = create_california_county_map(
+                dataframe=filtered_age_df,
+                location_column=age_location_column,
+                count_column=age_count_column,
+            )
+
+            st.plotly_chart(
+                california_map,
+                use_container_width=True,
+            )
+
+        except Exception as error:
+            st.error(
+                f"California map could not be displayed: {error}"
+            )
+
+    else:
+        st.info(
+            "Location and population columns are required "
+            "to display the California map."
+        )
+
+
+# ============================================================
+# AGE ANALYSIS TAB
 # ============================================================
 
 with age_tab:
@@ -866,7 +995,12 @@ with age_tab:
 
         age_chart.update_layout(
             xaxis_tickangle=-35,
-            margin=dict(l=20, r=20, t=60, b=80),
+            margin=dict(
+                l=20,
+                r=20,
+                t=60,
+                b=80,
+            ),
         )
 
         age_chart.update_yaxes(
@@ -886,12 +1020,12 @@ with age_tab:
 
     else:
         st.info(
-            "Age-category data is not available in the current dataset."
+            "Age-category data is not available."
         )
 
 
 # ============================================================
-# RACE TAB
+# RACE ANALYSIS TAB
 # ============================================================
 
 with race_tab:
@@ -932,7 +1066,12 @@ with race_tab:
 
             race_bar_chart.update_layout(
                 xaxis_tickangle=-35,
-                margin=dict(l=20, r=20, t=60, b=90),
+                margin=dict(
+                    l=20,
+                    r=20,
+                    t=60,
+                    b=90,
+                ),
             )
 
             race_bar_chart.update_yaxes(
@@ -959,7 +1098,12 @@ with race_tab:
             )
 
             race_pie_chart.update_layout(
-                margin=dict(l=20, r=20, t=60, b=20),
+                margin=dict(
+                    l=20,
+                    r=20,
+                    t=60,
+                    b=20,
+                ),
             )
 
             st.plotly_chart(
@@ -975,7 +1119,7 @@ with race_tab:
 
     else:
         st.info(
-            "Race-category data is not available in the current dataset."
+            "Race-category data is not available."
         )
 
 
@@ -1033,8 +1177,8 @@ st.markdown(
 )
 
 generated_insights = build_insights(
-    age_df=filtered_age_df,
-    race_df=filtered_race_df,
+    age_dataframe=filtered_age_df,
+    race_dataframe=filtered_race_df,
     age_year_column=age_year_column,
     age_category_column=age_category_column,
     age_location_column=age_location_column,
@@ -1063,9 +1207,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-monitoring_col1, monitoring_col2 = st.columns(
-    [1, 2],
-)
+monitoring_col1, monitoring_col2 = st.columns([1, 2])
 
 with monitoring_col1:
 
@@ -1077,15 +1219,19 @@ with monitoring_col1:
     else:
         status_column = find_column(
             pipeline_history_df,
-            ["status", "pipeline_status", "result"],
+            [
+                "status",
+                "pipeline_status",
+                "result",
+            ],
         )
 
         runtime_column = find_column(
             pipeline_history_df,
             [
+                "duration_seconds",
                 "runtime_seconds",
                 "runtime",
-                "duration_seconds",
                 "execution_time",
             ],
         )
@@ -1093,9 +1239,9 @@ with monitoring_col1:
         timestamp_column = find_column(
             pipeline_history_df,
             [
+                "run_time",
                 "timestamp",
                 "run_timestamp",
-                "run_time",
                 "date",
             ],
         )
@@ -1143,6 +1289,7 @@ with monitoring_col1:
                     "Runtime",
                     f"{runtime_value:.2f} seconds",
                 )
+
             except (TypeError, ValueError):
                 st.metric(
                     "Runtime",
@@ -1187,36 +1334,9 @@ else:
     quality_status_column = find_column(
         data_quality_df,
         [
-            "overall_status",
             "status",
+            "overall_status",
             "result",
-        ],
-    )
-
-    dataset_column = find_column(
-        data_quality_df,
-        [
-            "dataset",
-            "table",
-            "data_source",
-        ],
-    )
-
-    missing_column = find_column(
-        data_quality_df,
-        [
-            "missing_values",
-            "missing_count",
-            "null_values",
-        ],
-    )
-
-    duplicate_column = find_column(
-        data_quality_df,
-        [
-            "duplicate_rows",
-            "duplicates",
-            "duplicate_count",
         ],
     )
 
@@ -1235,6 +1355,13 @@ else:
             .sum()
         )
 
+    quality_score = 0
+
+    if total_quality_checks > 0:
+        quality_score = (
+            passing_checks / total_quality_checks
+        ) * 100
+
     quality_col1.metric(
         "Quality Checks",
         format_number(total_quality_checks),
@@ -1245,39 +1372,10 @@ else:
         format_number(passing_checks),
     )
 
-    if total_quality_checks > 0:
-        quality_score = (
-            passing_checks / total_quality_checks
-        ) * 100
-    else:
-        quality_score = 0
-
     quality_col3.metric(
         "Quality Score",
         f"{quality_score:.1f}%",
     )
-
-    if missing_column:
-        total_missing = pd.to_numeric(
-            data_quality_df[missing_column],
-            errors="coerce",
-        ).fillna(0).sum()
-
-        st.caption(
-            f"Total missing values detected: "
-            f"{format_number(total_missing)}"
-        )
-
-    if duplicate_column:
-        total_duplicates = pd.to_numeric(
-            data_quality_df[duplicate_column],
-            errors="coerce",
-        ).fillna(0).sum()
-
-        st.caption(
-            f"Total duplicate rows detected: "
-            f"{format_number(total_duplicates)}"
-        )
 
     st.dataframe(
         data_quality_df,
